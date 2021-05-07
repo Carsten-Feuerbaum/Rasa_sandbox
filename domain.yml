@@ -14,17 +14,17 @@ intents:
 
 slots:
   confirm_exercise:
-      type: unfeaturized
-    exercise:
-      type: unfeaturized
-    sleep:
-      type: unfeaturized
-    diet:
-      type: unfeaturized
-    stress:
-      type: unfeaturized
-    goal:
-      type: unfeaturized
+    type: unfeaturized
+  exercise:
+    type: unfeaturized
+  sleep:
+    type: unfeaturized
+  diet:
+    type: unfeaturized
+  stress:
+    type: unfeaturized
+  goal:
+    type: unfeaturized
 
 
 entities:
