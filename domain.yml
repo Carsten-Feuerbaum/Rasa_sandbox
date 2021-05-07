@@ -8,10 +8,33 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - inform
+  - out_of_scope
+
+
+  slots:
+    confirm_exercise:
+        type: unfeaturized
+      exercise:
+        type: unfeaturized
+      sleep:
+        type: unfeaturized
+      diet:
+        type: unfeaturized
+      stress:
+        type: unfeaturized
+      goal:
+        type: unfeaturized
+
+
+entities:
+  - exercise
+  - sleep
+  - stress
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hi it´s time to check your health. Would you like to answer a few questions?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -28,6 +51,42 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_ask_confirmation_exercise:
+  - text: "Did you exercise yesterday?"
+
+  utter_ask_sleep: 
+  - text: "How much sleep did you get las night?"
+
+  utter_ask_exercise:
+  - text: "What kind of exercise did you yesterday?"
+
+  utter_ask_diet:
+  - text: "Did you stick to a healthy diet yesterday?"
+
+  utter_ask_stress:
+  - text: "Is you stress level high medium or low?"
+
+  utter_ask_goal:
+  - text: "Setting goals is important. What should your daily goal be?"
+
+  utter slots_values:
+  - text: "Here´s your daily wellness log:\n
+            - Exercised: {confirm_exercised}\n
+            - Type of exercise: {exercise}\n
+            - Sleep: {sleep}\n
+            - Stuck to a healthy diet: {diet}\n
+            - Stess level: {stress}\n
+            - Goal: {goal}\n"
+
+  utter_no_worries:
+  - text: "No problem :)"
+
+  utter_ask_continue:
+  - text: "Sorry, I don´understand. Do you want to continue?"
+
+forms: 
+  - health_form
 
 session_config:
   session_expiration_time: 60

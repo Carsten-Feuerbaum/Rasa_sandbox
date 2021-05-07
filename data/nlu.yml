@@ -41,6 +41,9 @@ nlu:
     - that sounds good
     - correct
     - thank you
+    - ok
+    - sure
+    - fine
 - intent: deny
   examples: |
     - no
@@ -50,6 +53,25 @@ nlu:
     - don't like that
     - no way
     - not really
+    - no thank you
+    - no i don´t want to
+    - could have been better
+    - nope
+- intent: inform
+  examples: |
+    - a full [8 hours](sleep)
+    - only [four hours](sleep)
+    - [low](stress)
+    - [medium](stress)
+    - [high](stress)
+    - Yes, i went to a [run](exercise)
+- intent: out_of_scope
+  examples: |
+    - that´s not what I want to do
+    - wait stop
+    - how old are you
+    - I want to order a pizza
+    - tell me the wheather
 - intent: mood_great
   examples: |
     - perfect
