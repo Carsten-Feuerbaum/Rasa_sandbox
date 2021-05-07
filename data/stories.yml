@@ -35,8 +35,8 @@ stories:
   - action: utter_greet
   - intent: affirm
   - action: health_form
-  - form{"name":"health_form"}
-  - form{"name":null}
+  #- form{"name":"health_form"}
+  #- form{"name":null}
   - action: utter_slot_values
   - intent: thankyou
   - action: utter_no _worries
