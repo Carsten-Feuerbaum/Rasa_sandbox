@@ -8,11 +8,11 @@ intents:
 
 responses:
   utter_greet:
-    - text: "Hallo, wie geht es Ihnen?"
+  - text: "Hallo, wie geht es Ihnen?"
   utter_askname:
-    - text: "Bitte nennen Sie mir Ihren Vor- und Zunamen."
+  - text: "Bitte nennen Sie mir Ihren Vor- und Zunamen."
   utter_repeate_name:
-    - text: "Ist Ihr Name {customername}?"
+  - text: "Ist Ihr Name {customername}?"
 
 slots:
   customername:
