@@ -17,7 +17,6 @@ responses:
 slots:
   customername:
     type: text
-    initial_value: "Max Mustermann"
 
 
 
