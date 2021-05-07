@@ -10,5 +10,8 @@ nlu:
     - Tach
     - Hey
     - Hei
+- intent: sayname
+  examples: |
+    - Mein Name ist [Leon Sienknecht](customername)
   
 

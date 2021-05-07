@@ -7,9 +7,11 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hallo, bitte nennen Sie mir Ihren Vor- und Zunamen."
-  # utter_askname:
-  # - text: "Bitte nennen Sie mir Ihren Vor- und Zunamen."
+  - text: "Hallo, wie geht es Ihnen?"
+   utter_askname:
+  - text: "Bitte nennen Sie mir Ihren Vor- und Zunamen."
+  utter_repeate_name:
+  -text: "Ist Ihr Name {customername}?"
 
 slots:
   customername:
