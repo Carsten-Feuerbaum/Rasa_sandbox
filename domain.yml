@@ -4,8 +4,13 @@ intents:
   - greet
   - sayname
 
+slots:
+  customername:
+    type: text
+
+
 entities:
-- customorname
+- customername
 
 responses:
   utter_greet:
@@ -13,11 +18,8 @@ responses:
   utter_askname:
   - text: "Bitte nennen Sie mir Ihren Vor- und Zunamen."
   utter_repeate_name:
-  - text: "Ist Ihr Name {customername}?"
+  - text: "Ist Ihr Name [Leon]{customername}?"
 
-slots:
-  customername:
-    type: text
 
 
 

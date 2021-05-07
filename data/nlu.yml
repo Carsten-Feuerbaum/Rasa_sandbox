@@ -12,6 +12,6 @@ nlu:
     - Hei
 - intent: sayname
   examples: |
-    - Mein Name ist [Leon Sienknecht](customername)
+    - Mein Name ist [](customername)
   
 
