@@ -7,7 +7,15 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hallo, wie geht es Ihnen?"
+  - text: "Hallo, bitte nennen Sie mir Ihren Vor- und Zunamen."
+  # utter_askname:
+  # - text: "Bitte nennen Sie mir Ihren Vor- und Zunamen."
+
+slots:
+  customername:
+    type: text
+    initial_value: "Max Mustermann"
+
 
 
 session_config:

@@ -1,11 +1,14 @@
 version: "2.0"
 
 stories:
-
 - story: finanzcheck
   steps:
   - intent: greet
   - action: utter_greet
+    entities:
+    -name: Leon
+
+  
 
 
 
