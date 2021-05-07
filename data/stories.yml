@@ -7,7 +7,7 @@ stories:
   - action: utter_greet
   - intent: sayname
     entities:
-    -name: "Leon"
+    - name: "Leon"
 
   
 
