@@ -5,9 +5,10 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: get_name_form
   - intent: sayname
     entities:
-    - customername: "Leon"
+    - name: "Leon"
   - action: utter_repeate_name
 
   

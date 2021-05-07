@@ -21,6 +21,15 @@ responses:
   - text: "Ist Ihr Name [Leon]{customername}?"
 
 
+entities:
+  - name
+
+forms:
+  get_name_form:
+    required_slots:
+      customername:
+        - type: from_entity
+          entity: entity_name
 
 
 session_config:
