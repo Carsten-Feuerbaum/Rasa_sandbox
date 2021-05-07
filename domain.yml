@@ -6,11 +6,14 @@ intents:
   - country_entry
   - goodbye
 
+slots:
+  customername:
+    type: text
+
 
 entities:
   - name
   - country
-
 
 slots:
   name: 
