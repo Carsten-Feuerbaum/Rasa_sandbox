@@ -5,10 +5,14 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - intent: inform
+  - action: utter_enter_name
   - intent: name_entry
-  - action: utter_enter_country
-  - intent: country_entry
-  - action: utter_show_name_country
+  - action: utter_ask_standard_question
+  - action: utter_wertpapierhandel_erfahrung
+  - intent: check_erfahrung
+  - action: utter_summ_up
+  - intent: reaction
   - action: utter_goodbye
  
 

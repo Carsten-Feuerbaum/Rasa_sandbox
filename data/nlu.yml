@@ -19,5 +19,28 @@ nlu:
   examples: |
     - [Deutschland](country)
     - [England](country)
+- intent: inform
+  examples: |
+    - Danke, gut
+    - Mir geht es gut
+    - Gut
+    - Schlecht
+    - Naja es geht
+    - Nicht gut
+    - Gut, danke
+- intent: check_erfahrung
+  examples: |
+    - [Keine](erfahrung) Erfahrung
+    - Ich habe [keine](erfahrung) Erfahrung
+    - [Weniger als 5 Jahre](erfahrung) Erfahrung
+    - [Mehr als 5 Jahre](erfahrung) Erfahrung
+- intent: reaction
+  examples: |
+    - korrekt
+    - ja das ist richtig
+    - genau
+    - ja
+    - jo
+    
   
 

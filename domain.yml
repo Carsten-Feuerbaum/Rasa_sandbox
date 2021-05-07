@@ -5,6 +5,9 @@ intents:
   - name_entry
   - country_entry
   - goodbye
+  - inform
+  - check_erfahrung
+  - reaction
 
 
 entities:
@@ -16,17 +19,30 @@ slots:
     type: text
   country:
     type: text
+  erfahrung:
+    type: text
 
 
 responses:
   utter_greet:
-  - text: "Hallo, wie geht es Ihnen? Bitte geben Sie ihren Namen ein."
-  utter_enter_country:
-  - text: "Please enter your country name"
-  utter_show_name_country:
-  - text: "Ist Ihr Name {name} und Sie wohnen in {country}?"
+  - text: "Hallo, wie geht es ihnen?"
+  utter_enter_name:
+  - text: "Perfekt. Damit ich Sie bestmöglichst beraten kann benötige ich ihren Namen. Bitte geben Sie ihren Namen ein."
+  utter_ask_standard_question:
+  - text: "Ich habe erfahren, dass sie am Wertpapierhandel interessiert sind. Dazu muss ich ihnen zuvor einige Standartfragen stellen"
+  utter_wertpapierhandel_erfahrung:
+  - text: "Wie viel Erfahrung haben sie bereits im Wertpapierhandel?"
+    buttons:
+    - title: "Kein Erfahrung"
+      payload: '/check_erfahrung{{"erfahrung":"keine"}}'
+    - title: "Weniger als 5 Jahre"
+      payload: '/check_erfahrung{{"erfahrung":"weniger 5 Jahre"}}'
+    - title: "Mehr als 5 Jahre"
+      payload: '/check_erfahrung{{"erfahrung":"mehr 5 Jahre"}}'
+  utter_summ_up:
+  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und haben {erfahrung} Erfahrung - korrekt?"
   utter_goodbye:
-  - text: "Auf Wiedersehen."
+  - text: "Perfekt, das hilft uns schon sehr weiter!"
 
 
 
