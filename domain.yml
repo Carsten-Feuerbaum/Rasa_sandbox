@@ -18,6 +18,11 @@ slots:
   customername:
     type: text
 
+entities:
+  - name
+
+forms:
+  - get_name_form
 
 
 session_config:
