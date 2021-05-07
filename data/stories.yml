@@ -8,6 +8,7 @@ stories:
   - intent: sayname
     entities:
     - name: "Leon"
+  - action: utter_repeate_name
 
   
 
