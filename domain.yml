@@ -12,19 +12,19 @@ intents:
   - out_of_scope
 
 
-  slots:
-    confirm_exercise:
-        type: unfeaturized
-      exercise:
-        type: unfeaturized
-      sleep:
-        type: unfeaturized
-      diet:
-        type: unfeaturized
-      stress:
-        type: unfeaturized
-      goal:
-        type: unfeaturized
+slots:
+  confirm_exercise:
+      type: unfeaturized
+    exercise:
+      type: unfeaturized
+    sleep:
+      type: unfeaturized
+    diet:
+      type: unfeaturized
+    stress:
+      type: unfeaturized
+    goal:
+      type: unfeaturized
 
 
 entities:
