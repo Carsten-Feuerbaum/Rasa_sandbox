@@ -5,6 +5,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: get_name_form
   - intent: sayname
     entities:
     - name: "Leon"

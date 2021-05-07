@@ -22,7 +22,11 @@ entities:
   - name
 
 forms:
-  - get_name_form
+  get_name_form:
+    required_slots:
+      customername:
+        - type: from_entity
+          entity name
 
 
 session_config:
