@@ -2,31 +2,33 @@ version: "2.0"
 
 intents:
   - greet
-  - sayname
+  - name_entry
+  - country_entry
+  - goodbye
 
+
+entities:
+  - name
+  - country
+
+
+slots:
+  name: 
+    type: text
+  country:
+    type: text
 
 
 responses:
   utter_greet:
-  - text: "Hallo, wie geht es Ihnen?"
-  utter_askname:
-  - text: "Bitte nennen Sie mir Ihren Vor- und Zunamen."
-  utter_repeate_name:
-  - text: "Ist Ihr Name {customername}?"
+  - text: "Hallo, wie geht es Ihnen? Bitte geben Sie ihren Namen ein."
+  utter_enter_country:
+  - text: "Please enter your country name"
+  utter_show_name_country:
+  - text: "Ist Ihr Name {name} und Sie wohnen in {country}?"
+  utter_goodbye:
+  - text: "Auf Wiedersehen."
 
-slots:
-  customername:
-    type: text
-
-entities:
-  - name
-
-forms:
-  get_name_form:
-    required_slots:
-      customername:
-        - type: from_entity
-          entity: entity_name
 
 
 session_config:

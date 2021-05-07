@@ -1,15 +1,16 @@
 version: "2.0"
 
 stories:
-- story: finanzcheck
+- story: name path
   steps:
   - intent: greet
   - action: utter_greet
-  - action: get_name_form
-  - intent: sayname
-    entities:
-    - name: "Leon"
-  - action: utter_repeate_name
+  - intent: name_entry
+  - action: utter_enter_country
+  - intent: country_entry
+  - action: utter_show_name_country
+  - action: utter_goodbye
+ 
 
   
 

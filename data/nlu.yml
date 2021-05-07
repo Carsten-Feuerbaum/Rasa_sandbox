@@ -10,8 +10,14 @@ nlu:
     - Tach
     - Hey
     - Hei
-- intent: sayname
+- intent: name_entry
   examples: |
-    - Mein Name ist [Leon Sienknecht](customername)
+    - Mein Name ist [Leon](name)
+    - Ich bin [Leon](name)
+    - Ich heiße [Leon](name)
+- intent: country_entry
+  examples: |
+    - [Deutschland](country)
+    - [England](country)
   
 
