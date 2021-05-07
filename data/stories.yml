@@ -29,7 +29,7 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: srvey happy path
+- story: survey happy path
   steps: 
   - intent: greet
   - action: utter_greet
