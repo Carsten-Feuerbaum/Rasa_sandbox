@@ -7,7 +7,7 @@ stories:
   - action: utter_greet
   - intent: sayname
     entities:
-    - customername: "Leon"
+    - name: "Leon"
   - action: utter_repeate_name
 
   
