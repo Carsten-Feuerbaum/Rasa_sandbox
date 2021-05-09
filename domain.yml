@@ -66,7 +66,7 @@ responses:
     - title: "Mehr als 5 Jahre"
       payload: '/say_x_rente{{"x_rente":"mehr 5 Jahre"}}'
   utter_summ_up:
-  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: Festgeld: {x_festgeld}. Immobilienfonds: {exp_immo}. Rentenfonds:"
+  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: Festgeld: {x_festgeld}. Immobilienfonds: {x_immo}. Rentenfonds:"
   utter_goodbye:
   - text: "Perfekt, das hilft uns schon sehr weiter. Ihr persönlicher Kundenberater kommt gleich zu Ihnen!"
 
