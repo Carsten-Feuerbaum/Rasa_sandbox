@@ -35,11 +35,11 @@ responses:
   utter_greet:
   - text: "Hallo, wie geht es Ihnen?"
   utter_enter_name:
-  - text: "Perfekt. Damit ich Sie bestmöglichst beraten kann benötige ich Ihren Namen. Bitte geben Sie Ihren Namen ein."
+  - text: "Perfekt. Damit ich Sie bestmöglichst beraten kann benötige ich Ihren Namen. Bitte geben Sie Ihren **Namen** ein."
   utter_ask_standard_question:
   - text: "Ein schöner Name. Ich habe erfahren, dass Sie am Wertpapierhandel interessiert sind. Dazu muss ich Ihnen zuvor einige Standartfragen stellen."
   utter_x_festgeld:
-  - text: "Wie viel Erfahrung haben Sie mit Festgeld oder Geldmarktfonds?"
+  - text: "Wie viel Erfahrung haben Sie mit **Festgeld** oder **Geldmarktfonds**?"
     buttons:
     - title: "Keine"
       payload: '/say_x_festgeld{{"x_festgeld":"keine"}}'
@@ -48,7 +48,7 @@ responses:
     - title: "Mehr als 5 Jahre"
       payload: '/say_x_festgeld{{"x_festgeld":"mehr 5 Jahre"}}'
   utter_x_immo:
-  - text: "Wie viel Erfahrung haben Sie mit offenen Immobilienfonds?"
+  - text: "Wie viel Erfahrung haben Sie mit **Immobilienfonds**?"
     buttons:
     - title: "Keine"
       payload: '/say_x_immo{{"x_immo":"keine"}}'
@@ -57,7 +57,7 @@ responses:
     - title: "Mehr als 5 Jahre"
       payload: '/say_x_immo{{"x_immo":"mehr 5 Jahre"}}'
   utter_x_rente:
-  - text: "Wie viel Erfahrung haben Sie mit offenen Rentenfonds?"
+  - text: "Wie viel Erfahrung haben Sie mit **Rentenfonds**?"
     buttons:
     - title: "Keine"
       payload: '/say_x_rente{{"x_rente":"keine"}}'
@@ -66,7 +66,7 @@ responses:
     - title: "Mehr als 5 Jahre"
       payload: '/say_x_rente{{"x_rente":"mehr 5 Jahre"}}'
   utter_summ_up:
-  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: Festgeld: {x_festgeld}. \n Immobilienfonds: {x_immo}. \n Rentenfonds: {x_rente}"
+  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: \n **Festgeld**: {x_festgeld}. \n **mmobilienfonds**: {x_immo}. \n **Rentenfonds**: {x_rente}"
   utter_goodbye:
   - text: "Perfekt, das hilft uns schon sehr weiter. Ihr persönlicher Kundenberater kommt gleich zu Ihnen!"
 
