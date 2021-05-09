@@ -6,23 +6,25 @@ intents:
   - country_entry
   - goodbye
   - inform
-  - check_erfahrung
+  - say_exp
   - reaction
 
 
 entities:
   - name
   - country
-  - erfahrung
+  - exp_festgeld
+  - exp_immo
 
 slots:
   name: 
     type: text
   country:
     type: text
-  erfahrung:
+  exp_festgeld:
     type: text
-
+  exp_immo:
+    type: text
 
 responses:
   utter_greet:
@@ -32,14 +34,23 @@ responses:
   utter_ask_standard_question:
   - text: "Ich habe erfahren, dass Sie am Wertpapierhandel interessiert sind. Dazu muss ich Ihnen zuvor einige Standartfragen stellen."
   utter_exp_festgeld:
-  - text: "Wie viel Erfahrung haben Sie bereits mit Festgeld oder Geldmarktfonds?"
+  - text: "Wie viel Erfahrung haben Sie mit Festgeld oder Geldmarktfonds?"
     buttons:
-    - title: "Kein Erfahrung"
-      payload: '/check_erfahrung{{"erfahrung":"keine"}}'
+    - title: "Keine"
+      payload: '/say_exp{{"exp_festgeld":"keine"}}'
     - title: "Weniger als 5 Jahre"
-      payload: '/check_erfahrung{{"erfahrung":"weniger 5 Jahre"}}'
+      payload: '/say_exp{{"exp_festgeld":"weniger 5 Jahre"}}'
     - title: "Mehr als 5 Jahre"
-      payload: '/check_erfahrung{{"erfahrung":"mehr 5 Jahre"}}'
+      payload: '/say_exp{{"exp_festgeld":"mehr 5 Jahre"}}'
+  utter_exp_immo:
+  - text: "Wie viel Erfahrung haben Sie mit offenen Immobilienfonds?"
+    buttons:
+    - title: "Keine"
+      payload: '/say_exp{{"exp_immo":"keine"}}'
+    - title: "Weniger als 5 Jahre"
+      payload: '/say_exp{{"exp_immo":"weniger 5 Jahre"}}'
+    - title: "Mehr als 5 Jahre"
+      payload: '/say_exp{{"exp_immo":"mehr 5 Jahre"}}'
   utter_summ_up:
   - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und haben {erfahrung} Erfahrung - korrekt?"
   utter_goodbye:
