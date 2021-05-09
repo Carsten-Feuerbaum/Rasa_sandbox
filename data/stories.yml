@@ -9,7 +9,7 @@ stories:
   - action: utter_enter_name
   - intent: name_entry
   - action: utter_ask_standard_question
-  - action: utter_wertpapierhandel_erfahrung
+  - action: utter_exp_festgeld
   - intent: check_erfahrung
   - action: utter_summ_up
   - intent: reaction
