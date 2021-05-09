@@ -68,7 +68,7 @@ responses:
       payload: '/say_x_rente{{"x_rente":"weniger 5 Jahre"}}'
     - title: "Mehr als 5 Jahre"
       payload: '/say_x_rente{{"x_rente":"mehr 5 Jahre"}}'
-  utter_horizont:
+  utter_hori:
   - text: "Welchen Zeithorizont hat Ihre Anlage? Mehr als:"
     buttons:
     - title: "3 Monate"
@@ -80,7 +80,7 @@ responses:
     - title: "10 Jahre"
       payload: '/say_horizont{{"horizont":"10 Jahre"}}'
   utter_summ_up:
-  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: \n **Festgeld**: {x_festgeld}. \n **mmobilienfonds**: {x_immo}. \n **Rentenfonds**: {x_rente} \n Anlagehorizont: {horizont}"
+  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: \n **Festgeld**: {x_festgeld}. \n **mmobilienfonds**: {x_immo}. \n **Rentenfonds**: {x_rente} \n Anlagehorizont:"
   utter_goodbye:
   - text: "Perfekt, das hilft uns schon sehr weiter. Ihr persönlicher Kundenberater kommt gleich zu Ihnen!"
 
