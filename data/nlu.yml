@@ -44,6 +44,12 @@ nlu:
     - [Keine](x_rente)
     - [Weniger als 5 Jahre](x_rente) 
     - [Mehr als 5 Jahre](x_rente) 
+- intent: say_horizont
+  examples: |
+    - [3 Monate](horizont)
+    - [3 Jahre](horizont) 
+    - [5 Jahre](horizont) 
+    - [10 Jahre](horizont) 
 - intent: reaction
   examples: |
     - korrekt
