@@ -31,8 +31,8 @@ responses:
   - text: "Perfekt. Damit ich Sie bestmöglichst beraten kann benötige ich Ihren Namen. Bitte geben Sie Ihren Namen ein."
   utter_ask_standard_question:
   - text: "Ich habe erfahren, dass Sie am Wertpapierhandel interessiert sind. Dazu muss ich Ihnen zuvor einige Standartfragen stellen."
-  utter_wertpapierhandel_erfahrung:
-  - text: "Wie viel Erfahrung haben Sie bereits im Wertpapierhandel?"
+  utter_EXP_festgeld:
+  - text: "Wie viel Erfahrung haben Sie bereits mit Festgeld oder Geldmarktfonds?"
     buttons:
     - title: "Kein Erfahrung"
       payload: '/check_erfahrung{{"erfahrung":"keine"}}'
