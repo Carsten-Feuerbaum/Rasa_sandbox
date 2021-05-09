@@ -38,7 +38,7 @@ responses:
   utter_greet:
   - text: "Hallo, wie geht es Ihnen?"
   utter_enter_name:
-  - text: "Perfekt. Damit ich Sie bestmöglichst beraten kann benötige ich Ihren Namen. Bitte geben Sie Ihren <b> Namen</b> ein."
+  - text: "Perfekt. Damit ich Sie bestmöglichst beraten kann, benötige ich Ihren Namen. Bitte geben Sie Ihren **Vor-** und **Nachnamen** ein."
   utter_ask_standard_question:
   - text: "Ein schöner Name. Ich habe erfahren, dass Sie am Wertpapierhandel interessiert sind. Dazu muss ich Ihnen zuvor einige Standartfragen stellen."
   utter_x_festgeld:
@@ -80,7 +80,7 @@ responses:
     - title: "10 Jahre"
       payload: '/say_horizont{{"horizont":"10 Jahre"}}'
   utter_summ_up:
-  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: \n **Festgeld**: {x_festgeld}. \n **mmobilienfonds**: {x_immo}. \n **Rentenfonds**: {x_rente} \n Anlagehorizont:"
+  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: \n **Festgeld**: {x_festgeld}. \n **mmobilienfonds**: {x_immo}. \n **Rentenfonds**: {x_rente} \n Ihr Anlagehorizont: {horizont}"
   utter_goodbye:
   - text: "Perfekt, das hilft uns schon sehr weiter. Ihr persönlicher Kundenberater kommt gleich zu Ihnen!"
 
