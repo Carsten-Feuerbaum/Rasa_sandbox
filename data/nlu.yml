@@ -39,6 +39,11 @@ nlu:
     - [Keine](x_immo)
     - [Weniger als 5 Jahre](x_immo) 
     - [Mehr als 5 Jahre](x_immo) 
+- intent: say_x_rente
+  examples: |
+    - [Keine](x_rente)
+    - [Weniger als 5 Jahre](x_rente) 
+    - [Mehr als 5 Jahre](x_rente) 
 - intent: reaction
   examples: |
     - korrekt
