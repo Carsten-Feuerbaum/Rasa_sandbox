@@ -12,7 +12,7 @@ stories:
   - action: utter_exp_festgeld
   - intent: say_exp
   - action: utter_exp_immo
-  - intent: say_exp
+ # - intent: say_exp
   - action: utter_summ_up
   - intent: reaction
   - action: utter_goodbye
