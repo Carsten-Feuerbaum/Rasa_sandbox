@@ -56,17 +56,17 @@ responses:
       payload: '/say_x_immo{{"x_immo":"weniger 5 Jahre"}}'
     - title: "Mehr als 5 Jahre"
       payload: '/say_x_immo{{"x_immo":"mehr 5 Jahre"}}'
-    utter_x_rente:
+  utter_x_rente:
   - text: "Wie viel Erfahrung haben Sie mit offenen Rentenfonds?"
     buttons:
     - title: "Keine"
-      payload: '/say_x_immo{{"x_rente":"keine"}}'
+      payload: '/say_x_rente{{"x_rente":"keine"}}'
     - title: "Weniger als 5 Jahre"
-      payload: '/say_x_immo{{"x_rente":"weniger 5 Jahre"}}'
+      payload: '/say_x_rente{{"x_rente":"weniger 5 Jahre"}}'
     - title: "Mehr als 5 Jahre"
-      payload: '/say_x_immo{{"x_rente":"mehr 5 Jahre"}}'
+      payload: '/say_x_rente{{"x_rente":"mehr 5 Jahre"}}'
   utter_summ_up:
-  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: Festgeld: {x_festgeld}. \n Immobilienfonds: {exp_immo}. Rentenfonds:"
+  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: Festgeld: {x_festgeld}. Immobilienfonds: {exp_immo}. Rentenfonds:"
   utter_goodbye:
   - text: "Perfekt, das hilft uns schon sehr weiter. Ihr persönlicher Kundenberater kommt gleich zu Ihnen!"
 
