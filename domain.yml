@@ -9,6 +9,7 @@ intents:
   - say_x_festgeld
   - say_x_immo
   - say_x_rente
+  - say_horizont
   - reaction
 
 
