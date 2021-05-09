@@ -28,17 +28,17 @@ nlu:
     - Naja es geht
     - Nicht gut
     - Gut, danke
-- intent: say_exp_festgeld
+- intent: say_x_festgeld
   examples: |
-    - [Keine](exp_festgeld) Erfahrung
-    - Ich habe [keine](exp_festgeld) Erfahrung
-    - [Weniger als 5 Jahre](exp_festgeld) Erfahrung
-    - [Mehr als 5 Jahre](exp_festgeld) Erfahrung
-- intent: say_exp_immo
+    - [Keine](x_festgeld) Erfahrung
+    - Ich habe [keine](x_festgeld) Erfahrung
+    - [Weniger als 5 Jahre](x_festgeld) Erfahrung
+    - [Mehr als 5 Jahre](x_festgeld) Erfahrung
+- intent: say_x_immo
   examples: |
-    - [Keine](exp_immo)
-    - [Weniger als 5 Jahre](exp_immo) 
-    - [Mehr als 5 Jahre](exp_immo) 
+    - [Keine](x_immo)
+    - [Weniger als 5 Jahre](x_immo) 
+    - [Mehr als 5 Jahre](x_immo) 
 - intent: reaction
   examples: |
     - korrekt
