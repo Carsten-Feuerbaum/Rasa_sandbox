@@ -68,7 +68,7 @@ responses:
       payload: '/say_x_rente{{"x_rente":"weniger 5 Jahre"}}'
     - title: "Mehr als 5 Jahre"
       payload: '/say_x_rente{{"x_rente":"mehr 5 Jahre"}}'
-  utter_hori:
+  utter_horizont:
   - text: "Welchen Zeithorizont hat Ihre Anlage? Mehr als:"
     buttons:
     - title: "3 Monate"

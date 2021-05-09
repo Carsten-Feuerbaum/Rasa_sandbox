@@ -15,8 +15,8 @@ stories:
   - intent: say_x_immo
   - action: utter_x_rente
   - intent: say_x_rente
-  #- action: utter_horiz
-  #- intent: say_horizont
+  - action: utter_horizont
+  - intent: say_horizont
   - action: utter_summ_up
   - intent: reaction
   - action: utter_goodbye
