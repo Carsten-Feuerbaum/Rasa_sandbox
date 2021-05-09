@@ -33,7 +33,7 @@ slots:
     type: text
   horizont:
     type: text
-    
+
 responses:
   utter_greet:
   - text: "Hallo, wie geht es Ihnen?"
