@@ -32,7 +32,7 @@ responses:
   utter_enter_name:
   - text: "Perfekt. Damit ich Sie bestmöglichst beraten kann benötige ich Ihren Namen. Bitte geben Sie Ihren Namen ein."
   utter_ask_standard_question:
-  - text: "Ich habe erfahren, dass Sie am Wertpapierhandel interessiert sind. Dazu muss ich Ihnen zuvor einige Standartfragen stellen."
+  - text: "Ein schöner Name. Ich habe erfahren, dass Sie am Wertpapierhandel interessiert sind. Dazu muss ich Ihnen zuvor einige Standartfragen stellen."
   utter_exp_festgeld:
   - text: "Wie viel Erfahrung haben Sie mit Festgeld oder Geldmarktfonds?"
     buttons:
@@ -52,7 +52,7 @@ responses:
     - title: "Mehr als 5 Jahre"
       payload: '/say_exp{{"exp_immo":"mehr 5 Jahre"}}'
   utter_summ_up:
-  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und haben {erfahrung} Erfahrung - korrekt?"
+  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: Festgeld: {exp_festgeld}. Immobilienfonds: {exp_immo}"
   utter_goodbye:
   - text: "Perfekt, das hilft uns schon sehr weiter. Ihr persönlicher Kundenberater kommt gleich zu Ihnen!"
 
