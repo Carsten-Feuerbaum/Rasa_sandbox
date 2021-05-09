@@ -10,9 +10,9 @@ stories:
   - intent: name_entry
   - action: utter_ask_standard_question
   - action: utter_exp_festgeld
-  - intent: say_exp
+  - intent: say_exp_festgeld
   - action: utter_exp_immo
- # - intent: say_exp
+  - intent: say_exp_immo
   - action: utter_summ_up
   - intent: reaction
   - action: utter_goodbye

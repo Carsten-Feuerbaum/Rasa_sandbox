@@ -37,20 +37,20 @@ responses:
   - text: "Wie viel Erfahrung haben Sie mit Festgeld oder Geldmarktfonds?"
     buttons:
     - title: "Keine"
-      payload: '/say_exp{{"exp_festgeld":"keine"}}'
+      payload: '/say_exp_festgeld{{"exp_festgeld":"keine"}}'
     - title: "Weniger als 5 Jahre"
-      payload: '/say_exp{{"exp_festgeld":"weniger 5 Jahre"}}'
+      payload: '/say_exp_festgeld{{"exp_festgeld":"weniger 5 Jahre"}}'
     - title: "Mehr als 5 Jahre"
-      payload: '/say_exp{{"exp_festgeld":"mehr 5 Jahre"}}'
+      payload: '/say_exp_festgeld{{"exp_festgeld":"mehr 5 Jahre"}}'
   utter_exp_immo:
   - text: "Wie viel Erfahrung haben Sie mit offenen Immobilienfonds?"
     buttons:
     - title: "Keine"
-      payload: '/say_exp{{"exp_immo":"keine"}}'
+      payload: '/say_exp_immo{{"exp_immo":"keine"}}'
     - title: "Weniger als 5 Jahre"
-      payload: '/say_exp{{"exp_immo":"weniger 5 Jahre"}}'
+      payload: '/say_exp_immo{{"exp_immo":"weniger 5 Jahre"}}'
     - title: "Mehr als 5 Jahre"
-      payload: '/say_exp{{"exp_immo":"mehr 5 Jahre"}}'
+      payload: '/say_exp_immo{{"exp_immo":"mehr 5 Jahre"}}'
   utter_summ_up:
   - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: Festgeld: {exp_festgeld}. Immobilienfonds: {exp_immo}"
   utter_goodbye:
