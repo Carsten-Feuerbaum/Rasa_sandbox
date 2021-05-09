@@ -11,10 +11,10 @@ stories:
   - action: utter_ask_standard_question
   - action: utter_x_festgeld
   - intent: say_x_festgeld
-  # - action: utter_x_immo
-  # - intent: say_x_immo
-  # - action: utter_x_rente
-  # - intent: say_x_rente
+  - action: utter_x_immo
+  - intent: say_x_immo
+  - action: utter_x_rente
+  - intent: say_x_rente
   - action: utter_horizont
   - intent: say_horizont
   - action: utter_summ_up

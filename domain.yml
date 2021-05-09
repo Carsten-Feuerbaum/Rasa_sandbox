@@ -69,7 +69,7 @@ responses:
     - title: "Mehr als 5 Jahre"
       payload: '/say_x_rente{{"x_rente":"mehr 5 Jahre"}}'
   utter_horizont:
-  - text: "Wie viel Erfahrung haben Sie mit **Rentenfonds**? Mehr als:"
+  - text: "Welchen Zeithorizont hat Ihre Anlage? Mehr als:"
     buttons:
     - title: "3 Monate"
       payload: '/say_horizont{{"horizont":"3 Monate"}}'
