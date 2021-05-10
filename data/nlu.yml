@@ -10,11 +10,15 @@ nlu:
     - Tach
     - Hey
     - Hei
+    - Hi.
 - intent: name_entry
   examples: |
     - Mein Name ist [Leon](name)
     - Ich bin [Leon](name)
     - Ich heiße [Leon](name)
+    - Patrick Rabenstein
+    - Mein Name ist Carsten
+    - Mein Name ist Patrick Rabenstein
 - intent: country_entry
   examples: |
     - [Deutschland](country)
@@ -28,6 +32,7 @@ nlu:
     - Naja es geht
     - Nicht gut
     - Gut, danke
+    - Geht so
 - intent: say_x_festgeld
   examples: |
     - [Keine](x_festgeld) Erfahrung
@@ -37,19 +42,19 @@ nlu:
 - intent: say_x_immo
   examples: |
     - [Keine](x_immo)
-    - [Weniger als 5 Jahre](x_immo) 
-    - [Mehr als 5 Jahre](x_immo) 
+    - [Weniger als 5 Jahre](x_immo)
+    - [Mehr als 5 Jahre](x_immo)
 - intent: say_x_rente
   examples: |
     - [Keine](x_rente)
-    - [Weniger als 5 Jahre](x_rente) 
-    - [Mehr als 5 Jahre](x_rente) 
+    - [Weniger als 5 Jahre](x_rente)
+    - [Mehr als 5 Jahre](x_rente)
 - intent: say_horizont
   examples: |
     - [3 Monate](horizont)
-    - [3 Jahre](horizont) 
-    - [5 Jahre](horizont) 
-    - [10 Jahre](horizont) 
+    - [3 Jahre](horizont)
+    - [5 Jahre](horizont)
+    - [10 Jahre](horizont)
 - intent: reaction
   examples: |
     - korrekt
@@ -57,6 +62,3 @@ nlu:
     - genau
     - ja
     - jo
-    
-  
-
