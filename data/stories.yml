@@ -20,11 +20,19 @@ stories:
   - action: utter_summ_up
   - intent: reaction
   - action: utter_goodbye
- 
-
   
 
+- story: abmelden
+  steps: 
+  - intent: möchte_abmelden
+  - action: utter_abmelden
 
+- story: abmelden_hund
+  steps: 
+  - intent: möchte_abmelden_hund
+  - action: utter_abmelden_hund
 
-
-
+- story: abmelden_auto
+  steps: 
+  - intent: möchte_abmelden_auto
+  - action: utter_abmelden_auto

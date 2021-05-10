@@ -11,6 +11,9 @@ intents:
   - say_x_rente
   - say_horizont
   - reaction
+  - möchte_abmelden
+  - möchte_abmelden_auto
+  - möchte_abmelden_hund
 
 
 entities:
@@ -36,6 +39,17 @@ slots:
     type: text
 
 responses:
+  utter_abmelden:
+  - text: "Wofür möchten sie eine Abmeldung vornehmen?"
+    buttons:
+    - title: "Auto"
+      payload: "Ich möchte mein Auto abmelden"
+    - title: "Hund"
+      payload: "Ich möchte meinen Hund abmelden"
+  utter_abmelden_hund:
+  - text: "Ihren Hund abmelden können sie hier..."
+  utter_abmelden_auto:
+  - text: "Ihr Auto abmelden können sie hier..."
   utter_greet:
   - text: "Hallo, wie geht es Ihnen?"
   utter_enter_name:

@@ -1,5 +1,24 @@
 version: "2.0"
 nlu:
+- intent: möchte_abmelden_auto
+  examples: |
+    - Ich möchte mein Auto abmelden
+    - Ich möchte eine Abmeldung für mein Auto vornehmen
+    - Wo kann mein Auto abmelden
+    - Wie kann ich mein Auto abmelden?
+- intent: möchte_abmelden_hund
+  examples: |
+    - Ich möchte meinen Hund abmelden
+    - Ich möchte eine Abmeldung für meinen Hund vornehmen
+    - Wo kann ich meinen Hund abmelden
+    - Wie kann ich meinen Hund abmelden?
+- intent: möchte_abmelden
+  examples: |
+    - Ich möchte mich abmelden
+    - Ich möchte eine Abmeldung vornehmen
+    - Wo kann ich abmelden
+    - Wie kann ich abmelden?
+
 - intent: greet
   examples: |
     - Hallo
