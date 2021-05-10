@@ -19,6 +19,8 @@ nlu:
     - Patrick Rabenstein
     - Mein Name ist Carsten
     - Mein Name ist Patrick Rabenstein
+    - Max Mustermann
+    - Peter Pan
 - intent: country_entry
   examples: |
     - [Deutschland](country)
@@ -33,6 +35,8 @@ nlu:
     - Nicht gut
     - Gut, danke
     - Geht so
+    - nicht so gut
+    - schlecht
 - intent: say_x_festgeld
   examples: |
     - [Keine](x_festgeld) Erfahrung
