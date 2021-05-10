@@ -11,6 +11,7 @@ nlu:
     - Hey
     - Hei
     - Hi.
+    - Moin moin
 - intent: name_entry
   examples: |
     - Mein Name ist [Leon](name)
@@ -21,6 +22,8 @@ nlu:
     - Mein Name ist Patrick Rabenstein
     - Max Mustermann
     - Peter Pan
+    - Max Müller
+    - Mein Name ist Patrick Rabenstein.
 - intent: country_entry
   examples: |
     - [Deutschland](country)
@@ -37,6 +40,10 @@ nlu:
     - Geht so
     - nicht so gut
     - schlecht
+    - gut
+    - super
+    - mir geht es gut
+    - gut und dir?
 - intent: say_x_festgeld
   examples: |
     - [Keine](x_festgeld) Erfahrung
@@ -66,3 +73,4 @@ nlu:
     - genau
     - ja
     - jo
+    - perfekt
