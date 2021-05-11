@@ -1,38 +1,54 @@
 version: "2.0"
 
 stories:
-- story: name path
+# - story: name path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: inform
+#   - action: utter_enter_name
+#   - intent: name_entry
+#   - action: utter_ask_standard_question
+#   - action: utter_x_festgeld
+#   - intent: say_x_festgeld
+#   - action: utter_x_immo
+#   - intent: say_x_immo
+#   - action: utter_x_rente
+#   - intent: say_x_rente
+#   - action: utter_horizont
+#   - intent: say_horizont
+#   - action: utter_summ_up
+#   - intent: reaction
+#   - action: utter_goodbye
+  
+
+- story: find_users_intent
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: inform
-  - action: utter_enter_name
-  - intent: name_entry
-  - action: utter_ask_standard_question
-  - action: utter_x_festgeld
-  - intent: say_x_festgeld
-  - action: utter_x_immo
-  - intent: say_x_immo
-  - action: utter_x_rente
-  - intent: say_x_rente
-  - action: utter_horizont
-  - intent: say_horizont
-  - action: utter_summ_up
-  - intent: reaction
-  - action: utter_goodbye
-  
+  - action: question_form
+  - action: utter_conclude
+  - slot_was_set:
+    - requested_slot: null
 
-- story: abmelden
-  steps: 
-  - intent: möchte_abmelden
-  - action: utter_abmelden
 
-- story: abmelden_hund
-  steps: 
-  - intent: möchte_abmelden_hund
-  - action: utter_abmelden_hund
 
-- story: abmelden_auto
-  steps: 
-  - intent: möchte_abmelden_auto
-  - action: utter_abmelden_auto
+# - story: abmelden_hund
+#   steps: 
+#   - intent: möchte_abmelden_hund
+#   - action: utter_abmelden_hund
+
+# - story: ummelden_hund
+#   steps: 
+#   - intent: möchte_ummelden_hund
+#   - action: utter_ummelden_hund
+
+# - story: allgemein_hund
+#   steps:
+#   - intent: hund
+#   - action: utter_hund
+
+# - story: abmelden_auto
+#   steps: 
+#   - intent: möchte_abmelden_auto
+#   - action: utter_abmelden_auto

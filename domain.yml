@@ -14,7 +14,10 @@ intents:
   - möchte_abmelden
   - möchte_abmelden_auto
   - möchte_abmelden_hund
-
+  - möchte_ummelden_hund
+  - hund
+  - test_thema
+  - test_tätigkeit
 
 entities:
   - name
@@ -23,6 +26,9 @@ entities:
   - x_immo
   - x_rente
   - horizont
+  - thema
+  - tätigkeit
+  
 
 slots:
   name: 
@@ -37,15 +43,47 @@ slots:
     type: text
   horizont:
     type: text
+  tätigkeit:
+    type: text
+  thema:
+    type: text
+
+forms:
+  question_form:
+    required_slots:
+      thema:
+        - type: from_entity
+          entity: thema
+          intent: test_thema
+      tätigkeit:
+        - type: from_entity
+          entity: tätigkeit
+          intent: test_tätigkeit
 
 responses:
+  utter_ask_thema:
+  - text: "Um welches Thema geht es?"
+  utter_ask_tätigkeit:
+  - text: "Um welche Tätigkeit geht es?"
+  utter_conclude:
+  - text: "Es geht also um {thema} und {tätigkeit}"
+
   utter_abmelden:
   - text: "Wofür möchten sie eine Abmeldung vornehmen?"
     buttons:
     - title: "Auto"
       payload: "Ich möchte mein Auto abmelden"
     - title: "Hund"
+      payload: "Es geht um einen Hund"
+  utter_hund:
+  - text: "Was möchten Sie für ihren Hund tun?"
+    buttons:
+    - title: "Ummelden"
+      paload: "Ich möchte meinen Hund ummelden"
+    - title: "Abmelden"
       payload: "Ich möchte meinen Hund abmelden"
+  utter_ummelden_hund:
+  - text: "Ihren Hund ummelden können sie wie folgt..."
   utter_abmelden_hund:
   - text: "Ihren Hund abmelden können sie hier..."
   utter_abmelden_auto:

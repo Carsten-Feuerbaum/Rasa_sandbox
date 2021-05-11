@@ -1,5 +1,38 @@
 version: "2.0"
 nlu:
+
+- intent: test_thema
+  examples: |
+    - Es geht um meinen [hund](thema) 
+    - Es geht um mein [auto](thema)
+    - Ich habe eine Frage zu meinem [auto](thema) 
+    - Ich möchte etwas für mein [auto](thema) tun
+    - Ich habe ein Anliegen bzgl meines [autos](thema)
+    - Ich muss etwas für meinen [Hund](thema) tun
+    - Ich habe ein Frage zu meinem [Hund](thema)
+
+- intent: test_tätigkeit
+  examples: |
+    - Ich möchte eine [Ummeldung](tätigkeit) durchführen
+    - Ich möchte eine [Abmeldung](tätigkeit) vornehmen
+    - Ich möchte etwas [ummelden](tätigkeit)
+    - Ich muss etwas [abmelden](tätigkeit)
+    - Ich habe ein Frage zu einer [Ummdeldung](tätigkeit) 
+    - Wie geht eine [Abmeldung](tätigkeit)
+    - Was muss ich tun für eine [Anmeldung](tätigkeit)
+
+# - intent: test_both
+#   examples: |
+#     - Ich möchte eine [Ummeldung](tätigkeit) für meinen [Hund](thema) durchführen
+#     - Ich möchte eine [Abmeldung](tätigkeit) vornehmen
+#     - Ich möchte etwas [ummelden](tätigkeit)
+#     - Ich muss etwas [abmelden](tätigkeit)
+#     - Ich habe ein Frage zu einer [Ummdeldung](tätigkeit) 
+#     - Wie geht eine [Abmeldung](tätigkeit)
+#     - Was muss ich tun für eine [Anmeldung](tätigkeit)
+
+  
+
 - intent: möchte_abmelden_auto
   examples: |
     - Ich möchte mein Auto abmelden
@@ -12,12 +45,25 @@ nlu:
     - Ich möchte eine Abmeldung für meinen Hund vornehmen
     - Wo kann ich meinen Hund abmelden
     - Wie kann ich meinen Hund abmelden?
+- intent: möchte_ummelden_hund
+  examples: |
+    - Ich möchte meinen Hund ummelden
+    - Ich möchte eine Ummeldung für meinen Hund vornehmen
+    - Wo kann ich meinen Hund ummelden
+    - Wie kann ich meinen Hund ummelden?
 - intent: möchte_abmelden
   examples: |
     - Ich möchte mich abmelden
     - Ich möchte eine Abmeldung vornehmen
     - Wo kann ich abmelden
     - Wie kann ich abmelden?
+- intent: hund
+  examples: |
+    - Ich möchte mich um meinen Hund kümmern
+    - Ich habe ein Anliegen zu meinem Hund
+    - Es geht um einen Hund
+    - Eine Aktion für einen Hund ausführen
+    - Ich habe eine Frage zu meinem Hund
 
 - intent: greet
   examples: |
