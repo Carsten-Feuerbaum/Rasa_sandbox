@@ -17,6 +17,10 @@ intents:
   - Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
   - Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
   - Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
+  - give_time
+
+actions:
+  - action_show_time
 
 entities:
   - thema

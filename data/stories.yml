@@ -8,6 +8,13 @@ stories:
 #   - action: question_form
 #   - action: utter_conclude
   
+- story: path about time
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: give_time
+  - action: action_show_time
+
 - story: story_greet
   steps: 
   - intent: greet

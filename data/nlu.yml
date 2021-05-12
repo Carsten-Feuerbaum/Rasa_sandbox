@@ -44,6 +44,15 @@ nlu:
 #     - Ich benötige [Informationen](tätigkeit)
 #     - Fragen zur [Erhebung](tätigkeit)
 
+- intent: give_time
+  examples: |
+    - wie spät ist es?
+    - welche Uhrzeit haben wir?
+    - Wieviel Uhr ist es?
+    - zeig mir die Zeit
+    - kannst du mir sagen wie spät es ist?
+    
+
 
 #Intents der untersten Ebene
 
