@@ -6,19 +6,43 @@ nlu:
     - Ich möchte eine Abmeldung für mein Auto vornehmen
     - Wo kann mein Auto abmelden
     - Wie kann ich mein Auto abmelden?
+    - Ich will mein PKW abmelden
+    - Ich will meine Limousine abmelden
+    - Ich will mein Kfz abmelden
+    - Ich möchte  mein Automobil abmelden
+    - Fahrzeug
+    - Ich möchte meinen VW abmelden
+    - Ich möchte mein Fahrzeug abmelden
+    - Ich möchte meinen Porsche abmelden.
+    - Ich möchte meinen Porsche abmelden
+    - wo ich Auto abmelden?
+    - ich würde gerne meinen BMW abmelden
+    - ich würde gerne mein Fahrzeug abmelden
+    - ich würde gerne mein Automobil abmelden
+    - Ich möchte meinen Lamborghini abmelden
+    - nein, ich würde gerne lieber auto abmelden
 - intent: möchte_abmelden_hund
   examples: |
     - Ich möchte meinen Hund abmelden
     - Ich möchte eine Abmeldung für meinen Hund vornehmen
     - Wo kann ich meinen Hund abmelden
     - Wie kann ich meinen Hund abmelden?
+    - Ich will meinen Schäferhund abmelden
+    - Ich will meinen Hundloswerden
+    - Ich möchte meinen Labrador abmelden
+    - ich möchten meinen Porsche abmelden
+    - Ich möchte meinen Köter abmelden
+    - HUND
+    - ich WILL hund abmelden
 - intent: möchte_abmelden
   examples: |
     - Ich möchte mich abmelden
     - Ich möchte eine Abmeldung vornehmen
     - Wo kann ich abmelden
     - Wie kann ich abmelden?
-
+    - nein ich möchte etwas anderes abmelden
+    - Ich will etwas abmelden
+    - ich will etwas anderes abmelden
 - intent: greet
   examples: |
     - Hallo
@@ -31,6 +55,7 @@ nlu:
     - Hei
     - Hi.
     - Moin moin
+    - hi
 - intent: name_entry
   examples: |
     - Mein Name ist [Leon](name)
@@ -43,6 +68,7 @@ nlu:
     - Peter Pan
     - Max Müller
     - Mein Name ist Patrick Rabenstein.
+    - Mein Name ist Hund
 - intent: country_entry
   examples: |
     - [Deutschland](country)
@@ -63,12 +89,16 @@ nlu:
     - super
     - mir geht es gut
     - gut und dir?
+    - Gut, danke.
+    - gut, danke
+    - sehr gut
 - intent: say_x_festgeld
   examples: |
     - [Keine](x_festgeld) Erfahrung
     - Ich habe [keine](x_festgeld) Erfahrung
     - [Weniger als 5 Jahre](x_festgeld) Erfahrung
     - [Mehr als 5 Jahre](x_festgeld) Erfahrung
+    - Ich habe keine Erfahrung mit Festgeld
 - intent: say_x_immo
   examples: |
     - [Keine](x_immo)
