@@ -61,14 +61,14 @@ nlu:
     - Mein Name ist [Leon](name)
     - Ich bin [Leon](name)
     - Ich heiße [Leon](name)
-    - Patrick Rabenstein
-    - Mein Name ist Carsten
-    - Mein Name ist Patrick Rabenstein
-    - Max Mustermann
-    - Peter Pan
-    - Max Müller
-    - Mein Name ist Patrick Rabenstein.
-    - Mein Name ist Hund
+    - [Patrick Rabenstein](name)
+    - Mein Name ist [Carsten](name)
+    - Mein Name ist Patrick Rabenstein](name)
+    - [Max Mustermann](name)
+    - [Peter Pan](name)
+    - [Max Müller](name)
+    - Mein Name ist [Patrick Rabenstein](name).
+    - Mein Name ist [Hund](name)
 - intent: country_entry
   examples: |
     - [Deutschland](country)
