@@ -1,25 +1,34 @@
 version: "2.0"
 nlu:
 
-- intent: test_thema
+- lookup: thema
+  examples: |
+    - dog
+    - Köter
+    - WauWau
+    - hund
+
+- synonym: Abmeldung
+  examples: |
+    - ummelden
+    - anmelden
+
+
+- intent: find_thema
   examples: |
     - Es geht um meinen [hund](thema) 
-    - Es geht um mein [auto](thema)
-    - Ich habe eine Frage zu meinem [auto](thema) 
-    - Ich möchte etwas für mein [auto](thema) tun
-    - Ich habe ein Anliegen bzgl meines [autos](thema)
-    - Ich muss etwas für meinen [Hund](thema) tun
-    - Ich habe ein Frage zu meinem [Hund](thema)
+    - Ich muss etwas für meinen [hund](thema) tun
+    - Ich habe ein Frage zu meinem [hund](thema)
+ #    - Es geht um mein [auto](thema)
+ #    - Ich habe eine Frage zu meinem [auto](thema) 
+ #    - Ich möchte etwas für mein [auto](thema) tun
+ #    - Ich habe ein Anliegen bzgl meines [autos](thema)
 
-- intent: test_tätigkeit
-  examples: |
-    - Ich möchte eine [Ummeldung](tätigkeit) durchführen
-    - Ich möchte eine [Abmeldung](tätigkeit) vornehmen
-    - Ich möchte etwas [ummelden](tätigkeit)
-    - Ich muss etwas [abmelden](tätigkeit)
-    - Ich habe ein Frage zu einer [Ummdeldung](tätigkeit) 
+- intent: find_tätigkeit
+  examples: | 
     - Wie geht eine [Abmeldung](tätigkeit)
-    - Was muss ich tun für eine [Anmeldung](tätigkeit)
+    - Ich muss eine [anmelden](tätigkeit)
+    
 
 # - intent: test_both
 #   examples: |
@@ -57,14 +66,6 @@ nlu:
     - Ich möchte eine Abmeldung vornehmen
     - Wo kann ich abmelden
     - Wie kann ich abmelden?
-- intent: hund
-  examples: |
-    - Ich möchte mich um meinen Hund kümmern
-    - Ich habe ein Anliegen zu meinem Hund
-    - Es geht um einen Hund
-    - Eine Aktion für einen Hund ausführen
-    - Ich habe eine Frage zu meinem Hund
-
 - intent: greet
   examples: |
     - Hallo

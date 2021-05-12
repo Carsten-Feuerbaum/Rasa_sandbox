@@ -28,8 +28,7 @@ stories:
   - action: utter_greet
   - action: question_form
   - action: utter_conclude
-  - slot_was_set:
-    - requested_slot: null
+  - action: action_restart
 
 
 

@@ -15,9 +15,8 @@ intents:
   - möchte_abmelden_auto
   - möchte_abmelden_hund
   - möchte_ummelden_hund
-  - hund
-  - test_thema
-  - test_tätigkeit
+  - find_thema
+  - find_tätigkeit
 
 entities:
   - name
@@ -54,11 +53,11 @@ forms:
       thema:
         - type: from_entity
           entity: thema
-          intent: test_thema
+          intent: find_thema
       tätigkeit:
         - type: from_entity
           entity: tätigkeit
-          intent: test_tätigkeit
+          intent: find_tätigkeit
 
 responses:
   utter_ask_thema:
