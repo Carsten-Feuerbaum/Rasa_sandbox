@@ -2,27 +2,23 @@ version: "2.0"
 nlu:
 
 #hier werden alle möglichen Themen gesammelt
-- lookup: thema
-  examples: |
-    - Abendgymnasium
-    - Abendrealschule
-    - Abfallentsorgung
-    - Abfallgebühren
-    - Abfallwirtschaft
-    - Auflösung des Arbeitsverhältnisses
-    - Abfindung bei Auflösung des Arbeitsverhältnisses
-    - Abfindung für Kriegswitwen bei Weiderverehelichung
-    - Abfindung in der betrieblichen Altersversorgung
-    - Abwasserentsorgung
+# - lookup: thema
+#   examples: |
+#     - Abendrealschule
+#     - Abfallentsorgung
+#     - Abfallgebühren
+#     - Abfallwirtschaft
+#     - Auflösung des Arbeitsverhältnisses
+#     - Abfindung bei Auflösung des Arbeitsverhältnisses
+#     - Abfindung für Kriegswitwen bei Weiderverehelichung
+#     - Abfindung in der betrieblichen Altersversorgung
+#     - Abwasserentsorgung
 
 #hier werden alle möglichen Tätigkeiten gesammelt
-- lookup: tätigkeit
-  examples: |
-    - Durchführung
-    - Anmeldung
-    - Beratung
-    - Erhebung
-    - Informationen
+# - lookup: tätigkeit
+#   examples: |
+#     - Durchführung
+
 
 # - synonym: Abmeldung
 #   examples: |
@@ -30,23 +26,23 @@ nlu:
 #     - anmelden
 
 
-- intent: find_thema
-  examples: |
-    - Es geht um das Thema [Abendgymnasium](thema) 
-    - Ich habe eine Frage zum [Abendgymnasium](thema)
-    - Eine Frage zum Thema [Abendgymnasium](thema)
-    - Ich möchte etwas wissen zu [Abendgymnasium](thema)
-    - Ich brauche Informationen zu [Abendgymnasium](thema)
+# - intent: find_thema
+#   examples: |
+#     - Es geht um das Thema [Abendgymnasium](thema) 
+#     - Ich habe eine Frage zum [Abendgymnasium](thema)
+#     - Eine Frage zum Thema [Abendgymnasium](thema)
+#     - Ich möchte etwas wissen zu [Abendgymnasium](thema)
+#     - Ich brauche Informationen zu [Abendgymnasium](thema)
 
  
 
-- intent: find_tätigkeit
-  examples: | 
-    - Es geht um eine [Anmeldung](tätigkeit)
-    - Ich möchte eine [Beratung](tätigkeit)
-    - Ich benötige eine [Beratung](tätigkeit)
-    - Ich benötige [Informationen](tätigkeit)
-    - Fragen zur [Erhebung](tätigkeit)
+# - intent: find_tätigkeit
+#   examples: | 
+#     - Es geht um eine [Anmeldung](tätigkeit)
+#     - Ich möchte eine [Beratung](tätigkeit)
+#     - Ich benötige eine [Beratung](tätigkeit)
+#     - Ich benötige [Informationen](tätigkeit)
+#     - Fragen zur [Erhebung](tätigkeit)
 
 
 #Intents der untersten Ebene

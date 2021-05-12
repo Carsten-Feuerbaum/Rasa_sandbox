@@ -1,15 +1,17 @@
 version: "2.0"
 
 stories:
-- story: find_users_intent
-  steps:
+# - story: find_users_intent
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: question_form
+#   - action: utter_conclude
+  
+- story: story_greet
+  steps: 
   - intent: greet
   - action: utter_greet
-  - action: question_form
-  - action: utter_conclude
-  
-
-
 - story: story_durchführung_Abwasserentsorgung
   steps:
   - intent: Durchführung_Abwasserentsorgung

@@ -2,6 +2,7 @@ version: "2.0"
 
 intents:
   - greet
+  - conclude
   - inform
   - reaction
   - find_thema
@@ -41,12 +42,16 @@ forms:
           intent: find_tätigkeit
 
 responses:
+  utter_ask_rephrase:
+  - text: "Ich bin mir nicht sicher. Kannst du das bitte wiederholen?"
+  utter_default:
+  - text: "Tut mir leid ich kann dir dabei nicht helfen" 
   utter_ask_thema:
   - text: "Um welches Thema geht es?"
   utter_ask_tätigkeit:
   - text: "Um welche Tätigkeit geht es?"
   utter_conclude:
-  - text: "Es geht also um {thema} und {tätigkeit}"
+  - text: "Wie muss ich {thema} {tätigkeit}?"
   utter_Durchführung_Abwasserentsorgung:
   - text: https://www.freistaat.bayern/dokumente/leistung/26999461116
   utter_Anmeldung_Abendgymnasium:
