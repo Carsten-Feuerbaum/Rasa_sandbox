@@ -1,71 +1,127 @@
 version: "2.0"
 nlu:
 
+#hier werden alle möglichen Themen gesammelt
 - lookup: thema
   examples: |
-    - dog
-    - Köter
-    - WauWau
-    - hund
+    - Abendgymnasium
+    - Abendrealschule
+    - Abfallentsorgung
+    - Abfallgebühren
+    - Abfallwirtschaft
+    - Auflösung des Arbeitsverhältnisses
+    - Abfindung bei Auflösung des Arbeitsverhältnisses
+    - Abfindung für Kriegswitwen bei Weiderverehelichung
+    - Abfindung in der betrieblichen Altersversorgung
+    - Abwasserentsorgung
 
-- synonym: Abmeldung
+#hier werden alle möglichen Tätigkeiten gesammelt
+- lookup: tätigkeit
   examples: |
-    - ummelden
-    - anmelden
+    - Durchführung
+    - Anmeldung
+    - Beratung
+    - Erhebung
+    - Informationen
+
+# - synonym: Abmeldung
+#   examples: |
+#     - ummelden
+#     - anmelden
 
 
 - intent: find_thema
   examples: |
-    - Es geht um meinen [hund](thema) 
-    - Ich muss etwas für meinen [hund](thema) tun
-    - Ich habe ein Frage zu meinem [hund](thema)
- #    - Es geht um mein [auto](thema)
- #    - Ich habe eine Frage zu meinem [auto](thema) 
- #    - Ich möchte etwas für mein [auto](thema) tun
- #    - Ich habe ein Anliegen bzgl meines [autos](thema)
+    - Es geht um das Thema [Abendgymnasium](thema) 
+    - Ich habe eine Frage zum [Abendgymnasium](thema)
+    - Eine Frage zum Thema [Abendgymnasium](thema)
+    - Ich möchte etwas wissen zu [Abendgymnasium](thema)
+    - Ich brauche Informationen zu [Abendgymnasium](thema)
+
+ 
 
 - intent: find_tätigkeit
   examples: | 
-    - Wie geht eine [Abmeldung](tätigkeit)
-    - Ich muss eine [anmelden](tätigkeit)
-    
+    - Es geht um eine [Anmeldung](tätigkeit)
+    - Ich möchte eine [Beratung](tätigkeit)
+    - Ich benötige eine [Beratung](tätigkeit)
+    - Ich benötige [Informationen](tätigkeit)
+    - Fragen zur [Erhebung](tätigkeit)
 
-# - intent: test_both
-#   examples: |
-#     - Ich möchte eine [Ummeldung](tätigkeit) für meinen [Hund](thema) durchführen
-#     - Ich möchte eine [Abmeldung](tätigkeit) vornehmen
-#     - Ich möchte etwas [ummelden](tätigkeit)
-#     - Ich muss etwas [abmelden](tätigkeit)
-#     - Ich habe ein Frage zu einer [Ummdeldung](tätigkeit) 
-#     - Wie geht eine [Abmeldung](tätigkeit)
-#     - Was muss ich tun für eine [Anmeldung](tätigkeit)
 
-  
+#Intents der untersten Ebene
 
-- intent: möchte_abmelden_auto
+- intent: Durchführung_Abwasserentsorgung
   examples: |
-    - Ich möchte mein Auto abmelden
-    - Ich möchte eine Abmeldung für mein Auto vornehmen
-    - Wo kann mein Auto abmelden
-    - Wie kann ich mein Auto abmelden?
-- intent: möchte_abmelden_hund
+    - Wie muss ich die Abwasserentsorgung durchführen?
+    - Was muss ich bei der Abwasserentsorgung beachten?
+    - Was muss ich für die Abwasserentsorgung tun?
+    - Wie geht die Abwasserentsorgung?
+    - Wie funktioniert die Abwasserentsorgung?
+- intent: Anmeldung_Abendgymnasium
   examples: |
-    - Ich möchte meinen Hund abmelden
-    - Ich möchte eine Abmeldung für meinen Hund vornehmen
-    - Wo kann ich meinen Hund abmelden
-    - Wie kann ich meinen Hund abmelden?
-- intent: möchte_ummelden_hund
+    - Wie muss ich die Anmeldung beim Abendgymnasium durchführen?
+    - Was muss ich bei der Anmeldung beim Abendgymnasium beachten?
+    - Was muss ich mich für das Abendgymnasium anmelden?
+    - Wie geht die Anmeldung beim Abendgymnasium?
+    - Wie funktioniert die Anmeldung beim Abendgymnasium?
+- intent: Anmeldung_Abendrealschule
   examples: |
-    - Ich möchte meinen Hund ummelden
-    - Ich möchte eine Ummeldung für meinen Hund vornehmen
-    - Wo kann ich meinen Hund ummelden
-    - Wie kann ich meinen Hund ummelden?
-- intent: möchte_abmelden
+    - Wie muss ich die Anmeldung bei der Abendrealschule durchführen?
+    - Was muss ich bei der Anmeldung bei der Abendrealschule beachten?
+    - Was muss ich mich für die Abendrealschule anmelden?
+    - Wie geht die Anmeldung bei der Abendrealschule?
+    - Wie funktioniert die Anmeldung bei der Abendrealschule?
+- intent: Durchführung_Abfallentsorgung
   examples: |
-    - Ich möchte mich abmelden
-    - Ich möchte eine Abmeldung vornehmen
-    - Wo kann ich abmelden
-    - Wie kann ich abmelden?
+    - Wie muss ich die Abfallentsorgung durchführen?
+    - Was muss ich bei der Durchführung der Abfallentsorgung beachten?
+    - Was muss ich für die Durchführung der Abfallentsorgung tun?
+    - Wie geht die Durchführung der Abfallentsorgung?
+    - Wie funktioniert die Durchführung der Abfallentsorgung?
+- intent: Beratung_Abfallentsorgung
+  examples: |
+    - Wo bekomme ich Beratung zur Abfallentsorgung?
+    - Wie bekomme ich Beratung zur Abfallentsorgung?
+    - Was passiert bei einer Beratung zur Abfallentsorgung?
+    - Wo gibt es eine Beratung zur Abfallentsorgung?
+    - Gibt es eine Beratung zur Abfallentsorgung?
+- intent: Erhebung_Abfallgebühren
+  examples: |
+    - Wie werden die Abfallgebühren erhoben?
+    - Wie funktioniert die Erhebung der Abfallgebühren?
+    - Findet eine Erhebung der Abfallgebühren statt?
+    - Erhebt ihr Abfallgebühren?
+    - Werden Abfallgebühren erhoben?
+- intent: Informationen_Abfallwirtschaft
+  examples: |
+    - Wo finde ich Informationen zur Abfallwirtschaft?
+    - Wie finde ich Informationen zur Abfallwirtschaft?
+    - Woher bekomme ich Informationen über die Abfallwirtschaft?
+    - Wo gibt es Informationen zum Thema Abfallwirtschaft?
+    - Zeige mit Informationen zur Abfallwirtschaft.
+- intent: Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
+  examples: |
+    - Wo finde ich Informationen über eine Abfindung bei Auflösung des Arbeitsverhältnisses?
+    - Gibt es Informationen bei der Auflösung des Arbeitsverhältnisses?
+    - Bekomme ich Informationen zu einer Abfindung bei Auflösung des Arbeitsverhältnisses?
+    - Wie komme ich an Informationen zu einer Abfindung bei der Auflösung eines Arbeitsverhältnisses?
+    - Zeige mir Informationen zur Abfindung bei Auflösung eines Arbeitsverhältnisses?
+- intent: Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
+  examples: |
+      - Wo finde ich Informationen über eine Abfindung für Kriegerwitwen bei Wiederverehelichung?
+      - Gibt es Informationen über Abfindungen für Kriegerwitwen bei Wiederverehelichung?
+      - Bekomme ich Informationen zur Abfindung für Kriegerwitwen bei Wiederverehelichung?
+      - Wie komme ich an Informationen zu Abfindungen für Kriegerwitwen bei Wiederverehelichung?
+      - Zeige mir Informationen zu Abfindungen für Kriegerwitwen bei Wiederverehelichung?
+- intent: Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
+  examples: |
+      - Wo finde ich Informationen über eine Abfindung in der betrieblichen Altersversorgung?
+      - Gibt es Informationen zu Abfindungen in der betrieblichen Altersversorgung?
+      - Bekomme ich Informationen über Abfindungen in der betrieblichen Altersversorgung?
+      - Wie komme ich an Informationen zu Abfindungen in der betrieblichen Altersversorgung?
+      - Zeige mir Informationen über die Abfindung in der betrieblichen Altersversorgung?
+
 - intent: greet
   examples: |
     - Hallo
@@ -78,22 +134,6 @@ nlu:
     - Hei
     - Hi.
     - Moin moin
-- intent: name_entry
-  examples: |
-    - Mein Name ist [Leon](name)
-    - Ich bin [Leon](name)
-    - Ich heiße [Leon](name)
-    - Patrick Rabenstein
-    - Mein Name ist Carsten
-    - Mein Name ist Patrick Rabenstein
-    - Max Mustermann
-    - Peter Pan
-    - Max Müller
-    - Mein Name ist Patrick Rabenstein.
-- intent: country_entry
-  examples: |
-    - [Deutschland](country)
-    - [England](country)
 - intent: inform
   examples: |
     - Danke, gut
@@ -110,28 +150,6 @@ nlu:
     - super
     - mir geht es gut
     - gut und dir?
-- intent: say_x_festgeld
-  examples: |
-    - [Keine](x_festgeld) Erfahrung
-    - Ich habe [keine](x_festgeld) Erfahrung
-    - [Weniger als 5 Jahre](x_festgeld) Erfahrung
-    - [Mehr als 5 Jahre](x_festgeld) Erfahrung
-- intent: say_x_immo
-  examples: |
-    - [Keine](x_immo)
-    - [Weniger als 5 Jahre](x_immo)
-    - [Mehr als 5 Jahre](x_immo)
-- intent: say_x_rente
-  examples: |
-    - [Keine](x_rente)
-    - [Weniger als 5 Jahre](x_rente)
-    - [Mehr als 5 Jahre](x_rente)
-- intent: say_horizont
-  examples: |
-    - [3 Monate](horizont)
-    - [3 Jahre](horizont)
-    - [5 Jahre](horizont)
-    - [10 Jahre](horizont)
 - intent: reaction
   examples: |
     - korrekt

@@ -1,53 +1,62 @@
 version: "2.0"
 
 stories:
-# - story: name path
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: inform
-#   - action: utter_enter_name
-#   - intent: name_entry
-#   - action: utter_ask_standard_question
-#   - action: utter_x_festgeld
-#   - intent: say_x_festgeld
-#   - action: utter_x_immo
-#   - intent: say_x_immo
-#   - action: utter_x_rente
-#   - intent: say_x_rente
-#   - action: utter_horizont
-#   - intent: say_horizont
-#   - action: utter_summ_up
-#   - intent: reaction
-#   - action: utter_goodbye
-  
-
 - story: find_users_intent
   steps:
   - intent: greet
   - action: utter_greet
   - action: question_form
   - action: utter_conclude
+  
+
+
+- story: story_durchführung_Abwasserentsorgung
+  steps:
+  - intent: Durchführung_Abwasserentsorgung
+  - action: utter_Durchführung_Abwasserentsorgung
   - action: action_restart
-
-
-
-# - story: abmelden_hund
-#   steps: 
-#   - intent: möchte_abmelden_hund
-#   - action: utter_abmelden_hund
-
-# - story: ummelden_hund
-#   steps: 
-#   - intent: möchte_ummelden_hund
-#   - action: utter_ummelden_hund
-
-# - story: allgemein_hund
-#   steps:
-#   - intent: hund
-#   - action: utter_hund
-
-# - story: abmelden_auto
-#   steps: 
-#   - intent: möchte_abmelden_auto
-#   - action: utter_abmelden_auto
+- story: story_anmeldung_Abendgymnasium
+  steps:
+  - intent: Anmeldung_Abendgymnasium
+  - action: utter_Anmeldung_Abendgymnasium
+  - action: action_restart
+- story: story_anmeldung_Abendrealschule
+  steps:
+  - intent: Anmeldung_Abendrealschule
+  - action: utter_Anmeldung_Abendrealschule
+  - action: action_restart
+- story: story_durchführung_Abfallentsorgung
+  steps:
+  - intent: Durchführung_Abfallentsorgung
+  - action: utter_Durchführung_Abfallentsorgung
+  - action: action_restart
+- story: story_beratung_Abfallentsorgung
+  steps:
+  - intent: Beratung_Abfallentsorgung
+  - action: utter_Beratung_Abfallentsorgung
+  - action: action_restart
+- story: story_erhebung_Abfallgebühren
+  steps:
+  - intent: Erhebung_Abfallgebühren
+  - action: utter_Erhebung_Abfallgebühren
+  - action: action_restart
+- story: story_informationen_Abfallwirtschaft
+  steps:
+  - intent: Informationen_Abfallwirtschaft
+  - action: utter_Informationen_Abfallwirtschaft
+  - action: action_restart
+- story: story_informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
+  steps:
+  - intent: Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
+  - action: utter_Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
+  - action: action_restart
+- story: story_informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
+  steps:
+  - intent: Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
+  - action: utter_Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
+  - action: action_restart
+- story: story_informationen_Abfindung_in_der_betrieblichen_Altersversorgung
+  steps:
+  - intent: Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
+  - action: utter_Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
+  - action: action_restart
