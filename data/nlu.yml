@@ -134,7 +134,6 @@ nlu:
     - Bekomme ich Informationen über Abfindungen in der betrieblichen Altersversorgung?
     - Wie komme ich an Informationen zu Abfindungen in der betrieblichen Altersversorgung?
     - Zeige mir Informationen über die Abfindung in der betrieblichen Altersversorgung?
-
 - intent: greet
   examples: |
     - Hallo
