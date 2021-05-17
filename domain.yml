@@ -18,9 +18,13 @@ intents:
   - Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
   - Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
   - give_time
+  - out_of_scope
+
 
 actions:
   - action_show_time
+  - custom_fallback_action
+  - action_default_ask_affirmation
 
 entities:
   - thema
@@ -33,23 +37,31 @@ slots:
   thema:
     type: text
 
-forms:
-  question_form:
-    required_slots:
-      thema:
-        - type: from_entity
-          entity: thema
-          intent: find_thema
-      tätigkeit:
-        - type: from_entity
-          entity: tätigkeit
-          intent: find_tätigkeit
+# forms:
+#   question_form:
+#     required_slots:
+#       thema:
+#         - type: from_entity
+#           entity: thema
+#           intent: find_thema
+#       tätigkeit:
+#         - type: from_entity
+#           entity: tätigkeit
+#           intent: find_tätigkeit
 
 responses:
+  
+  utter_ask_affirmation:
+  - text: "Meintest du?"
+    buttons:
+      - payload: /Durchführung_Abwasserentsorgung
+        title: "Durchführung Abwasserentsorgung"
+      - payload: /out_of_scope
+        title: "Nein out of scope!"
   utter_ask_rephrase:
   - text: "Ich bin mir nicht sicher. Kannst du das bitte wiederholen?"
   utter_default:
-  - text: "Tut mir leid ich kann dir dabei nicht helfen" 
+  - text: "Tut mir leid ich kann dir dabei nicht helfen." 
   utter_ask_thema:
   - text: "Um welches Thema geht es?"
   utter_ask_tätigkeit:

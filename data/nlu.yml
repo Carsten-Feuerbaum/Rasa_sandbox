@@ -44,6 +44,14 @@ nlu:
 #     - Ich benötige [Informationen](tätigkeit)
 #     - Fragen zur [Erhebung](tätigkeit)
 
+- intent: out_of_scope
+  examples: |
+    - Ich bin ein recruiter
+    - Suchst du einen Job?
+    - Ich brauch ein Thema
+    - Über welches Thema soll ich schreiben
+    - Ich brache hilfe mit meinem Startup
+
 - intent: give_time
   examples: |
     - wie spät ist es?
@@ -114,18 +122,18 @@ nlu:
     - Zeige mir Informationen zur Abfindung bei Auflösung eines Arbeitsverhältnisses?
 - intent: Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
   examples: |
-      - Wo finde ich Informationen über eine Abfindung für Kriegerwitwen bei Wiederverehelichung?
-      - Gibt es Informationen über Abfindungen für Kriegerwitwen bei Wiederverehelichung?
-      - Bekomme ich Informationen zur Abfindung für Kriegerwitwen bei Wiederverehelichung?
-      - Wie komme ich an Informationen zu Abfindungen für Kriegerwitwen bei Wiederverehelichung?
-      - Zeige mir Informationen zu Abfindungen für Kriegerwitwen bei Wiederverehelichung?
+    - Wo finde ich Informationen über eine Abfindung für Kriegerwitwen bei Wiederverehelichung?
+    - Gibt es Informationen über Abfindungen für Kriegerwitwen bei Wiederverehelichung?
+    - Bekomme ich Informationen zur Abfindung für Kriegerwitwen bei Wiederverehelichung?
+    - Wie komme ich an Informationen zu Abfindungen für Kriegerwitwen bei Wiederverehelichung?
+    - Zeige mir Informationen zu Abfindungen für Kriegerwitwen bei Wiederverehelichung?
 - intent: Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
   examples: |
-      - Wo finde ich Informationen über eine Abfindung in der betrieblichen Altersversorgung?
-      - Gibt es Informationen zu Abfindungen in der betrieblichen Altersversorgung?
-      - Bekomme ich Informationen über Abfindungen in der betrieblichen Altersversorgung?
-      - Wie komme ich an Informationen zu Abfindungen in der betrieblichen Altersversorgung?
-      - Zeige mir Informationen über die Abfindung in der betrieblichen Altersversorgung?
+    - Wo finde ich Informationen über eine Abfindung in der betrieblichen Altersversorgung?
+    - Gibt es Informationen zu Abfindungen in der betrieblichen Altersversorgung?
+    - Bekomme ich Informationen über Abfindungen in der betrieblichen Altersversorgung?
+    - Wie komme ich an Informationen zu Abfindungen in der betrieblichen Altersversorgung?
+    - Zeige mir Informationen über die Abfindung in der betrieblichen Altersversorgung?
 
 - intent: greet
   examples: |
