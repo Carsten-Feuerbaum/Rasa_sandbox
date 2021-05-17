@@ -2,100 +2,94 @@ version: "2.0"
 
 intents:
   - greet
-  - name_entry
-  - country_entry
-  - goodbye
+  - conclude
   - inform
-  - say_x_festgeld
-  - say_x_immo
-  - say_x_rente
-  - say_horizont
   - reaction
-  - möchte_abmelden
-  - möchte_abmelden_auto
-  - möchte_abmelden_hund
+  - find_thema
+  - find_tätigkeit
+  - Durchführung_Abwasserentsorgung
+  - Anmeldung_Abendrealschule
+  - Anmeldung_Abendgymnasium
+  - Durchführung_Abfallentsorgung
+  - Beratung_Abfallentsorgung
+  - Erhebung_Abfallgebühren
+  - Informationen_Abfallwirtschaft
+  - Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
+  - Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
+  - Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
+  - give_time
+  - out_of_scope
 
+
+actions:
+  - action_show_time
+  - custom_fallback_action
+  - action_default_ask_affirmation
 
 entities:
-  - name
-  - country
-  - x_festgeld
-  - x_immo
-  - x_rente
-  - horizont
+  - thema
+  - tätigkeit
+  
 
 slots:
-  name: 
+  tätigkeit:
     type: text
-  country:
-    type: text
-  x_festgeld:
-    type: text
-  x_immo:
-    type: text
-  x_rente:
-    type: text
-  horizont:
+  thema:
     type: text
 
+# forms:
+#   question_form:
+#     required_slots:
+#       thema:
+#         - type: from_entity
+#           entity: thema
+#           intent: find_thema
+#       tätigkeit:
+#         - type: from_entity
+#           entity: tätigkeit
+#           intent: find_tätigkeit
+
 responses:
-  utter_abmelden:
-  - text: "Wofür möchten sie eine Abmeldung vornehmen?"
+  
+  utter_ask_affirmation:
+  - text: "Meintest du?"
     buttons:
-    - title: "Auto"
-      payload: "Ich möchte mein Auto abmelden"
-    - title: "Hund"
-      payload: "Ich möchte meinen Hund abmelden"
-  utter_abmelden_hund:
-  - text: "Ihren Hund abmelden können sie hier..."
-  utter_abmelden_auto:
-  - text: "Ihr Auto abmelden können sie hier..."
+      - payload: /Durchführung_Abwasserentsorgung
+        title: "Durchführung Abwasserentsorgung"
+      - payload: /out_of_scope
+        title: "Nein out of scope!"
+  utter_ask_rephrase:
+  - text: "Ich bin mir nicht sicher. Kannst du das bitte wiederholen?"
+  utter_default:
+  - text: "Tut mir leid ich kann dir dabei nicht helfen." 
+  utter_ask_thema:
+  - text: "Um welches Thema geht es?"
+  utter_ask_tätigkeit:
+  - text: "Um welche Tätigkeit geht es?"
+  utter_conclude:
+  - text: "Wie muss ich {thema} {tätigkeit}?"
+  utter_Durchführung_Abwasserentsorgung:
+  - text: https://www.freistaat.bayern/dokumente/leistung/26999461116
+  utter_Anmeldung_Abendgymnasium:
+  - text: https://www.freistaat.bayern/dokumente/leistung/47552656625
+  utter_Anmeldung_Abendrealschule:
+  - text: https://www.freistaat.bayern/dokumente/leistung/13997102625
+  utter_Beratung_Abfallentsorgung:
+  - text: https://www.freistaat.bayern/dokumente/leistung/71663715636
+  utter_Durchführung_Abfallentsorgung:
+  - text: https://www.freistaat.bayern/dokumente/leistung/21664765410
+  utter_Erhebung_Abfallgebühren:
+  - text: https://www.freistaat.bayern/dokumente/leistung/26108945467
+  utter_Informationen_Abfallwirtschaft:
+  - text: https://www.freistaat.bayern/dokumente/leistung/73331420412
+  utter_Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses:
+  - text: https://www.freistaat.bayern/dokumente/leistung/275534960444
+  utter_Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung:
+  - text: https://www.freistaat.bayern/dokumente/leistung/376201622444
+  utter_Informationen_Abfindung_in_der_betrieblichen_Altersversorgung:
+  - text: https://www.freistaat.bayern/dokumente/leistung/309090514444
   utter_greet:
   - text: "Hallo, wie geht es Ihnen?"
-  utter_enter_name:
-  - text: "Perfekt. Damit ich Sie bestmöglichst beraten kann, benötige ich Ihren Namen. Bitte geben Sie Ihren **Vor-** und **Nachnamen** ein."
-  utter_ask_standard_question:
-  - text: "Ein schöner Name. Ich habe erfahren, dass Sie am Wertpapierhandel interessiert sind. Dazu muss ich Ihnen zuvor einige Standartfragen stellen."
-  utter_x_festgeld:
-  - text: "Wie viel Erfahrung haben Sie mit **Festgeld** oder **Geldmarktfonds**?"
-    buttons:
-    - title: "Keine"
-      payload: '/say_x_festgeld{{"x_festgeld":"keine"}}'
-    - title: "Weniger als 5 Jahre"
-      payload: '/say_x_festgeld{{"x_festgeld":"weniger 5 Jahre"}}'
-    - title: "Mehr als 5 Jahre"
-      payload: '/say_x_festgeld{{"x_festgeld":"mehr 5 Jahre"}}'
-  utter_x_immo:
-  - text: "Wie viel Erfahrung haben Sie mit **Immobilienfonds**?"
-    buttons:
-    - title: "Keine"
-      payload: '/say_x_immo{{"x_immo":"keine"}}'
-    - title: "Weniger als 5 Jahre"
-      payload: '/say_x_immo{{"x_immo":"weniger 5 Jahre"}}'
-    - title: "Mehr als 5 Jahre"
-      payload: '/say_x_immo{{"x_immo":"mehr 5 Jahre"}}'
-  utter_x_rente:
-  - text: "Wie viel Erfahrung haben Sie mit **Rentenfonds**?"
-    buttons:
-    - title: "Keine"
-      payload: '/say_x_rente{{"x_rente":"keine"}}'
-    - title: "Weniger als 5 Jahre"
-      payload: '/say_x_rente{{"x_rente":"weniger 5 Jahre"}}'
-    - title: "Mehr als 5 Jahre"
-      payload: '/say_x_rente{{"x_rente":"mehr 5 Jahre"}}'
-  utter_horizont:
-  - text: "Welchen Zeithorizont hat Ihre Anlage? Mehr als:"
-    buttons:
-    - title: "3 Monate"
-      payload: '/say_horizont{{"horizont":"3 Monate"}}'
-    - title: "3 Jahre"
-      payload: '/say_horizont{{"horizont":"3 Jahre"}}'
-    - title: "5 Jahre"
-      payload: '/say_horizont{{"horizont":"5 Jahre"}}'
-    - title: "10 Jahre"
-      payload: '/say_horizont{{"horizont":"10 Jahre"}}'
-  utter_summ_up:
-  - text: "Danke! Ich fasse es noch einmal zusammen: Sie sind {name} und besitzen folgende Erfahrungen: \n **Festgeld**: {x_festgeld}. \n **mmobilienfonds**: {x_immo}. \n **Rentenfonds**: {x_rente} \n Ihr Anlagehorizont:"
   utter_goodbye:
   - text: "Perfekt, das hilft uns schon sehr weiter. Ihr persönlicher Kundenberater kommt gleich zu Ihnen!"
 

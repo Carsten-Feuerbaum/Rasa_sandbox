@@ -2,6 +2,12 @@ version: "2.0"
 
 rules:
 
+- rule: Implementation of the Two-Stage-Fallback
+  steps:
+  - intent: nlu_fallback
+  - action: custom_fallback_action
+ # - active_loop: action_two_stage_fallback
+
 # - rule: Say goodbye anytime the user says goodbye
 #   steps:
 #   - intent: goodbye
@@ -11,3 +17,6 @@ rules:
 #   steps:
 #   - intent: bot_challenge
 #   - action: utter_iamabot
+
+
+  
