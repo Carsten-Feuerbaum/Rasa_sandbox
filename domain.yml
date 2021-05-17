@@ -2,11 +2,7 @@ version: "2.0"
 
 intents:
   - greet
-  - conclude
   - inform
-  - reaction
-  - find_thema
-  - find_tätigkeit
   - Durchführung_Abwasserentsorgung
   - Anmeldung_Abendrealschule
   - Anmeldung_Abendgymnasium
@@ -26,46 +22,13 @@ actions:
   - custom_fallback_action
   - action_default_ask_affirmation
 
-entities:
-  - thema
-  - tätigkeit
-  
-
-slots:
-  tätigkeit:
-    type: text
-  thema:
-    type: text
-
-# forms:
-#   question_form:
-#     required_slots:
-#       thema:
-#         - type: from_entity
-#           entity: thema
-#           intent: find_thema
-#       tätigkeit:
-#         - type: from_entity
-#           entity: tätigkeit
-#           intent: find_tätigkeit
 
 responses:
   
-  utter_ask_affirmation:
-  - text: "Meintest du?"
-    buttons:
-      - payload: /Durchführung_Abwasserentsorgung
-        title: "Durchführung Abwasserentsorgung"
-      - payload: /out_of_scope
-        title: "Nein out of scope!"
   utter_ask_rephrase:
   - text: "Ich bin mir nicht sicher. Kannst du das bitte wiederholen?"
   utter_default:
   - text: "Tut mir leid ich kann dir dabei nicht helfen." 
-  utter_ask_thema:
-  - text: "Um welches Thema geht es?"
-  utter_ask_tätigkeit:
-  - text: "Um welche Tätigkeit geht es?"
   utter_conclude:
   - text: "Wie muss ich {thema} {tätigkeit}?"
   utter_Durchführung_Abwasserentsorgung:
@@ -90,8 +53,8 @@ responses:
   - text: https://www.freistaat.bayern/dokumente/leistung/309090514444
   utter_greet:
   - text: "Hallo, wie geht es Ihnen?"
-  utter_goodbye:
-  - text: "Perfekt, das hilft uns schon sehr weiter. Ihr persönlicher Kundenberater kommt gleich zu Ihnen!"
+  utter_inform:
+  - text: "Das freut mich! Was kann ich noch für Sie tun?"
 
 
 

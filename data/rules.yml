@@ -6,17 +6,7 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: custom_fallback_action
- # - active_loop: action_two_stage_fallback
 
-# - rule: Say goodbye anytime the user says goodbye
-#   steps:
-#   - intent: goodbye
-#   - action: utter_goodbye
-
-# - rule: Say 'I am a bot' anytime the user challenges
-#   steps:
-#   - intent: bot_challenge
-#   - action: utter_iamabot
 
 
   

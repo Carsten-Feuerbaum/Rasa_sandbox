@@ -1,12 +1,6 @@
 version: "2.0"
 
 stories:
-# - story: find_users_intent
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - action: question_form
-#   - action: utter_conclude
   
 - story: path about time
   steps:
@@ -14,6 +8,15 @@ stories:
   - action: utter_greet
   - intent: give_time
   - action: action_show_time
+- story: say hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: answer to information
+  steps:
+  - intent: inform
+  - action: utter_inform
+
 
 
 - story: story_greet
@@ -24,49 +27,39 @@ stories:
   steps:
   - intent: Durchführung_Abwasserentsorgung
   - action: utter_Durchführung_Abwasserentsorgung
-  - action: action_restart
 - story: story_anmeldung_Abendgymnasium
   steps:
   - intent: Anmeldung_Abendgymnasium
   - action: utter_Anmeldung_Abendgymnasium
-  - action: action_restart
 - story: story_anmeldung_Abendrealschule
   steps:
   - intent: Anmeldung_Abendrealschule
   - action: utter_Anmeldung_Abendrealschule
-  - action: action_restart
 - story: story_durchführung_Abfallentsorgung
   steps:
   - intent: Durchführung_Abfallentsorgung
   - action: utter_Durchführung_Abfallentsorgung
-  - action: action_restart
 - story: story_beratung_Abfallentsorgung
   steps:
   - intent: Beratung_Abfallentsorgung
   - action: utter_Beratung_Abfallentsorgung
-  - action: action_restart
 - story: story_erhebung_Abfallgebühren
   steps:
   - intent: Erhebung_Abfallgebühren
   - action: utter_Erhebung_Abfallgebühren
-  - action: action_restart
 - story: story_informationen_Abfallwirtschaft
   steps:
   - intent: Informationen_Abfallwirtschaft
   - action: utter_Informationen_Abfallwirtschaft
-  - action: action_restart
 - story: story_informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
   steps:
   - intent: Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
   - action: utter_Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
-  - action: action_restart
 - story: story_informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
   steps:
   - intent: Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
   - action: utter_Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
-  - action: action_restart
 - story: story_informationen_Abfindung_in_der_betrieblichen_Altersversorgung
   steps:
   - intent: Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
   - action: utter_Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
-  - action: action_restart

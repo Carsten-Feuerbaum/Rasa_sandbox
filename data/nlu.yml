@@ -1,49 +1,6 @@
 version: "2.0"
 nlu:
 
-#hier werden alle möglichen Themen gesammelt
-# - lookup: thema
-#   examples: |
-#     - Abendrealschule
-#     - Abfallentsorgung
-#     - Abfallgebühren
-#     - Abfallwirtschaft
-#     - Auflösung des Arbeitsverhältnisses
-#     - Abfindung bei Auflösung des Arbeitsverhältnisses
-#     - Abfindung für Kriegswitwen bei Weiderverehelichung
-#     - Abfindung in der betrieblichen Altersversorgung
-#     - Abwasserentsorgung
-
-#hier werden alle möglichen Tätigkeiten gesammelt
-# - lookup: tätigkeit
-#   examples: |
-#     - Durchführung
-
-
-# - synonym: Abmeldung
-#   examples: |
-#     - ummelden
-#     - anmelden
-
-
-# - intent: find_thema
-#   examples: |
-#     - Es geht um das Thema [Abendgymnasium](thema) 
-#     - Ich habe eine Frage zum [Abendgymnasium](thema)
-#     - Eine Frage zum Thema [Abendgymnasium](thema)
-#     - Ich möchte etwas wissen zu [Abendgymnasium](thema)
-#     - Ich brauche Informationen zu [Abendgymnasium](thema)
-
- 
-
-# - intent: find_tätigkeit
-#   examples: | 
-#     - Es geht um eine [Anmeldung](tätigkeit)
-#     - Ich möchte eine [Beratung](tätigkeit)
-#     - Ich benötige eine [Beratung](tätigkeit)
-#     - Ich benötige [Informationen](tätigkeit)
-#     - Fragen zur [Erhebung](tätigkeit)
-
 - intent: out_of_scope
   examples: |
     - Ich bin ein recruiter
@@ -59,7 +16,34 @@ nlu:
     - Wieviel Uhr ist es?
     - zeig mir die Zeit
     - kannst du mir sagen wie spät es ist?
-    
+- intent: greet
+  examples: |
+    - Hallo
+    - Hi
+    - Moin
+    - Servus
+    - Grüß Gott
+    - Tach
+    - Hey
+    - Hei
+    - Hi.
+    - Moin moin
+- intent: inform
+  examples: |
+    - Danke, gut
+    - Mir geht es gut
+    - Gut
+    - Schlecht
+    - Naja es geht
+    - Nicht gut
+    - Gut, danke
+    - Geht so
+    - nicht so gut
+    - schlecht
+    - gut
+    - super
+    - mir geht es gut
+    - gut und dir?
 
 
 #Intents der untersten Ebene
@@ -134,39 +118,4 @@ nlu:
     - Bekomme ich Informationen über Abfindungen in der betrieblichen Altersversorgung?
     - Wie komme ich an Informationen zu Abfindungen in der betrieblichen Altersversorgung?
     - Zeige mir Informationen über die Abfindung in der betrieblichen Altersversorgung?
-- intent: greet
-  examples: |
-    - Hallo
-    - Hi
-    - Moin
-    - Servus
-    - Grüß Gott
-    - Tach
-    - Hey
-    - Hei
-    - Hi.
-    - Moin moin
-- intent: inform
-  examples: |
-    - Danke, gut
-    - Mir geht es gut
-    - Gut
-    - Schlecht
-    - Naja es geht
-    - Nicht gut
-    - Gut, danke
-    - Geht so
-    - nicht so gut
-    - schlecht
-    - gut
-    - super
-    - mir geht es gut
-    - gut und dir?
-- intent: reaction
-  examples: |
-    - korrekt
-    - ja das ist richtig
-    - genau
-    - ja
-    - jo
-    - perfekt
+

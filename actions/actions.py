@@ -35,9 +35,8 @@ class ActionCustomFallback(Action):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message(text="Hi Leon!")
+        dispatcher.utter_message(text="Ich habe Sie leider nicht verstanden. Bitte stellen Sie ihre Frage spezifischer.")
 
-        # Revert user message which led to fallback.
         return [UserUtteranceReverted()]
 
         
