@@ -16,50 +16,1680 @@ stories:
   steps:
   - intent: inform
   - action: utter_inform
-
-
-
 - story: story_greet
   steps: 
   - intent: greet
   - action: utter_greet
-- story: story_durchführung_Abwasserentsorgung
-  steps:
-  - intent: Durchführung_Abwasserentsorgung
-  - action: utter_Durchführung_Abwasserentsorgung
-- story: story_anmeldung_Abendgymnasium
+
+- story:  story_Anmeldung_Abendgymnasium
   steps:
   - intent: Anmeldung_Abendgymnasium
   - action: utter_Anmeldung_Abendgymnasium
-- story: story_anmeldung_Abendrealschule
+- story:  story_Anmeldung_Abendrealschule
   steps:
   - intent: Anmeldung_Abendrealschule
   - action: utter_Anmeldung_Abendrealschule
-- story: story_durchführung_Abfallentsorgung
-  steps:
-  - intent: Durchführung_Abfallentsorgung
-  - action: utter_Durchführung_Abfallentsorgung
-- story: story_beratung_Abfallentsorgung
+- story:  story_Beratung_Abfallentsorgung
   steps:
   - intent: Beratung_Abfallentsorgung
   - action: utter_Beratung_Abfallentsorgung
-- story: story_erhebung_Abfallgebühren
+- story:  story_Durchführung_Abfallentsorgung
+  steps:
+  - intent: Durchführung_Abfallentsorgung
+  - action: utter_Durchführung_Abfallentsorgung
+- story:  story_Erhebung_Abfallgebühren
   steps:
   - intent: Erhebung_Abfallgebühren
   - action: utter_Erhebung_Abfallgebühren
-- story: story_informationen_Abfallwirtschaft
+- story:  story_Informationssystem_Abfallratgeber_Bayern
+  steps:
+  - intent: Informationssystem_Abfallratgeber_Bayern
+  - action: utter_Informationssystem_Abfallratgeber_Bayern
+- story:  story_Informationen_Abfallwirtschaft
   steps:
   - intent: Informationen_Abfallwirtschaft
   - action: utter_Informationen_Abfallwirtschaft
-- story: story_informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
+- story:  story_Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
   steps:
   - intent: Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
   - action: utter_Informationen_Abfindung_bei_Auflösung_des_Arbeitsverhältnisses
-- story: story_informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
+- story:  story_Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
   steps:
   - intent: Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
   - action: utter_Informationen_Abfindung_für_Kriegerwitwen_bei_Wiederverehelichung
-- story: story_informationen_Abfindung_in_der_betrieblichen_Altersversorgung
+- story:  story_Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
   steps:
   - intent: Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
   - action: utter_Informationen_Abfindung_in_der_betrieblichen_Altersversorgung
+- story:  story_Informationen_Abfindung_in_der_gesetzlichen_Rentenversicherung
+  steps:
+  - intent: Informationen_Abfindung_in_der_gesetzlichen_Rentenversicherung
+  - action: utter_Informationen_Abfindung_in_der_gesetzlichen_Rentenversicherung
+- story:  story_Informationen_Abfindung_in_der_gesetzlichen_Unfallversicherung
+  steps:
+  - intent: Informationen_Abfindung_in_der_gesetzlichen_Unfallversicherung
+  - action: utter_Informationen_Abfindung_in_der_gesetzlichen_Unfallversicherung
+- story:  story_Informationen_Abfindung_in_der_Kriegsopferversorgung
+  steps:
+  - intent: Informationen_Abfindung_in_der_Kriegsopferversorgung
+  - action: utter_Informationen_Abfindung_in_der_Kriegsopferversorgung
+- story:  story_Beantragung_Abgeschlossenheitsbescheinigung_mit_Aufteilungsplan
+  steps:
+  - intent: Beantragung_Abgeschlossenheitsbescheinigung_mit_Aufteilungsplan
+  - action: utter_Beantragung_Abgeschlossenheitsbescheinigung_mit_Aufteilungsplan
+- story:  story_Anzeige_des_Abgrabungsbeginns_Abgrabung
+  steps:
+  - intent: Anzeige_des_Abgrabungsbeginns_Abgrabung
+  - action: utter_Anzeige_des_Abgrabungsbeginns_Abgrabung
+- story:  story_Beantragung_einer_Abgrabungsgenehmigung_Abgrabung
+  steps:
+  - intent: Beantragung_einer_Abgrabungsgenehmigung_Abgrabung
+  - action: utter_Beantragung_einer_Abgrabungsgenehmigung_Abgrabung
+- story:  story_Beantragung_einer_Teilabgrabungsgenehmigung_Abgrabung
+  steps:
+  - intent: Beantragung_einer_Teilabgrabungsgenehmigung_Abgrabung
+  - action: utter_Beantragung_einer_Teilabgrabungsgenehmigung_Abgrabung
+- story:  story_Beantragung_eines_Vorbescheids_Abgrabung
+  steps:
+  - intent: Beantragung_eines_Vorbescheids_Abgrabung
+  - action: utter_Beantragung_eines_Vorbescheids_Abgrabung
+- story:  story_Vorlage_von_Unterlagen_zur_genehmigungsfreien_Abgrabung_Abgrabung
+  steps:
+  - intent: Vorlage_von_Unterlagen_zur_genehmigungsfreien_Abgrabung_Abgrabung
+  - action: utter_Vorlage_von_Unterlagen_zur_genehmigungsfreien_Abgrabung_Abgrabung
+- story:  story_Erstellung_Abschusspläne
+  steps:
+  - intent: Erstellung_Abschusspläne
+  - action: utter_Erstellung_Abschusspläne
+- story:  story_Informationen_zum_Verfahren_Abstammungssachen
+  steps:
+  - intent: Informationen_zum_Verfahren_Abstammungssachen
+  - action: utter_Informationen_zum_Verfahren_Abstammungssachen
+- story:  story_Durchführung_Abwasserentsorgung
+  steps:
+  - intent: Durchführung_Abwasserentsorgung
+  - action: utter_Durchführung_Abwasserentsorgung
+- story:  story_Entrichtung_einer_Kleineinleiterabgabe_Abwasserentsorgung
+  steps:
+  - intent: Entrichtung_einer_Kleineinleiterabgabe_Abwasserentsorgung
+  - action: utter_Entrichtung_einer_Kleineinleiterabgabe_Abwasserentsorgung
+- story:  story_Mitteilung_des_Prüfergebnisses_Abwasserentsorgung_über_Kleinkläranlagen
+  steps:
+  - intent: Mitteilung_des_Prüfergebnisses_Abwasserentsorgung_über_Kleinkläranlagen
+  - action: utter_Mitteilung_des_Prüfergebnisses_Abwasserentsorgung_über_Kleinkläranlagen
+- story:  story_Annahme_als_Kind_Adoption
+  steps:
+  - intent: Annahme_als_Kind_Adoption
+  - action: utter_Annahme_als_Kind_Adoption
+- story:  story_Informationen_Adoption
+  steps:
+  - intent: Informationen_Adoption
+  - action: utter_Informationen_Adoption
+- story:  story_Informationen_zur_Freigabe_Adoption
+  steps:
+  - intent: Informationen_zur_Freigabe_Adoption
+  - action: utter_Informationen_zur_Freigabe_Adoption
+- story:  story_Beantragung_der_Feststellung_der_Gleichwertigkeit_der_Berufsqualifikation_Agrarberufe
+  steps:
+  - intent: Beantragung_der_Feststellung_der_Gleichwertigkeit_der_Berufsqualifikation_Agrarberufe
+  - action: utter_Beantragung_der_Feststellung_der_Gleichwertigkeit_der_Berufsqualifikation_Agrarberufe
+- story:  story_Wetterdatenabruf_Agrarwetter
+  steps:
+  - intent: Wetterdatenabruf_Agrarwetter
+  - action: utter_Wetterdatenabruf_Agrarwetter
+- story:  story_Beratung_AIDS
+  steps:
+  - intent: Beratung_AIDS
+  - action: utter_Beratung_AIDS
+- story:  story_Beratungsstellen_Beantragung_einer_Förderung_AIDS_Prävention_und_Psychosoziale_AIDS_Beratungsstellen_Beantragung_einer_Förderung
+  steps:
+  - intent: Beratungsstellen_Beantragung_einer_Förderung_AIDS_Prävention_und_Psychosoziale_AIDS_Beratungsstellen_Beantragung_einer_Förderung
+  - action: utter_Beratungsstellen_Beantragung_einer_Förderung_AIDS_Prävention_und_Psychosoziale_AIDS_Beratungsstellen_Beantragung_einer_Förderung
+- story:  story_Überwachung_des_Verbots_(bei_Jugendlichen_werdenden_Müttern_und_beim_Fahrpersonal)_Akkordarbeit_
+  steps:
+  - intent: Überwachung_des_Verbots_(bei_Jugendlichen_werdenden_Müttern_und_beim_Fahrpersonal)_Akkordarbeit_
+  - action: utter_Überwachung_des_Verbots_(bei_Jugendlichen_werdenden_Müttern_und_beim_Fahrpersonal)_Akkordarbeit_
+- story:  story_und_Vermittlungsgutschein_Aktivierungs
+  steps:
+  - intent: und_Vermittlungsgutschein_Aktivierungs
+  - action: utter_und_Vermittlungsgutschein_Aktivierungs
+- story:  story_Informationen_über_Maßnahmen_Aktivierung_und_berufliche_Eingliederung
+  steps:
+  - intent: Informationen_über_Maßnahmen_Aktivierung_und_berufliche_Eingliederung
+  - action: utter_Informationen_über_Maßnahmen_Aktivierung_und_berufliche_Eingliederung
+- story:  story_Informationen_Aktueller_Rentenwert
+  steps:
+  - intent: Informationen_Aktueller_Rentenwert
+  - action: utter_Informationen_Aktueller_Rentenwert
+- story:  story_Beratung_und_Unterstützung_bei_Ausübung_der_Personensorge_Alleinerziehende_Eltern
+  steps:
+  - intent: Beratung_und_Unterstützung_bei_Ausübung_der_Personensorge_Alleinerziehende_Eltern
+  - action: utter_Beratung_und_Unterstützung_bei_Ausübung_der_Personensorge_Alleinerziehende_Eltern
+- story:  story_Informationen_über_Behandlungsangebote_Allgemeinpsychiatrische_neurologische_Klinken_und_Institutsambulanzen
+  steps:
+  - intent: Informationen_über_Behandlungsangebote_Allgemeinpsychiatrische_neurologische_Klinken_und_Institutsambulanzen
+  - action: utter_Informationen_über_Behandlungsangebote_Allgemeinpsychiatrische_neurologische_Klinken_und_Institutsambulanzen
+- story:  story_Beantragung_der_Erlaubnis_zum_Führen_der_Berufsbezeichnung_Altenpfleger:in
+  steps:
+  - intent: Beantragung_der_Erlaubnis_zum_Führen_der_Berufsbezeichnung_Altenpfleger:in
+  - action: utter_Beantragung_der_Erlaubnis_zum_Führen_der_Berufsbezeichnung_Altenpfleger:in
+- story:  story_und_Palliativversorgung_Altenpflege_und_Hospiz
+  steps:
+  - intent: und_Palliativversorgung_Altenpflege_und_Hospiz
+  - action: utter_und_Palliativversorgung_Altenpflege_und_Hospiz
+- story:  story_Informationen_Altersrente_aus_der_gesetzlichen_Rentenversicherung
+  steps:
+  - intent: Informationen_Altersrente_aus_der_gesetzlichen_Rentenversicherung
+  - action: utter_Informationen_Altersrente_aus_der_gesetzlichen_Rentenversicherung
+- story:  story_Informationen_Alterssicherung_der_Landwirte
+  steps:
+  - intent: Informationen_Alterssicherung_der_Landwirte
+  - action: utter_Informationen_Alterssicherung_der_Landwirte
+- story:  story_Informationen_zum_Sterbevierteljahr_Alterssicherung_der_Landwirte
+  steps:
+  - intent: Informationen_zum_Sterbevierteljahr_Alterssicherung_der_Landwirte
+  - action: utter_Informationen_zum_Sterbevierteljahr_Alterssicherung_der_Landwirte
+- story:  story_Beantragung_Altersteilzeit_für_Beamte
+  steps:
+  - intent: Beantragung_Altersteilzeit_für_Beamte
+  - action: utter_Beantragung_Altersteilzeit_für_Beamte
+- story:  story_Informationen_zur_Geschäftsführung_und_Vertretung_Altersversorgungseinrichtungen
+  steps:
+  - intent: Informationen_zur_Geschäftsführung_und_Vertretung_Altersversorgungseinrichtungen
+  - action: utter_Informationen_zur_Geschäftsführung_und_Vertretung_Altersversorgungseinrichtungen
+- story:  story_Informationen_über_zusätzliche_Altersversorgung_Altersvorsorge
+  steps:
+  - intent: Informationen_über_zusätzliche_Altersversorgung_Altersvorsorge
+  - action: utter_Informationen_über_zusätzliche_Altersversorgung_Altersvorsorge
+- story:  story_Beantragung_von_Hilfen_zur_Pflege_Alte_und_pflegebedürftige_Menschen
+  steps:
+  - intent: Beantragung_von_Hilfen_zur_Pflege_Alte_und_pflegebedürftige_Menschen
+  - action: utter_Beantragung_von_Hilfen_zur_Pflege_Alte_und_pflegebedürftige_Menschen
+- story:  story_Beantragung_von_Hilfen_zur_Pflege_in_vollstationären_Alten_Alte_und_pflegebedürftige_Menschen
+  steps:
+  - intent: Beantragung_von_Hilfen_zur_Pflege_in_vollstationären_Alten_Alte_und_pflegebedürftige_Menschen
+  - action: utter_Beantragung_von_Hilfen_zur_Pflege_in_vollstationären_Alten_Alte_und_pflegebedürftige_Menschen
+- story:  story_Beantragung_von_Hilfen_zur_Tagespflege_Alte_und_pflegebedürftige_Menschen
+  steps:
+  - intent: Beantragung_von_Hilfen_zur_Tagespflege_Alte_und_pflegebedürftige_Menschen
+  - action: utter_Beantragung_von_Hilfen_zur_Tagespflege_Alte_und_pflegebedürftige_Menschen
+- story:  story_Beantragung_der_Bestätigung_der_ausreichenden_Berufsqualifikation_von_im_Ausland_niedergelassenen_Sachverständigen_Altfahrzeug
+  steps:
+  - intent: Beantragung_der_Bestätigung_der_ausreichenden_Berufsqualifikation_von_im_Ausland_niedergelassenen_Sachverständigen_Altfahrzeug
+  - action: utter_Beantragung_der_Bestätigung_der_ausreichenden_Berufsqualifikation_von_im_Ausland_niedergelassenen_Sachverständigen_Altfahrzeug
+- story:  story_Beantragung_einer_Auskunft_Altlastenkataster
+  steps:
+  - intent: Beantragung_einer_Auskunft_Altlastenkataster
+  - action: utter_Beantragung_einer_Auskunft_Altlastenkataster
+- story:  story_Beantragung_einer_Förderung_von_neuen_ambulant_betreuten_Wohngemeinschaften_Ambulant_betreute_Wohngemeinschaften
+  steps:
+  - intent: Beantragung_einer_Förderung_von_neuen_ambulant_betreuten_Wohngemeinschaften_Ambulant_betreute_Wohngemeinschaften
+  - action: utter_Beantragung_einer_Förderung_von_neuen_ambulant_betreuten_Wohngemeinschaften_Ambulant_betreute_Wohngemeinschaften
+- story:  story_und_Betreuungsformen_für_Seniorinnen_und_Senioren_Ambulante_Wohn
+  steps:
+  - intent: und_Betreuungsformen_für_Seniorinnen_und_Senioren_Ambulante_Wohn
+  - action: utter_und_Betreuungsformen_für_Seniorinnen_und_Senioren_Ambulante_Wohn
+- story:  story_Einholung_bei_der_Gemeinde_oder_Verwaltungsgemeinschaft_Amtliche_Beglaubigung
+  steps:
+  - intent: Einholung_bei_der_Gemeinde_oder_Verwaltungsgemeinschaft_Amtliche_Beglaubigung
+  - action: utter_Einholung_bei_der_Gemeinde_oder_Verwaltungsgemeinschaft_Amtliche_Beglaubigung
+- story:  story_Veröffentlichung_Amtliche_Bekanntmachungen_der_Regierung
+  steps:
+  - intent: Veröffentlichung_Amtliche_Bekanntmachungen_der_Regierung
+  - action: utter_Veröffentlichung_Amtliche_Bekanntmachungen_der_Regierung
+- story:  story_Beratung_Anerkennung_ausländischer_Berufsqualifikationen
+  steps:
+  - intent: Beratung_Anerkennung_ausländischer_Berufsqualifikationen
+  - action: utter_Beratung_Anerkennung_ausländischer_Berufsqualifikationen
+- story:  story_Beantragung_einer_Förderung_Angebote_zur_Unterstützung_im_Alltag
+  steps:
+  - intent: Beantragung_einer_Förderung_Angebote_zur_Unterstützung_im_Alltag
+  - action: utter_Beantragung_einer_Förderung_Angebote_zur_Unterstützung_im_Alltag
+- story:  story_Beantragung_einer_Förderung_Angehörigenarbeit
+  steps:
+  - intent: Beantragung_einer_Förderung_Angehörigenarbeit
+  - action: utter_Beantragung_einer_Förderung_Angehörigenarbeit
+- story:  story_Informationen_Anrechnungszeiten
+  steps:
+  - intent: Informationen_Anrechnungszeiten
+  - action: utter_Informationen_Anrechnungszeiten
+- story:  story_Beantragung_der_Erteilung_für_gerichtliche_oder_notarielle_Urkunden_Apostille
+  steps:
+  - intent: Beantragung_der_Erteilung_für_gerichtliche_oder_notarielle_Urkunden_Apostille
+  - action: utter_Beantragung_der_Erteilung_für_gerichtliche_oder_notarielle_Urkunden_Apostille
+- story:  story_Beantragung_der_Erteilung_für_Urkunden_von_Landesbehörden_oder_Kommunen_Apostille_und_Legalisation
+  steps:
+  - intent: Beantragung_der_Erteilung_für_Urkunden_von_Landesbehörden_oder_Kommunen_Apostille_und_Legalisation
+  - action: utter_Beantragung_der_Erteilung_für_Urkunden_von_Landesbehörden_oder_Kommunen_Apostille_und_Legalisation
+- story:  story_Beantragung_der_Genehmigung_von_Versorgungsverträgen_Apothekenwesen
+  steps:
+  - intent: Beantragung_der_Genehmigung_von_Versorgungsverträgen_Apothekenwesen
+  - action: utter_Beantragung_der_Genehmigung_von_Versorgungsverträgen_Apothekenwesen
+- story:  story_Beantragung_einer_Approbation_Apotheker:Apothekerin
+  steps:
+  - intent: Beantragung_einer_Approbation_Apotheker:Apothekerin
+  - action: utter_Beantragung_einer_Approbation_Apotheker:Apothekerin
+- story:  story_Beantragung_einer_Approbation_bei_Ausbildung_in_einem_Drittstaat_Apotheker:Apothekerin
+  steps:
+  - intent: Beantragung_einer_Approbation_bei_Ausbildung_in_einem_Drittstaat_Apotheker:Apothekerin
+  - action: utter_Beantragung_einer_Approbation_bei_Ausbildung_in_einem_Drittstaat_Apotheker:Apothekerin
+- story:  story_Beantragung_einer_Erlaubnis_zur_vorübergehenden_Ausübung_des_Apothekerberufs_Apotheker:Apothekerin
+  steps:
+  - intent: Beantragung_einer_Erlaubnis_zur_vorübergehenden_Ausübung_des_Apothekerberufs_Apotheker:Apothekerin
+  - action: utter_Beantragung_einer_Erlaubnis_zur_vorübergehenden_Ausübung_des_Apothekerberufs_Apotheker:Apothekerin
+- story:  story_Sparzulage_Arbeitnehmer
+  steps:
+  - intent: Sparzulage_Arbeitnehmer
+  - action: utter_Sparzulage_Arbeitnehmer
+- story:  story_Informationen_Arbeitnehmerüberlassung_(Leiharbeit:Zeitarbeit)
+  steps:
+  - intent: Informationen_Arbeitnehmerüberlassung_(Leiharbeit:Zeitarbeit)
+  - action: utter_Informationen_Arbeitnehmerüberlassung_(Leiharbeit:Zeitarbeit)
+- story:  story_Informationen_über_Förderungen_Arbeitsaufnahme
+  steps:
+  - intent: Informationen_über_Förderungen_Arbeitsaufnahme
+  - action: utter_Informationen_über_Förderungen_Arbeitsaufnahme
+- story:  story_Informationen_Arbeitsbefreiung
+  steps:
+  - intent: Informationen_Arbeitsbefreiung
+  - action: utter_Informationen_Arbeitsbefreiung
+- story:  story_Informationen_Arbeitsförderung
+  steps:
+  - intent: Informationen_Arbeitsförderung
+  - action: utter_Informationen_Arbeitsförderung
+- story:  story_Informationen_Arbeitsgerichtsprozess
+  steps:
+  - intent: Informationen_Arbeitsgerichtsprozess
+  - action: utter_Informationen_Arbeitsgerichtsprozess
+- story:  story_Informationen_Arbeitslosenversicherung
+  steps:
+  - intent: Informationen_Arbeitslosenversicherung
+  - action: utter_Informationen_Arbeitslosenversicherung
+- story:  story_Beantragung_von_Hilfen_Arbeitslosigkeit
+  steps:
+  - intent: Beantragung_von_Hilfen_Arbeitslosigkeit
+  - action: utter_Beantragung_von_Hilfen_Arbeitslosigkeit
+- story:  story_Beantragung_von_Fördermitteln_zur_Qualifizierung_und_Weiterbildung_für_Arbeitslose_und_von_Arbeitslosigkeit_bedrohte_Personen_Arbeitsmarktfonds
+  steps:
+  - intent: Beantragung_von_Fördermitteln_zur_Qualifizierung_und_Weiterbildung_für_Arbeitslose_und_von_Arbeitslosigkeit_bedrohte_Personen_Arbeitsmarktfonds
+  - action: utter_Beantragung_von_Fördermitteln_zur_Qualifizierung_und_Weiterbildung_für_Arbeitslose_und_von_Arbeitslosigkeit_bedrohte_Personen_Arbeitsmarktfonds
+- story:  story_Beratung_Arbeitsmarkt_und_Berufswahl
+  steps:
+  - intent: Beratung_Arbeitsmarkt_und_Berufswahl
+  - action: utter_Beratung_Arbeitsmarkt_und_Berufswahl
+- story:  story_Informationen_Arbeitsmedizinische_Vorsorge
+  steps:
+  - intent: Informationen_Arbeitsmedizinische_Vorsorge
+  - action: utter_Informationen_Arbeitsmedizinische_Vorsorge
+- story:  story_Überwachung_Arbeitsschutz
+  steps:
+  - intent: Überwachung_Arbeitsschutz
+  - action: utter_Überwachung_Arbeitsschutz
+- story:  story_Informationen_über_Fachkräfte_für_Arbeitssicherheit_und_Betriebsärzte_Arbeitssicherheitsorganisation
+  steps:
+  - intent: Informationen_über_Fachkräfte_für_Arbeitssicherheit_und_Betriebsärzte_Arbeitssicherheitsorganisation
+  - action: utter_Informationen_über_Fachkräfte_für_Arbeitssicherheit_und_Betriebsärzte_Arbeitssicherheitsorganisation
+- story:  story_Informationen_zur_Gestaltung_Arbeitsstättengestaltung
+  steps:
+  - intent: Informationen_zur_Gestaltung_Arbeitsstättengestaltung
+  - action: utter_Informationen_zur_Gestaltung_Arbeitsstättengestaltung
+- story:  story_Informationen_Arbeitstherapie
+  steps:
+  - intent: Informationen_Arbeitstherapie
+  - action: utter_Informationen_Arbeitstherapie
+- story:  story_und_Ausbildungsstellenvermittlung_Arbeits
+  steps:
+  - intent: und_Ausbildungsstellenvermittlung_Arbeits
+  - action: utter_und_Ausbildungsstellenvermittlung_Arbeits
+- story:  story_Informationen_Arbeitsunfall
+  steps:
+  - intent: Informationen_Arbeitsunfall
+  - action: utter_Informationen_Arbeitsunfall
+- story:  story_Informationen_Arbeitsverhältnis
+  steps:
+  - intent: Informationen_Arbeitsverhältnis
+  - action: utter_Informationen_Arbeitsverhältnis
+- story:  story_Überwachung_Arbeitszeit
+  steps:
+  - intent: Überwachung_Arbeitszeit
+  - action: utter_Überwachung_Arbeitszeit
+- story:  story_Beantragung_der_Eintragung_in_die_Architektenliste_Architekt:in
+  steps:
+  - intent: Beantragung_der_Eintragung_in_die_Architektenliste_Architekt:in
+  - action: utter_Beantragung_der_Eintragung_in_die_Architektenliste_Architekt:in
+- story:  story_Beantragung_der_Eintragung_in_das_Verzeichnis_der_auswärtigen_Dienstleister_Architekt:in_und_Stadtplaner:in
+  steps:
+  - intent: Beantragung_der_Eintragung_in_das_Verzeichnis_der_auswärtigen_Dienstleister_Architekt:in_und_Stadtplaner:in
+  - action: utter_Beantragung_der_Eintragung_in_das_Verzeichnis_der_auswärtigen_Dienstleister_Architekt:in_und_Stadtplaner:in
+- story:  story_Informationen_zum_Vollzug_Artenschutzrecht
+  steps:
+  - intent: Informationen_zum_Vollzug_Artenschutzrecht
+  - action: utter_Informationen_zum_Vollzug_Artenschutzrecht
+- story:  story__Arznei-,_Verband-_und_Hilfsmittel;_Informationen_über_Festbeträge
+  steps:
+  - intent: _Arznei-,_Verband-_und_Hilfsmittel;_Informationen_über_Festbeträge
+  - action: utter__Arznei-,_Verband-_und_Hilfsmittel;_Informationen_über_Festbeträge
+- story:  story_Informationen_Arzneimittel
+  steps:
+  - intent: Informationen_Arzneimittel
+  - action: utter_Informationen_Arzneimittel
+- story:  story_Anzeige_einer_vorübergehenden_und_gelegentlichen_Erbringung_von_Dienstleistungen_Arzt:Ärztin
+  steps:
+  - intent: Anzeige_einer_vorübergehenden_und_gelegentlichen_Erbringung_von_Dienstleistungen_Arzt:Ärztin
+  - action: utter_Anzeige_einer_vorübergehenden_und_gelegentlichen_Erbringung_von_Dienstleistungen_Arzt:Ärztin
+- story:  story_Beantragung_einer_Approbation_Arzt:Ärztin
+  steps:
+  - intent: Beantragung_einer_Approbation_Arzt:Ärztin
+  - action: utter_Beantragung_einer_Approbation_Arzt:Ärztin
+- story:  story_Beantragung_einer_Approbation_bei_Ausbildung_in_einem_Drittstaat_Arzt:Ärztin
+  steps:
+  - intent: Beantragung_einer_Approbation_bei_Ausbildung_in_einem_Drittstaat_Arzt:Ärztin
+  - action: utter_Beantragung_einer_Approbation_bei_Ausbildung_in_einem_Drittstaat_Arzt:Ärztin
+- story:  story_Beantragung_einer_Erlaubnis_zur_vorübergehenden_Ausübung_des_ärztlichen_Berufs_Arzt:Ärztin
+  steps:
+  - intent: Beantragung_einer_Erlaubnis_zur_vorübergehenden_Ausübung_des_ärztlichen_Berufs_Arzt:Ärztin
+  - action: utter_Beantragung_einer_Erlaubnis_zur_vorübergehenden_Ausübung_des_ärztlichen_Berufs_Arzt:Ärztin
+- story:  story_Beantragung_der_Landarztprämie_Ärzte_und_Psychotherapeuten_im_ländlichen_Raum
+  steps:
+  - intent: Beantragung_der_Landarztprämie_Ärzte_und_Psychotherapeuten_im_ländlichen_Raum
+  - action: utter_Beantragung_der_Landarztprämie_Ärzte_und_Psychotherapeuten_im_ländlichen_Raum
+- story:  story_Informationen_Ärztliche_Behandlung
+  steps:
+  - intent: Informationen_Ärztliche_Behandlung
+  - action: utter_Informationen_Ärztliche_Behandlung
+- story:  story_Informationen_Ärztliche_Zweitmeinung
+  steps:
+  - intent: Informationen_Ärztliche_Zweitmeinung
+  - action: utter_Informationen_Ärztliche_Zweitmeinung
+- story:  story_Informationen_Arztwahl
+  steps:
+  - intent: Informationen_Arztwahl
+  - action: utter_Informationen_Arztwahl
+- story:  story_Beantragung_einer_Auszugsgestattung_Asylbewerber
+  steps:
+  - intent: Beantragung_einer_Auszugsgestattung_Asylbewerber
+  - action: utter_Beantragung_einer_Auszugsgestattung_Asylbewerber
+- story:  story_Informationen_über_Leistungen_Asylbewerber
+  steps:
+  - intent: Informationen_über_Leistungen_Asylbewerber
+  - action: utter_Informationen_über_Leistungen_Asylbewerber
+- story:  story_Asylantragstellung_Asylverfahren
+  steps:
+  - intent: Asylantragstellung_Asylverfahren
+  - action: utter_Asylantragstellung_Asylverfahren
+- story:  story_Beantragung_für_Au_Aufenthaltserlaubnis
+  steps:
+  - intent: Beantragung_für_Au_Aufenthaltserlaubnis
+  - action: utter_Beantragung_für_Au_Aufenthaltserlaubnis
+- story:  story_Beantragung_für_den_Familiennachzug_zu_Ausländern_Aufenthaltserlaubnis
+  steps:
+  - intent: Beantragung_für_den_Familiennachzug_zu_Ausländern_Aufenthaltserlaubnis
+  - action: utter_Beantragung_für_den_Familiennachzug_zu_Ausländern_Aufenthaltserlaubnis
+- story:  story_Beantragung_und_Verlängerung_Aufenthaltserlaubnis
+  steps:
+  - intent: Beantragung_und_Verlängerung_Aufenthaltserlaubnis
+  - action: utter_Beantragung_und_Verlängerung_Aufenthaltserlaubnis
+- story:  story_Beantragung_zum_Zweck_der_Erwerbstätigkeit_(Fachkräfteeinwanderungsgesetz)_Aufenthaltserlaubnis
+  steps:
+  - intent: Beantragung_zum_Zweck_der_Erwerbstätigkeit_(Fachkräfteeinwanderungsgesetz)_Aufenthaltserlaubnis
+  - action: utter_Beantragung_zum_Zweck_der_Erwerbstätigkeit_(Fachkräfteeinwanderungsgesetz)_Aufenthaltserlaubnis
+- story:  story_Beantragung_zum_Zweck_des_Studiums_Aufenthaltserlaubnis
+  steps:
+  - intent: Beantragung_zum_Zweck_des_Studiums_Aufenthaltserlaubnis
+  - action: utter_Beantragung_zum_Zweck_des_Studiums_Aufenthaltserlaubnis
+- story:  story_Erteilung_und_Verlängerung_Aufenthaltsgestattung
+  steps:
+  - intent: Erteilung_und_Verlängerung_Aufenthaltsgestattung
+  - action: utter_Erteilung_und_Verlängerung_Aufenthaltsgestattung
+- story:  story_Beantragung_Aufenthaltskarten_und_Bescheinigung_über_das_Daueraufenthaltsrecht
+  steps:
+  - intent: Beantragung_Aufenthaltskarten_und_Bescheinigung_über_das_Daueraufenthaltsrecht
+  - action: utter_Beantragung_Aufenthaltskarten_und_Bescheinigung_über_das_Daueraufenthaltsrecht
+- story:  story_Beantragung_eines_elektronischen_Aufenthaltstitels_Aufenthaltstitel
+  steps:
+  - intent: Beantragung_eines_elektronischen_Aufenthaltstitels_Aufenthaltstitel
+  - action: utter_Beantragung_eines_elektronischen_Aufenthaltstitels_Aufenthaltstitel
+- story:  story_Beantragung_Aufenthaltstitel_bei_Asylantrag
+  steps:
+  - intent: Beantragung_Aufenthaltstitel_bei_Asylantrag
+  - action: utter_Beantragung_Aufenthaltstitel_bei_Asylantrag
+- story:  story_Durchführung_und_Erlass_eines_Ausschließungsbeschlusses_Aufgebotsverfahren
+  steps:
+  - intent: Durchführung_und_Erlass_eines_Ausschließungsbeschlusses_Aufgebotsverfahren
+  - action: utter_Durchführung_und_Erlass_eines_Ausschließungsbeschlusses_Aufgebotsverfahren
+- story:  story_Beantragung_für_Schülerinnen_und_Schüler_Ausbildungsförderung
+  steps:
+  - intent: Beantragung_für_Schülerinnen_und_Schüler_Ausbildungsförderung
+  - action: utter_Beantragung_für_Schülerinnen_und_Schüler_Ausbildungsförderung
+- story:  story_Beantragung_für_Studierende_Ausbildungsförderung
+  steps:
+  - intent: Beantragung_für_Studierende_Ausbildungsförderung
+  - action: utter_Beantragung_für_Studierende_Ausbildungsförderung
+- story:  story_Beantragung_Ausbildungsförderung_bei_beruflicher_Ausbildung
+  steps:
+  - intent: Beantragung_Ausbildungsförderung_bei_beruflicher_Ausbildung
+  - action: utter_Beantragung_Ausbildungsförderung_bei_beruflicher_Ausbildung
+- story:  story_Informationen_Ausbildungsförderung_bei_schulischer_Ausbildung_und_Hochschulausbildung
+  steps:
+  - intent: Informationen_Ausbildungsförderung_bei_schulischer_Ausbildung_und_Hochschulausbildung
+  - action: utter_Informationen_Ausbildungsförderung_bei_schulischer_Ausbildung_und_Hochschulausbildung
+- story:  story_Informationen_Ausbildungsförderung_im_Rahmen_der_Grundsicherung_für_Arbeitsuchende
+  steps:
+  - intent: Informationen_Ausbildungsförderung_im_Rahmen_der_Grundsicherung_für_Arbeitsuchende
+  - action: utter_Informationen_Ausbildungsförderung_im_Rahmen_der_Grundsicherung_für_Arbeitsuchende
+- story:  story_Anmeldung_zum_Auswahlverfahren_Ausbildungsplatz_als_Beamter:Beamtin_in_der_öffentlichen_Verwaltung
+  steps:
+  - intent: Anmeldung_zum_Auswahlverfahren_Ausbildungsplatz_als_Beamter:Beamtin_in_der_öffentlichen_Verwaltung
+  - action: utter_Anmeldung_zum_Auswahlverfahren_Ausbildungsplatz_als_Beamter:Beamtin_in_der_öffentlichen_Verwaltung
+- story:  story_Bezahlung_Ausgleichsabgabe
+  steps:
+  - intent: Bezahlung_Ausgleichsabgabe
+  - action: utter_Bezahlung_Ausgleichsabgabe
+- story:  story_Übermittlungssperre_Auskunftssperre
+  steps:
+  - intent: Übermittlungssperre_Auskunftssperre
+  - action: utter_Übermittlungssperre_Auskunftssperre
+- story:  story_Informationen_zur_Erwerbstätigkeit_Ausländer
+  steps:
+  - intent: Informationen_zur_Erwerbstätigkeit_Ausländer
+  - action: utter_Informationen_zur_Erwerbstätigkeit_Ausländer
+- story:  story_Informationen_zur_Härtefallkommission_des_Landes_Bayern_Ausländerrecht
+  steps:
+  - intent: Informationen_zur_Härtefallkommission_des_Landes_Bayern_Ausländerrecht
+  - action: utter_Informationen_zur_Härtefallkommission_des_Landes_Bayern_Ausländerrecht
+- story:  story_Beratung_und_Hilfen_zur_Integration_Ausländische_Arbeitnehmer
+  steps:
+  - intent: Beratung_und_Hilfen_zur_Integration_Ausländische_Arbeitnehmer
+  - action: utter_Beratung_und_Hilfen_zur_Integration_Ausländische_Arbeitnehmer
+- story:  story_Informationen_über_Rechte_in_der_Sozialversicherung_Ausländische_Arbeitnehmer
+  steps:
+  - intent: Informationen_über_Rechte_in_der_Sozialversicherung_Ausländische_Arbeitnehmer
+  - action: utter_Informationen_über_Rechte_in_der_Sozialversicherung_Ausländische_Arbeitnehmer
+- story:  story__Ausländische_Grade,_Hochschultitel_und_Hochschultätigkeitsbezeichnungen;_Informationen_zur_Führung
+  steps:
+  - intent: _Ausländische_Grade,_Hochschultitel_und_Hochschultätigkeitsbezeichnungen;_Informationen_zur_Führung
+  - action: utter__Ausländische_Grade,_Hochschultitel_und_Hochschultätigkeitsbezeichnungen;_Informationen_zur_Führung
+- story:  story_Beantragung_der_Anerkennung_Ausländischer_Schulabschluss
+  steps:
+  - intent: Beantragung_der_Anerkennung_Ausländischer_Schulabschluss
+  - action: utter_Beantragung_der_Anerkennung_Ausländischer_Schulabschluss
+- story:  story_Informationen_zur_Krankenversicherung_Auslandsaufenthalt
+  steps:
+  - intent: Informationen_zur_Krankenversicherung_Auslandsaufenthalt
+  - action: utter_Informationen_zur_Krankenversicherung_Auslandsaufenthalt
+- story:  story_Informationen_zur_Kriegsopferfürsorge_Auslandsaufenthalt
+  steps:
+  - intent: Informationen_zur_Kriegsopferfürsorge_Auslandsaufenthalt
+  - action: utter_Informationen_zur_Kriegsopferfürsorge_Auslandsaufenthalt
+- story:  story_Informationen_zur_Kriegsopferversorgung_Auslandsaufenthalt
+  steps:
+  - intent: Informationen_zur_Kriegsopferversorgung_Auslandsaufenthalt
+  - action: utter_Informationen_zur_Kriegsopferversorgung_Auslandsaufenthalt
+- story:  story_Informationen_zur_Pflegeversicherung_Auslandsaufenthalt
+  steps:
+  - intent: Informationen_zur_Pflegeversicherung_Auslandsaufenthalt
+  - action: utter_Informationen_zur_Pflegeversicherung_Auslandsaufenthalt
+- story:  story_Informationen_zur_Rentenversicherung_Auslandsaufenthalt
+  steps:
+  - intent: Informationen_zur_Rentenversicherung_Auslandsaufenthalt
+  - action: utter_Informationen_zur_Rentenversicherung_Auslandsaufenthalt
+- story:  story_Informationen_zur_Sozialhilfe_Auslandsaufenthalt
+  steps:
+  - intent: Informationen_zur_Sozialhilfe_Auslandsaufenthalt
+  - action: utter_Informationen_zur_Sozialhilfe_Auslandsaufenthalt
+- story:  story_Beantragung_der_Anerkennung_Auslandsstudien
+  steps:
+  - intent: Beantragung_der_Anerkennung_Auslandsstudien
+  - action: utter_Beantragung_der_Anerkennung_Auslandsstudien
+- story:  story_Informationen_Auslandsstudium
+  steps:
+  - intent: Informationen_Auslandsstudium
+  - action: utter_Informationen_Auslandsstudium
+- story:  story_Ausstellung_Ausnahme_Visum
+  steps:
+  - intent: Ausstellung_Ausnahme_Visum
+  - action: utter_Ausstellung_Ausnahme_Visum
+- story:  story_Erlass_Außenbereichssatzung
+  steps:
+  - intent: Erlass_Außenbereichssatzung
+  - action: utter_Erlass_Außenbereichssatzung
+- story:  story_Informationen_Außerklinische_Intensivpflege
+  steps:
+  - intent: Informationen_Außerklinische_Intensivpflege
+  - action: utter_Informationen_Außerklinische_Intensivpflege
+- story:  story_Beantragung_der_Förderung_Außerschulische_Hausaufgabenhilfe_mit_Schwerpunkt_Deutschförderung
+  steps:
+  - intent: Beantragung_der_Förderung_Außerschulische_Hausaufgabenhilfe_mit_Schwerpunkt_Deutschförderung
+  - action: utter_Beantragung_der_Förderung_Außerschulische_Hausaufgabenhilfe_mit_Schwerpunkt_Deutschförderung
+- story:  story_Nutzung_von_Räumen_Ausstellungen_im_Landratsamt
+  steps:
+  - intent: Nutzung_von_Räumen_Ausstellungen_im_Landratsamt
+  - action: utter_Nutzung_von_Räumen_Ausstellungen_im_Landratsamt
+- story:  story_Beantragung_einer_Förderung_Ausstellungen_und_Symposien_im_Bereich_der_Bildenden_Kunst
+  steps:
+  - intent: Beantragung_einer_Förderung_Ausstellungen_und_Symposien_im_Bereich_der_Bildenden_Kunst
+  - action: utter_Beantragung_einer_Förderung_Ausstellungen_und_Symposien_im_Bereich_der_Bildenden_Kunst
+- story:  story_Einreichung_einer_Anregung_Auszeichnung_"Weißer_Engel"
+  steps:
+  - intent: Einreichung_einer_Anregung_Auszeichnung_"Weißer_Engel"
+  - action: utter_Einreichung_einer_Anregung_Auszeichnung_"Weißer_Engel"
+- story:  story_Fachliche_Beratung_Bachpatenschaften
+  steps:
+  - intent: Fachliche_Beratung_Bachpatenschaften
+  - action: utter_Fachliche_Beratung_Bachpatenschaften
+- story:  story_Betreten_und_Befahren_von_Eisflächen_Baden
+  steps:
+  - intent: Betreten_und_Befahren_von_Eisflächen_Baden
+  - action: utter_Betreten_und_Befahren_von_Eisflächen_Baden
+- story:  story_Erklärung_Bannwald
+  steps:
+  - intent: Erklärung_Bannwald
+  - action: utter_Erklärung_Bannwald
+- story:  story_BayernPortal_Barrierefreiheit_für_Menschen_mit_Sehbehinderung_im_Verwaltungsverfahren_
+  steps:
+  - intent: BayernPortal_Barrierefreiheit_für_Menschen_mit_Sehbehinderung_im_Verwaltungsverfahren_
+  - action: utter_BayernPortal_Barrierefreiheit_für_Menschen_mit_Sehbehinderung_im_Verwaltungsverfahren_
+- story:  story_Beantragung_der_Bestätigung_der_ausreichenden_Berufsqualifikation_von_im_Ausland_niedergelassenen_Sachverständigen_Batteriegesetz
+  steps:
+  - intent: Beantragung_der_Bestätigung_der_ausreichenden_Berufsqualifikation_von_im_Ausland_niedergelassenen_Sachverständigen_Batteriegesetz
+  - action: utter_Beantragung_der_Bestätigung_der_ausreichenden_Berufsqualifikation_von_im_Ausland_niedergelassenen_Sachverständigen_Batteriegesetz
+- story:  story_Überwachung_Bauarbeiterschutz
+  steps:
+  - intent: Überwachung_Bauarbeiterschutz
+  - action: utter_Überwachung_Bauarbeiterschutz
+- story:  story_Beantragung_einer_Förderung_durch_die_Gemeinde_Bauen_und_Wohnen
+  steps:
+  - intent: Beantragung_einer_Förderung_durch_die_Gemeinde_Bauen_und_Wohnen
+  - action: utter_Beantragung_einer_Förderung_durch_die_Gemeinde_Bauen_und_Wohnen
+- story:  story_Informationen_Bäuerinnenerholung
+  steps:
+  - intent: Informationen_Bäuerinnenerholung
+  - action: utter_Informationen_Bäuerinnenerholung
+- story:  story_Erschließung_Baugebiet
+  steps:
+  - intent: Erschließung_Baugebiet
+  - action: utter_Erschließung_Baugebiet
+- story:  story_Auskunft_über_den_Bearbeitungsstand_Baugenehmigungsverfahren
+  steps:
+  - intent: Auskunft_über_den_Bearbeitungsstand_Baugenehmigungsverfahren
+  - action: utter_Auskunft_über_den_Bearbeitungsstand_Baugenehmigungsverfahren
+- story:  story_Beantragung_Baukindergeld
+  steps:
+  - intent: Beantragung_Baukindergeld
+  - action: utter_Beantragung_Baukindergeld
+- story:  story_Bereitstellung_durch_Gemeinde_Bauland
+  steps:
+  - intent: Bereitstellung_durch_Gemeinde_Bauland
+  - action: utter_Bereitstellung_durch_Gemeinde_Bauland
+- story:  story_Anzeige_der_Beseitigung_Bauliche_Anlage
+  steps:
+  - intent: Anzeige_der_Beseitigung_Bauliche_Anlage
+  - action: utter_Anzeige_der_Beseitigung_Bauliche_Anlage
+- story:  story_Beantragung_Baumfällung_oder_Baumveränderung
+  steps:
+  - intent: Beantragung_Baumfällung_oder_Baumveränderung
+  - action: utter_Beantragung_Baumfällung_oder_Baumveränderung
+- story:  story_Erlass_örtlicher_Bauvorschriften_Baurecht
+  steps:
+  - intent: Erlass_örtlicher_Bauvorschriften_Baurecht
+  - action: utter_Erlass_örtlicher_Bauvorschriften_Baurecht
+- story:  story_Bewerbung_Bautechniker:in_im_öffentlichen_Dienst
+  steps:
+  - intent: Bewerbung_Bautechniker:in_im_öffentlichen_Dienst
+  - action: utter_Bewerbung_Bautechniker:in_im_öffentlichen_Dienst
+- story:  story_Anzeige_der_Nutzungsaufnahme_Bauvorhaben
+  steps:
+  - intent: Anzeige_der_Nutzungsaufnahme_Bauvorhaben
+  - action: utter_Anzeige_der_Nutzungsaufnahme_Bauvorhaben
+- story:  story_Anzeige_des_Baubeginns_Bauvorhaben
+  steps:
+  - intent: Anzeige_des_Baubeginns_Bauvorhaben
+  - action: utter_Anzeige_des_Baubeginns_Bauvorhaben
+- story:  story_Beantragung_der_Verlängerung_einer_Baugenehmigung_oder_eines_Vorbescheids_Bauvorhaben
+  steps:
+  - intent: Beantragung_der_Verlängerung_einer_Baugenehmigung_oder_eines_Vorbescheids_Bauvorhaben
+  - action: utter_Beantragung_der_Verlängerung_einer_Baugenehmigung_oder_eines_Vorbescheids_Bauvorhaben
+- story:  story_Beantragung_einer_Baugenehmigung_Bauvorhaben
+  steps:
+  - intent: Beantragung_einer_Baugenehmigung_Bauvorhaben
+  - action: utter_Beantragung_einer_Baugenehmigung_Bauvorhaben
+- story:  story_Beantragung_einer_isolierten_Abweichung_von_örtlichen_Bauvorschriften_Bauvorhaben
+  steps:
+  - intent: Beantragung_einer_isolierten_Abweichung_von_örtlichen_Bauvorschriften_Bauvorhaben
+  - action: utter_Beantragung_einer_isolierten_Abweichung_von_örtlichen_Bauvorschriften_Bauvorhaben
+- story:  story_Beantragung_einer_isolierten_Abweichung_von_sonstigem_Bauordnungsrecht_Bauvorhaben
+  steps:
+  - intent: Beantragung_einer_isolierten_Abweichung_von_sonstigem_Bauordnungsrecht_Bauvorhaben
+  - action: utter_Beantragung_einer_isolierten_Abweichung_von_sonstigem_Bauordnungsrecht_Bauvorhaben
+- story:  story_Beantragung_einer_isolierten_Ausnahme_vom_Bebauungsplan_Bauvorhaben
+  steps:
+  - intent: Beantragung_einer_isolierten_Ausnahme_vom_Bebauungsplan_Bauvorhaben
+  - action: utter_Beantragung_einer_isolierten_Ausnahme_vom_Bebauungsplan_Bauvorhaben
+- story:  story_Beantragung_einer_isolierten_Befreiung_vom_Bebauungsplan_Bauvorhaben
+  steps:
+  - intent: Beantragung_einer_isolierten_Befreiung_vom_Bebauungsplan_Bauvorhaben
+  - action: utter_Beantragung_einer_isolierten_Befreiung_vom_Bebauungsplan_Bauvorhaben
+- story:  story_Beantragung_einer_Teilbaugenehmigung_Bauvorhaben
+  steps:
+  - intent: Beantragung_einer_Teilbaugenehmigung_Bauvorhaben
+  - action: utter_Beantragung_einer_Teilbaugenehmigung_Bauvorhaben
+- story:  story_Beantragung_einer_Zustimmung_im_Einzelfall_und:oder_einer_vorhabenbezogene_Bauartgenehmigung_Bauvorhaben
+  steps:
+  - intent: Beantragung_einer_Zustimmung_im_Einzelfall_und:oder_einer_vorhabenbezogene_Bauartgenehmigung_Bauvorhaben
+  - action: utter_Beantragung_einer_Zustimmung_im_Einzelfall_und:oder_einer_vorhabenbezogene_Bauartgenehmigung_Bauvorhaben
+- story:  story_Beantragung_eines_Vorbescheids_Bauvorhaben
+  steps:
+  - intent: Beantragung_eines_Vorbescheids_Bauvorhaben
+  - action: utter_Beantragung_eines_Vorbescheids_Bauvorhaben
+- story:  story_Online_Bauvorhaben
+  steps:
+  - intent: Online_Bauvorhaben
+  - action: utter_Online_Bauvorhaben
+- story:  story_Vorlage_von_Unterlagen_zur_Genehmigungsfreistellung_Bauvorhaben
+  steps:
+  - intent: Vorlage_von_Unterlagen_zur_Genehmigungsfreistellung_Bauvorhaben
+  - action: utter_Vorlage_von_Unterlagen_zur_Genehmigungsfreistellung_Bauvorhaben
+- story:  story_Beantragung_Bayerische_Ehrenamtskarte
+  steps:
+  - intent: Beantragung_Bayerische_Ehrenamtskarte
+  - action: utter_Beantragung_Bayerische_Ehrenamtskarte
+- story:  story_Informationen_Bayerische_Ehrenamtsversicherung
+  steps:
+  - intent: Informationen_Bayerische_Ehrenamtsversicherung
+  - action: utter_Informationen_Bayerische_Ehrenamtsversicherung
+- story:  story_Beratung_und_Ausstellung_Bayerischer_Bildungsscheck
+  steps:
+  - intent: Beratung_und_Ausstellung_Bayerischer_Bildungsscheck
+  - action: utter_Beratung_und_Ausstellung_Bayerischer_Bildungsscheck
+- story:  story_Anmeldung_für_Besuch_Bayerischer_Landtag
+  steps:
+  - intent: Anmeldung_für_Besuch_Bayerischer_Landtag
+  - action: utter_Anmeldung_für_Besuch_Bayerischer_Landtag
+- story:  story_Einreichung_von_Petitionen_Bayerischer_Landtag
+  steps:
+  - intent: Einreichung_von_Petitionen_Bayerischer_Landtag
+  - action: utter_Einreichung_von_Petitionen_Bayerischer_Landtag
+- story:  story_Übertragung_und_Aufzeichnung_der_Plenarsitzungen_Bayerischer_Landtag
+  steps:
+  - intent: Übertragung_und_Aufzeichnung_der_Plenarsitzungen_Bayerischer_Landtag
+  - action: utter_Übertragung_und_Aufzeichnung_der_Plenarsitzungen_Bayerischer_Landtag
+- story:  story_Einreichung_einer_Anregung_Bayerische_Staatsmedaille_für_Verdienste_um_Gesundheit_und_Pflege
+  steps:
+  - intent: Einreichung_einer_Anregung_Bayerische_Staatsmedaille_für_Verdienste_um_Gesundheit_und_Pflege
+  - action: utter_Einreichung_einer_Anregung_Bayerische_Staatsmedaille_für_Verdienste_um_Gesundheit_und_Pflege
+- story:  story_Verwaltung_mobil_BayernApp_
+  steps:
+  - intent: Verwaltung_mobil_BayernApp_
+  - action: utter_Verwaltung_mobil_BayernApp_
+- story:  story_Kartenviewer_des_Freistaates_Bayern_BayernAtlas
+  steps:
+  - intent: Kartenviewer_des_Freistaates_Bayern_BayernAtlas
+  - action: utter_Kartenviewer_des_Freistaates_Bayern_BayernAtlas
+- story:  story_Fahrplan_Bayern
+  steps:
+  - intent: Fahrplan_Bayern
+  - action: utter_Fahrplan_Bayern
+- story:  story_Fahrplanauskunft_Bayern_Fahrplan_für_Bus_und_Bahn
+  steps:
+  - intent: Fahrplanauskunft_Bayern_Fahrplan_für_Bus_und_Bahn
+  - action: utter_Fahrplanauskunft_Bayern_Fahrplan_für_Bus_und_Bahn
+- story:  story_Informationsportal_BayernInfo
+  steps:
+  - intent: Informationsportal_BayernInfo
+  - action: utter_Informationsportal_BayernInfo
+- story:  story_App_BayernInfo_Maps
+  steps:
+  - intent: App_BayernInfo_Maps
+  - action: utter_App_BayernInfo_Maps
+- story:  story_App_Bayernnetz_für_Radler
+  steps:
+  - intent: App_Bayernnetz_für_Radler
+  - action: utter_App_Bayernnetz_für_Radler
+- story:  story_Behördensuche_und_Zuständigkeitsfinder_BayernPortal
+  steps:
+  - intent: Behördensuche_und_Zuständigkeitsfinder_BayernPortal
+  - action: utter_Behördensuche_und_Zuständigkeitsfinder_BayernPortal
+- story:  story_App_BayernTourNatur
+  steps:
+  - intent: App_BayernTourNatur
+  - action: utter_App_BayernTourNatur
+- story:  story_Beantragung_der_Anerkennung_einer_ausländischen_Qualifikation_Beamter:in
+  steps:
+  - intent: Beantragung_der_Anerkennung_einer_ausländischen_Qualifikation_Beamter:in
+  - action: utter_Beantragung_der_Anerkennung_einer_ausländischen_Qualifikation_Beamter:in
+- story:  story_Aufstellung_Bebauungsplan
+  steps:
+  - intent: Aufstellung_Bebauungsplan
+  - action: utter_Aufstellung_Bebauungsplan
+- story:  story_Anmeldung_Beherbergungsstätte
+  steps:
+  - intent: Anmeldung_Beherbergungsstätte
+  - action: utter_Anmeldung_Beherbergungsstätte
+- story:  story_Frühförderung_und_Frühbehandlung_Behinderte_Kinder
+  steps:
+  - intent: Frühförderung_und_Frühbehandlung_Behinderte_Kinder
+  - action: utter_Frühförderung_und_Frühbehandlung_Behinderte_Kinder
+- story:  story_Beantragung_von_Eingliederungshilfe_Behinderte_Menschen
+  steps:
+  - intent: Beantragung_von_Eingliederungshilfe_Behinderte_Menschen
+  - action: utter_Beantragung_von_Eingliederungshilfe_Behinderte_Menschen
+- story:  story_Beantragung_von_Hilfen_für_die_Betreuung_in_Werkstätten_Behinderte_Menschen
+  steps:
+  - intent: Beantragung_von_Hilfen_für_die_Betreuung_in_Werkstätten_Behinderte_Menschen
+  - action: utter_Beantragung_von_Hilfen_für_die_Betreuung_in_Werkstätten_Behinderte_Menschen
+- story:  story_Beantragung_von_Hilfen_für_die_Teilnahme_an_Kuren_Behinderte_Menschen
+  steps:
+  - intent: Beantragung_von_Hilfen_für_die_Teilnahme_an_Kuren_Behinderte_Menschen
+  - action: utter_Beantragung_von_Hilfen_für_die_Teilnahme_an_Kuren_Behinderte_Menschen
+- story:  story_Beantragung_von_Hilfen_zum_Besuch_einer_Hochschule_Behinderte_Menschen
+  steps:
+  - intent: Beantragung_von_Hilfen_zum_Besuch_einer_Hochschule_Behinderte_Menschen
+  - action: utter_Beantragung_von_Hilfen_zum_Besuch_einer_Hochschule_Behinderte_Menschen
+- story:  story_Beantragung_von_Hilfen_zur_Betreuung_in_einer_Förderstätte_Behinderte_Menschen
+  steps:
+  - intent: Beantragung_von_Hilfen_zur_Betreuung_in_einer_Förderstätte_Behinderte_Menschen
+  - action: utter_Beantragung_von_Hilfen_zur_Betreuung_in_einer_Förderstätte_Behinderte_Menschen
+- story:  story_Beantragung_von_Hilfen_zur_Schulausbildung_Behinderte_Menschen
+  steps:
+  - intent: Beantragung_von_Hilfen_zur_Schulausbildung_Behinderte_Menschen
+  - action: utter_Beantragung_von_Hilfen_zur_Schulausbildung_Behinderte_Menschen
+- story:  story_Beantragung_von_Kfz_Behinderte_Menschen
+  steps:
+  - intent: Beantragung_von_Kfz_Behinderte_Menschen
+  - action: utter_Beantragung_von_Kfz_Behinderte_Menschen
+- story:  story_Beantragung_einer_Förderung_für_Maßnahmen_Behindertenbreitensport
+  steps:
+  - intent: Beantragung_einer_Förderung_für_Maßnahmen_Behindertenbreitensport
+  - action: utter_Beantragung_einer_Förderung_für_Maßnahmen_Behindertenbreitensport
+- story:  story_Informationen_über_Dienste_der_offenen_Behindertenarbeit_Behindertendienste
+  steps:
+  - intent: Informationen_über_Dienste_der_offenen_Behindertenarbeit_Behindertendienste
+  - action: utter_Informationen_über_Dienste_der_offenen_Behindertenarbeit_Behindertendienste
+- story:  story_Informationen_Behindertenerholung
+  steps:
+  - intent: Informationen_Behindertenerholung
+  - action: utter_Informationen_Behindertenerholung
+- story:  story_Beantragung_einer_Förderung_für_Fortbildungsmaßnahmen_Behindertenhilfe
+  steps:
+  - intent: Beantragung_einer_Förderung_für_Fortbildungsmaßnahmen_Behindertenhilfe
+  - action: utter_Beantragung_einer_Förderung_für_Fortbildungsmaßnahmen_Behindertenhilfe
+- story:  story_Beantragung_einer_Förderung_für_Verbandsarbeit_auf_Landesebene_Behindertenhilfe
+  steps:
+  - intent: Beantragung_einer_Förderung_für_Verbandsarbeit_auf_Landesebene_Behindertenhilfe
+  - action: utter_Beantragung_einer_Förderung_für_Verbandsarbeit_auf_Landesebene_Behindertenhilfe
+- story:  story_Informationen_Behindertenselbsthilfe
+  steps:
+  - intent: Informationen_Behindertenselbsthilfe
+  - action: utter_Informationen_Behindertenselbsthilfe
+- story:  story_Informationen_Behindertensport
+  steps:
+  - intent: Informationen_Behindertensport
+  - action: utter_Informationen_Behindertensport
+- story:  story_Beantragung_von_Hilfen_für_die_Betreuung_in_Kindertagesstätten_Behinderung
+  steps:
+  - intent: Beantragung_von_Hilfen_für_die_Betreuung_in_Kindertagesstätten_Behinderung
+  - action: utter_Beantragung_von_Hilfen_für_die_Betreuung_in_Kindertagesstätten_Behinderung
+- story:  story_Beantragung_von_Hilfen_für_die_Betreuung_in_Übergangseinrichtungen_Behinderung
+  steps:
+  - intent: Beantragung_von_Hilfen_für_die_Betreuung_in_Übergangseinrichtungen_Behinderung
+  - action: utter_Beantragung_von_Hilfen_für_die_Betreuung_in_Übergangseinrichtungen_Behinderung
+- story:  story_Beantragung_von_Hilfen_für_die_Nutzung_von_Fahrdiensten_Behinderung
+  steps:
+  - intent: Beantragung_von_Hilfen_für_die_Nutzung_von_Fahrdiensten_Behinderung
+  - action: utter_Beantragung_von_Hilfen_für_die_Nutzung_von_Fahrdiensten_Behinderung
+- story:  story_Beantragung_von_Hilfen_für_die_Unterbringung_in_Langzeiteinrichtungen_und_Heimen_Behinderung
+  steps:
+  - intent: Beantragung_von_Hilfen_für_die_Unterbringung_in_Langzeiteinrichtungen_und_Heimen_Behinderung
+  - action: utter_Beantragung_von_Hilfen_für_die_Unterbringung_in_Langzeiteinrichtungen_und_Heimen_Behinderung
+- story:  story_Beantragung_von_Hilfen_zur_Frühförderung_Behinderung
+  steps:
+  - intent: Beantragung_von_Hilfen_zur_Frühförderung_Behinderung
+  - action: utter_Beantragung_von_Hilfen_zur_Frühförderung_Behinderung
+- story:  story_Beantragung_von_Hilfen_zur_Rehabilitation_Behinderung
+  steps:
+  - intent: Beantragung_von_Hilfen_zur_Rehabilitation_Behinderung
+  - action: utter_Beantragung_von_Hilfen_zur_Rehabilitation_Behinderung
+- story:  story_App_BeihilfeBayern
+  steps:
+  - intent: App_BeihilfeBayern
+  - action: utter_App_BeihilfeBayern
+- story:  story_Beantragung_Beistandschaft
+  steps:
+  - intent: Beantragung_Beistandschaft
+  - action: utter_Beantragung_Beistandschaft
+- story:  story_Beratung_und_Unterstützung_bei_Vaterschaftsfeststellung_und_Geltendmachung_von_Unterhaltsansprüchen_Beistandschaft
+  steps:
+  - intent: Beratung_und_Unterstützung_bei_Vaterschaftsfeststellung_und_Geltendmachung_von_Unterhaltsansprüchen_Beistandschaft
+  - action: utter_Beratung_und_Unterstützung_bei_Vaterschaftsfeststellung_und_Geltendmachung_von_Unterhaltsansprüchen_Beistandschaft
+- story:  story_Informationen_Beitragszeiten_in_der_gesetzlichen_Rentenversicherung
+  steps:
+  - intent: Informationen_Beitragszeiten_in_der_gesetzlichen_Rentenversicherung
+  - action: utter_Informationen_Beitragszeiten_in_der_gesetzlichen_Rentenversicherung
+- story:  story_Informationen_Beitragszuschuss_für_Beschäftigte_in_der_gesetzlichen_Krankenversicherung
+  steps:
+  - intent: Informationen_Beitragszuschuss_für_Beschäftigte_in_der_gesetzlichen_Krankenversicherung
+  - action: utter_Informationen_Beitragszuschuss_für_Beschäftigte_in_der_gesetzlichen_Krankenversicherung
+- story:  story_Informationen_Belastungserprobung_und_Arbeitstherapie
+  steps:
+  - intent: Informationen_Belastungserprobung_und_Arbeitstherapie
+  - action: utter_Informationen_Belastungserprobung_und_Arbeitstherapie
+- story:  story_Informationen_Belastungsgrenze_in_der_gesetzlichen_Krankenversicherung
+  steps:
+  - intent: Informationen_Belastungsgrenze_in_der_gesetzlichen_Krankenversicherung
+  - action: utter_Informationen_Belastungsgrenze_in_der_gesetzlichen_Krankenversicherung
+- story:  story_Beantragung_der_Eintragung_in_die_Liste_der_Beratenden_Ingenieure_Beratende:r_Ingenieur:in
+  steps:
+  - intent: Beantragung_der_Eintragung_in_die_Liste_der_Beratenden_Ingenieure_Beratende:r_Ingenieur:in
+  - action: utter_Beantragung_der_Eintragung_in_die_Liste_der_Beratenden_Ingenieure_Beratende:r_Ingenieur:in
+- story:  story_Beantragung_Beratungshilfe
+  steps:
+  - intent: Beantragung_Beratungshilfe
+  - action: utter_Beantragung_Beratungshilfe
+- story:  story_und_Skiführer:in_Berg
+  steps:
+  - intent: und_Skiführer:in_Berg
+  - action: utter_und_Skiführer:in_Berg
+- story:  story_Beantragung_eines_Weiterbildungsstipendiums_Beruf_im_Agrarbereich_und_in_der_Hauswirtschaft
+  steps:
+  - intent: Beantragung_eines_Weiterbildungsstipendiums_Beruf_im_Agrarbereich_und_in_der_Hauswirtschaft
+  - action: utter_Beantragung_eines_Weiterbildungsstipendiums_Beruf_im_Agrarbereich_und_in_der_Hauswirtschaft
+- story:  story_Beantragung_der_Anerkennung_einer_ausländischen_Berufsqualifikation_Beruf_im_Handwerk
+  steps:
+  - intent: Beantragung_der_Anerkennung_einer_ausländischen_Berufsqualifikation_Beruf_im_Handwerk
+  - action: utter_Beantragung_der_Anerkennung_einer_ausländischen_Berufsqualifikation_Beruf_im_Handwerk
+- story:  story_Beantragung_der_Anerkennung_einer_ausländischen_Berufsqualifikation_für_bundesrechtlich_geregelten_Beruf_Beruf_in_Industrie,_Handel_und_Dienstleistung
+  steps:
+  - intent: Beantragung_der_Anerkennung_einer_ausländischen_Berufsqualifikation_für_bundesrechtlich_geregelten_Beruf_Beruf_in_Industrie,_Handel_und_Dienstleistung
+  - action: utter_Beantragung_der_Anerkennung_einer_ausländischen_Berufsqualifikation_für_bundesrechtlich_geregelten_Beruf_Beruf_in_Industrie,_Handel_und_Dienstleistung
+- story:  story_Beantragung_der_Anerkennung_einer_ausländischen_Berufsqualifikation_für_landesrechtlich_geregelten_Beruf_Beruf_in_Industrie,_Handel_und_Dienstleistung
+  steps:
+  - intent: Beantragung_der_Anerkennung_einer_ausländischen_Berufsqualifikation_für_landesrechtlich_geregelten_Beruf_Beruf_in_Industrie,_Handel_und_Dienstleistung
+  - action: utter_Beantragung_der_Anerkennung_einer_ausländischen_Berufsqualifikation_für_landesrechtlich_geregelten_Beruf_Beruf_in_Industrie,_Handel_und_Dienstleistung
+- story:  story_Informationen_zur_Förderung_Berufliche_Aufstiegsfortbildung
+  steps:
+  - intent: Informationen_zur_Förderung_Berufliche_Aufstiegsfortbildung
+  - action: utter_Informationen_zur_Förderung_Berufliche_Aufstiegsfortbildung
+- story:  story_und_Fortbildung_in_Einrichtungen_der_Bezirke_Berufliche_Aus
+  steps:
+  - intent: und_Fortbildung_in_Einrichtungen_der_Bezirke_Berufliche_Aus
+  - action: utter_und_Fortbildung_in_Einrichtungen_der_Bezirke_Berufliche_Aus
+- story:  story_Informationen_Berufliche_Oberschule
+  steps:
+  - intent: Informationen_Berufliche_Oberschule
+  - action: utter_Informationen_Berufliche_Oberschule
+- story:  story_Beantragung_einer_Fremdsprachensonderregelung_Berufliche_Schule
+  steps:
+  - intent: Beantragung_einer_Fremdsprachensonderregelung_Berufliche_Schule
+  - action: utter_Beantragung_einer_Fremdsprachensonderregelung_Berufliche_Schule
+- story:  story_Beantragung_von_Nachteilsausgleich_und_Notenschutz_bei_andauernden_erheblichen_Beeinträchtigungen_Berufliche_Schulen
+  steps:
+  - intent: Beantragung_von_Nachteilsausgleich_und_Notenschutz_bei_andauernden_erheblichen_Beeinträchtigungen_Berufliche_Schulen
+  - action: utter_Beantragung_von_Nachteilsausgleich_und_Notenschutz_bei_andauernden_erheblichen_Beeinträchtigungen_Berufliche_Schulen
+- story:  story_Informationen_Berufliche_Schulen_zur_sonderpädagogischen_Förderung
+  steps:
+  - intent: Informationen_Berufliche_Schulen_zur_sonderpädagogischen_Förderung
+  - action: utter_Informationen_Berufliche_Schulen_zur_sonderpädagogischen_Förderung
+- story:  story_Beantragung_Berufsanerkennung
+  steps:
+  - intent: Beantragung_Berufsanerkennung
+  - action: utter_Beantragung_Berufsanerkennung
+- story:  story_Beantragung_der_Zuerkennung_der_fachlichen_Eignung_zum_Ausbilden_Berufsausbildung
+  steps:
+  - intent: Beantragung_der_Zuerkennung_der_fachlichen_Eignung_zum_Ausbilden_Berufsausbildung
+  - action: utter_Beantragung_der_Zuerkennung_der_fachlichen_Eignung_zum_Ausbilden_Berufsausbildung
+- story:  story_Informationen_Berufsfachschule
+  steps:
+  - intent: Informationen_Berufsfachschule
+  - action: utter_Informationen_Berufsfachschule
+- story:  story_Informationen_zur_Umschulung_Berufsförderung_für_Menschen_mi_Behinderung
+  steps:
+  - intent: Informationen_zur_Umschulung_Berufsförderung_für_Menschen_mi_Behinderung
+  - action: utter_Informationen_zur_Umschulung_Berufsförderung_für_Menschen_mi_Behinderung
+- story:  story_Informationen_zur_Ausbildung_Berufsförderung_für_Menschen_mit_Behinderung
+  steps:
+  - intent: Informationen_zur_Ausbildung_Berufsförderung_für_Menschen_mit_Behinderung
+  - action: utter_Informationen_zur_Ausbildung_Berufsförderung_für_Menschen_mit_Behinderung
+- story:  story_Informationen_zur_Fortbildung_Berufsförderung_für_Menschen_mit_Behinderung
+  steps:
+  - intent: Informationen_zur_Fortbildung_Berufsförderung_für_Menschen_mit_Behinderung
+  - action: utter_Informationen_zur_Fortbildung_Berufsförderung_für_Menschen_mit_Behinderung
+- story:  story_Durchführung_Berufsgerichtliche_Verfahren
+  steps:
+  - intent: Durchführung_Berufsgerichtliche_Verfahren
+  - action: utter_Durchführung_Berufsgerichtliche_Verfahren
+- story:  story_Anmeldung_zur_Prüfung_zum_Erwerb_der_beschleunigten_Grundqualifikation_Berufskraftfahrer:in
+  steps:
+  - intent: Anmeldung_zur_Prüfung_zum_Erwerb_der_beschleunigten_Grundqualifikation_Berufskraftfahrer:in
+  - action: utter_Anmeldung_zur_Prüfung_zum_Erwerb_der_beschleunigten_Grundqualifikation_Berufskraftfahrer:in
+- story:  story_Beantragung_der_Anerkennung_Berufskrankheit
+  steps:
+  - intent: Beantragung_der_Anerkennung_Berufskrankheit
+  - action: utter_Beantragung_der_Anerkennung_Berufskrankheit
+- story:  story_Erstellung_von_Gutachten_Berufskrankheitsverfahren
+  steps:
+  - intent: Erstellung_von_Gutachten_Berufskrankheitsverfahren
+  - action: utter_Erstellung_von_Gutachten_Berufskrankheitsverfahren
+- story:  story_Anmeldung_Berufsoberschule
+  steps:
+  - intent: Anmeldung_Berufsoberschule
+  - action: utter_Anmeldung_Berufsoberschule
+- story:  story_Informationen_Berufsschule
+  steps:
+  - intent: Informationen_Berufsschule
+  - action: utter_Informationen_Berufsschule
+- story:  story_Beantragung_eines_Zuschusses_bei_notwendiger_auswärtiger_Unterbringung_Berufsschüler
+  steps:
+  - intent: Beantragung_eines_Zuschusses_bei_notwendiger_auswärtiger_Unterbringung_Berufsschüler
+  - action: utter_Beantragung_eines_Zuschusses_bei_notwendiger_auswärtiger_Unterbringung_Berufsschüler
+- story:  story_Anmeldung_zur_Begabtenprüfung_Berufstätige
+  steps:
+  - intent: Anmeldung_zur_Begabtenprüfung_Berufstätige
+  - action: utter_Anmeldung_zur_Begabtenprüfung_Berufstätige
+- story:  story_Beantragung_Berufsunfähigkeitsrente
+  steps:
+  - intent: Beantragung_Berufsunfähigkeitsrente
+  - action: utter_Beantragung_Berufsunfähigkeitsrente
+- story:  story_lnformationen_Berufsvorbereitung
+  steps:
+  - intent: lnformationen_Berufsvorbereitung
+  - action: utter_lnformationen_Berufsvorbereitung
+- story:  story_Beantragung_der_Anerkennung_als_Kursleiter_Besondere_Aufbauseminare
+  steps:
+  - intent: Beantragung_der_Anerkennung_als_Kursleiter_Besondere_Aufbauseminare
+  - action: utter_Beantragung_der_Anerkennung_als_Kursleiter_Besondere_Aufbauseminare
+- story:  story_Bereitstellung_Besondere_Busverbindungen
+  steps:
+  - intent: Bereitstellung_Besondere_Busverbindungen
+  - action: utter_Bereitstellung_Besondere_Busverbindungen
+- story:  story_Herstellung_und_Unterhaltung_Bestattungseinrichtungen
+  steps:
+  - intent: Herstellung_und_Unterhaltung_Bestattungseinrichtungen
+  - action: utter_Herstellung_und_Unterhaltung_Bestattungseinrichtungen
+- story:  story_Informationen_für_Kriegsopferversorgung_Bestattungskosten
+  steps:
+  - intent: Informationen_für_Kriegsopferversorgung_Bestattungskosten
+  - action: utter_Informationen_für_Kriegsopferversorgung_Bestattungskosten
+- story:  story_Informationen_zum_Lastenausgleich_Bestattungskosten
+  steps:
+  - intent: Informationen_zum_Lastenausgleich_Bestattungskosten
+  - action: utter_Informationen_zum_Lastenausgleich_Bestattungskosten
+- story:  story_Informationen_zur_Sozialhilfe_Bestattungskosten
+  steps:
+  - intent: Informationen_zur_Sozialhilfe_Bestattungskosten
+  - action: utter_Informationen_zur_Sozialhilfe_Bestattungskosten
+- story:  story_Informationen_zur_Unfallversicherung_Bestattungskosten
+  steps:
+  - intent: Informationen_zur_Unfallversicherung_Bestattungskosten
+  - action: utter_Informationen_zur_Unfallversicherung_Bestattungskosten
+- story:  story_Behördliche_Überwachung_Bestattungsrecht
+  steps:
+  - intent: Behördliche_Überwachung_Bestattungsrecht
+  - action: utter_Behördliche_Überwachung_Bestattungsrecht
+- story:  story_Überwachung_des_Betäubungsmittelverkehrs_Betäubungsmittel
+  steps:
+  - intent: Überwachung_des_Betäubungsmittelverkehrs_Betäubungsmittel
+  - action: utter_Überwachung_des_Betäubungsmittelverkehrs_Betäubungsmittel
+- story:  story_Informationen_Betreuung
+  steps:
+  - intent: Informationen_Betreuung
+  - action: utter_Informationen_Betreuung
+- story:  story_Unterstützung_der_Gerichte_Betreuungsgerichtshilfe
+  steps:
+  - intent: Unterstützung_der_Gerichte_Betreuungsgerichtshilfe
+  - action: utter_Unterstützung_der_Gerichte_Betreuungsgerichtshilfe
+- story:  story_Beantragung_einer_Förderung_für_Querschnittsarbeit_Betreuungsverein
+  steps:
+  - intent: Beantragung_einer_Förderung_für_Querschnittsarbeit_Betreuungsverein
+  - action: utter_Beantragung_einer_Förderung_für_Querschnittsarbeit_Betreuungsverein
+- story:  story_Informationen_zur_Erstellung_Betreuungsverfügung
+  steps:
+  - intent: Informationen_zur_Erstellung_Betreuungsverfügung
+  - action: utter_Informationen_zur_Erstellung_Betreuungsverfügung
+- story:  story_Informationen_zur_behördlichen_Betreuung_Betreuungswesen
+  steps:
+  - intent: Informationen_zur_behördlichen_Betreuung_Betreuungswesen
+  - action: utter_Informationen_zur_behördlichen_Betreuung_Betreuungswesen
+- story:  story_Vollzugshilfe_Betreuungswesen
+  steps:
+  - intent: Vollzugshilfe_Betreuungswesen
+  - action: utter_Vollzugshilfe_Betreuungswesen
+- story:  story_Informationen_Betriebliche_Altersversorgung
+  steps:
+  - intent: Informationen_Betriebliche_Altersversorgung
+  - action: utter_Informationen_Betriebliche_Altersversorgung
+- story:  story_Informationen_zur_Direktversicherung_Betriebliche_Altersversorgung
+  steps:
+  - intent: Informationen_zur_Direktversicherung_Betriebliche_Altersversorgung
+  - action: utter_Informationen_zur_Direktversicherung_Betriebliche_Altersversorgung
+- story:  story_Informationen_zur_Direktzusage_Betriebliche_Altersversorgung
+  steps:
+  - intent: Informationen_zur_Direktzusage_Betriebliche_Altersversorgung
+  - action: utter_Informationen_zur_Direktzusage_Betriebliche_Altersversorgung
+- story:  story_Beantragung_der_Anerkennung_einer_ausländischen_Qualifikation_Betriebsleiter:in_von_Seilbahnen
+  steps:
+  - intent: Beantragung_der_Anerkennung_einer_ausländischen_Qualifikation_Betriebsleiter:in_von_Seilbahnen
+  - action: utter_Beantragung_der_Anerkennung_einer_ausländischen_Qualifikation_Betriebsleiter:in_von_Seilbahnen
+- story:  story_und_Haushaltshilfe_für_Landwirte_Betriebs
+  steps:
+  - intent: und_Haushaltshilfe_für_Landwirte_Betriebs
+  - action: utter_und_Haushaltshilfe_für_Landwirte_Betriebs
+- story:  story_Informationen_Betriebsverfassung
+  steps:
+  - intent: Informationen_Betriebsverfassung
+  - action: utter_Informationen_Betriebsverfassung
+- story:  story_Warnung_der_Bevölkerung_Bevölkerungsschutz
+  steps:
+  - intent: Warnung_der_Bevölkerung_Bevölkerungsschutz
+  - action: utter_Warnung_der_Bevölkerung_Bevölkerungsschutz
+- story:  story_Versicherungsberater:in_Bewacher:in
+  steps:
+  - intent: Versicherungsberater:in_Bewacher:in
+  - action: utter_Versicherungsberater:in_Bewacher:in
+- story:  story_Beantragung_von_waffenrechtlichen_Erlaubnissen_Bewaffneter_Geldtransport
+  steps:
+  - intent: Beantragung_von_waffenrechtlichen_Erlaubnissen_Bewaffneter_Geldtransport
+  - action: utter_Beantragung_von_waffenrechtlichen_Erlaubnissen_Bewaffneter_Geldtransport
+- story:  story_Informationen_Bewährungshilfe
+  steps:
+  - intent: Informationen_Bewährungshilfe
+  - action: utter_Informationen_Bewährungshilfe
+- story:  story_Beantragung_Bewohnerparkausweis
+  steps:
+  - intent: Beantragung_Bewohnerparkausweis
+  - action: utter_Beantragung_Bewohnerparkausweis
+- story:  story_Recherche_Bibliotheksverbund
+  steps:
+  - intent: Recherche_Bibliotheksverbund
+  - action: utter_Recherche_Bibliotheksverbund
+- story:  story_Informationen_Bildungsarbeit_der_Bezirke
+  steps:
+  - intent: Informationen_Bildungsarbeit_der_Bezirke
+  - action: utter_Informationen_Bildungsarbeit_der_Bezirke
+- story:  story_Beantragung_Bildungskredit
+  steps:
+  - intent: Beantragung_Bildungskredit
+  - action: utter_Beantragung_Bildungskredit
+- story:  story_Informationen_Bildungssystem_in_Bayern
+  steps:
+  - intent: Informationen_Bildungssystem_in_Bayern
+  - action: utter_Informationen_Bildungssystem_in_Bayern
+- story:  story_Informationen_über_Leistungen_Bildung_und_Teilhabe
+  steps:
+  - intent: Informationen_über_Leistungen_Bildung_und_Teilhabe
+  - action: utter_Informationen_über_Leistungen_Bildung_und_Teilhabe
+- story:  story_Beantragung_einer_Förderung_Biomasseheizwerk
+  steps:
+  - intent: Beantragung_einer_Förderung_Biomasseheizwerk
+  - action: utter_Beantragung_einer_Förderung_Biomasseheizwerk
+- story:  story_Beantragung_Blaue_Karte_EU
+  steps:
+  - intent: Beantragung_Blaue_Karte_EU
+  - action: utter_Beantragung_Blaue_Karte_EU
+- story:  story_Beantragung_von_Hilfen_für_Zivilblinde_(Blindengeld)_Blinde
+  steps:
+  - intent: Beantragung_von_Hilfen_für_Zivilblinde_(Blindengeld)_Blinde
+  - action: utter_Beantragung_von_Hilfen_für_Zivilblinde_(Blindengeld)_Blinde
+- story:  story_Informationen_über_Hilfen_für_Kriegsblinde_Blinde
+  steps:
+  - intent: Informationen_über_Hilfen_für_Kriegsblinde_Blinde
+  - action: utter_Informationen_über_Hilfen_für_Kriegsblinde_Blinde
+- story:  story_Überwachung_der_dezentralen_Blutspendetermine_Blutspende
+  steps:
+  - intent: Überwachung_der_dezentralen_Blutspendetermine_Blutspende
+  - action: utter_Überwachung_der_dezentralen_Blutspendetermine_Blutspende
+- story:  story_Abruf_von_geowissenschaftlichen_Daten_Bodeninformationssystem
+  steps:
+  - intent: Abruf_von_geowissenschaftlichen_Daten_Bodeninformationssystem
+  - action: utter_Abruf_von_geowissenschaftlichen_Daten_Bodeninformationssystem
+- story:  story_Abruf_Bodenkundliche_Karten
+  steps:
+  - intent: Abruf_Bodenkundliche_Karten
+  - action: utter_Abruf_Bodenkundliche_Karten
+- story:  story_Ausstellung_Bodenprofilsammlung
+  steps:
+  - intent: Ausstellung_Bodenprofilsammlung
+  - action: utter_Ausstellung_Bodenprofilsammlung
+- story:  story_Auskunft_Bodenrichtwerte
+  steps:
+  - intent: Auskunft_Bodenrichtwerte
+  - action: utter_Auskunft_Bodenrichtwerte
+- story:  story_Beantragung_der_Zulassung_als_Sachverständige:r_Bodenschutz_und_Altlastenbehandlung
+  steps:
+  - intent: Beantragung_der_Zulassung_als_Sachverständige:r_Bodenschutz_und_Altlastenbehandlung
+  - action: utter_Beantragung_der_Zulassung_als_Sachverständige:r_Bodenschutz_und_Altlastenbehandlung
+- story:  story_Bohr
+  steps:
+  - intent: Bohr
+  - action: utter_Bohr
+- story:  story_Böller
+  steps:
+  - intent: Böller
+  - action: utter_Böller
+- story:  story_Informationen_über_Verhalten_und_Verantwortung_Bombenblindgänger_und_Munitionsgegenstände
+  steps:
+  - intent: Informationen_über_Verhalten_und_Verantwortung_Bombenblindgänger_und_Munitionsgegenstände
+  - action: utter_Informationen_über_Verhalten_und_Verantwortung_Bombenblindgänger_und_Munitionsgegenstände
+- story:  story_Informationen_Bonusregelung_in_der_gesetzlichen_Krankenversicherung
+  steps:
+  - intent: Informationen_Bonusregelung_in_der_gesetzlichen_Krankenversicherung
+  - action: utter_Informationen_Bonusregelung_in_der_gesetzlichen_Krankenversicherung
+- story:  story_Anzeige_der_Aufnahme_der_Tätigkeit_bzw._Beantragung_der_Bescheinigung_für_auswärtige_Prüfsachverständige_Brandschutz
+  steps:
+  - intent: Anzeige_der_Aufnahme_der_Tätigkeit_bzw._Beantragung_der_Bescheinigung_für_auswärtige_Prüfsachverständige_Brandschutz
+  - action: utter_Anzeige_der_Aufnahme_der_Tätigkeit_bzw._Beantragung_der_Bescheinigung_für_auswärtige_Prüfsachverständige_Brandschutz
+- story:  story_Beantragung_der_Anerkennung_als_Prüfsachverständige:r_Brandschutz
+  steps:
+  - intent: Beantragung_der_Anerkennung_als_Prüfsachverständige:r_Brandschutz
+  - action: utter_Beantragung_der_Anerkennung_als_Prüfsachverständige:r_Brandschutz
+- story:  story_Durchführung_von_Maßnahmen_zum_vorbeugenden_Brandschutz_Brandschutz
+  steps:
+  - intent: Durchführung_von_Maßnahmen_zum_vorbeugenden_Brandschutz_Brandschutz
+  - action: utter_Durchführung_von_Maßnahmen_zum_vorbeugenden_Brandschutz_Brandschutz
+- story:  story_Vollzug_der_Bauvorschriften_Brandschutz_von_baulichen_Anlagen
+  steps:
+  - intent: Vollzug_der_Bauvorschriften_Brandschutz_von_baulichen_Anlagen
+  - action: utter_Vollzug_der_Bauvorschriften_Brandschutz_von_baulichen_Anlagen
+- story:  story_Anerkennung_von_eigenen_Kräften_Brandsicherheitswache
+  steps:
+  - intent: Anerkennung_von_eigenen_Kräften_Brandsicherheitswache
+  - action: utter_Anerkennung_von_eigenen_Kräften_Brandsicherheitswache
+- story:  story_und_Katastrophenschutz_Brand
+  steps:
+  - intent: und_Katastrophenschutz_Brand
+  - action: utter_und_Katastrophenschutz_Brand
+- story:  story_Informationen_zur_Berufsausbildung_als_Obstbrenner:in_Brenner:Brennerin
+  steps:
+  - intent: Informationen_zur_Berufsausbildung_als_Obstbrenner:in_Brenner:Brennerin
+  - action: utter_Informationen_zur_Berufsausbildung_als_Obstbrenner:in_Brenner:Brennerin
+- story:  story_Aufenthaltsanzeige_für_britische_Staatsangehörige_Brexit
+  steps:
+  - intent: Aufenthaltsanzeige_für_britische_Staatsangehörige_Brexit
+  - action: utter_Aufenthaltsanzeige_für_britische_Staatsangehörige_Brexit
+- story:  story_Bestellung_oder_Abruf_über_das_Broschürenportal_der_Bayerischen_Staatsregierung_Broschüren
+  steps:
+  - intent: Bestellung_oder_Abruf_über_das_Broschürenportal_der_Bayerischen_Staatsregierung_Broschüren
+  - action: utter_Bestellung_oder_Abruf_über_das_Broschürenportal_der_Bayerischen_Staatsregierung_Broschüren
+- story:  story_Informationen_zur_Ausbildung_und_Studium_Bühnenberuf
+  steps:
+  - intent: Informationen_zur_Ausbildung_und_Studium_Bühnenberuf
+  - action: utter_Informationen_zur_Ausbildung_und_Studium_Bühnenberuf
+- story:  story_Informationen_Bundesfreiwilligendienst
+  steps:
+  - intent: Informationen_Bundesfreiwilligendienst
+  - action: utter_Informationen_Bundesfreiwilligendienst
+- story:  story_Einreichung_einer_Beteiligungsanzeige_Bundestagswahl
+  steps:
+  - intent: Einreichung_einer_Beteiligungsanzeige_Bundestagswahl
+  - action: utter_Einreichung_einer_Beteiligungsanzeige_Bundestagswahl
+- story:  story_Einreichung_eines_Wahlvorschlags_Bundestagswahl
+  steps:
+  - intent: Einreichung_eines_Wahlvorschlags_Bundestagswahl
+  - action: utter_Einreichung_eines_Wahlvorschlags_Bundestagswahl
+- story:  story_Informationen_Bundestagswahl
+  steps:
+  - intent: Informationen_Bundestagswahl
+  - action: utter_Informationen_Bundestagswahl
+- story:  story_und_Staatsstraßen_Bundes
+  steps:
+  - intent: und_Staatsstraßen_Bundes
+  - action: utter_und_Staatsstraßen_Bundes
+- story:  story_Beantragung_einer_Genehmigung_für_eine_Veranstaltung_Bundeswasserstraße
+  steps:
+  - intent: Beantragung_einer_Genehmigung_für_eine_Veranstaltung_Bundeswasserstraße
+  - action: utter_Beantragung_einer_Genehmigung_für_eine_Veranstaltung_Bundeswasserstraße
+- story:  story_Einreichung_Bürgerantrag
+  steps:
+  - intent: Einreichung_Bürgerantrag
+  - action: utter_Einreichung_Bürgerantrag
+- story:  story_Durchführung_Bürgerbegehren_und_Bürgerentscheid_im_Landkreis
+  steps:
+  - intent: Durchführung_Bürgerbegehren_und_Bürgerentscheid_im_Landkreis
+  - action: utter_Durchführung_Bürgerbegehren_und_Bürgerentscheid_im_Landkreis
+- story:  story_Durchführung_Bürgerbegehren_und_Bürgerentscheid_in_der_Gemeinde
+  steps:
+  - intent: Durchführung_Bürgerbegehren_und_Bürgerentscheid_in_der_Gemeinde
+  - action: utter_Durchführung_Bürgerbegehren_und_Bürgerentscheid_in_der_Gemeinde
+- story:  story_Informationen_Bürgerschaftlich_engagierte_Nachbarschaftshilfen
+  steps:
+  - intent: Informationen_Bürgerschaftlich_engagierte_Nachbarschaftshilfen
+  - action: utter_Informationen_Bürgerschaftlich_engagierte_Nachbarschaftshilfen
+- story:  story_Informationen_Bürgerschaftliches_Engagement
+  steps:
+  - intent: Informationen_Bürgerschaftliches_Engagement
+  - action: utter_Informationen_Bürgerschaftliches_Engagement
+- story:  story_Einberufung_Bürgerversammlung
+  steps:
+  - intent: Einberufung_Bürgerversammlung
+  - action: utter_Einberufung_Bürgerversammlung
+- story:  story_Einspruch_Bußgeldbescheid
+  steps:
+  - intent: Einspruch_Bußgeldbescheid
+  - action: utter_Einspruch_Bußgeldbescheid
+- story:  story_Einspruch_Bußgeldbescheid_bei_Verkehrsordnungswidrigkeit
+  steps:
+  - intent: Einspruch_Bußgeldbescheid_bei_Verkehrsordnungswidrigkeit
+  - action: utter_Einspruch_Bußgeldbescheid_bei_Verkehrsordnungswidrigkeit
+- story:  story_Informationen_Bußgeldkatalog
+  steps:
+  - intent: Informationen_Bußgeldkatalog
+  - action: utter_Informationen_Bußgeldkatalog
+- story:  story_Beantragung_einer_Förderung_Coaching_für_Existenzgründer_und_Betriebsübernehmer
+  steps:
+  - intent: Beantragung_einer_Förderung_Coaching_für_Existenzgründer_und_Betriebsübernehmer
+  - action: utter_Beantragung_einer_Förderung_Coaching_für_Existenzgründer_und_Betriebsübernehmer
+- story:  story_Schutzimpfung_Corona
+  steps:
+  - intent: Schutzimpfung_Corona
+  - action: utter_Schutzimpfung_Corona
+- story:  story_Test_Corona
+  steps:
+  - intent: Test_Corona
+  - action: utter_Test_Corona
+- story:  story_Meldung_nach_Einreise_aus_einem_Risikogebiet_Coronavirus
+  steps:
+  - intent: Meldung_nach_Einreise_aus_einem_Risikogebiet_Coronavirus
+  - action: utter_Meldung_nach_Einreise_aus_einem_Risikogebiet_Coronavirus
+- story:  story_Informationen_zur_Bekämpfung_Cybercrime
+  steps:
+  - intent: Informationen_zur_Bekämpfung_Cybercrime
+  - action: utter_Informationen_zur_Bekämpfung_Cybercrime
+- story:  story_Beantragung_einer_Auskunft_von_einer_Hochschule_Datenschutz
+  steps:
+  - intent: Beantragung_einer_Auskunft_von_einer_Hochschule_Datenschutz
+  - action: utter_Beantragung_einer_Auskunft_von_einer_Hochschule_Datenschutz
+- story:  story_Meldung_einer_Datenschutzverletzung_im_nicht_Datenschutz
+  steps:
+  - intent: Meldung_einer_Datenschutzverletzung_im_nicht_Datenschutz
+  - action: utter_Meldung_einer_Datenschutzverletzung_im_nicht_Datenschutz
+- story:  story_Unterrichtung_Datenschutz
+  steps:
+  - intent: Unterrichtung_Datenschutz
+  - action: utter_Unterrichtung_Datenschutz
+- story:  story_EU_Daueraufenthalt
+  steps:
+  - intent: EU_Daueraufenthalt
+  - action: utter_EU_Daueraufenthalt
+- story:  story_Facharbeiterabschluss_oder_Meisterabschluss_DDR
+  steps:
+  - intent: Facharbeiterabschluss_oder_Meisterabschluss_DDR
+  - action: utter_Facharbeiterabschluss_oder_Meisterabschluss_DDR
+- story:  story_Leitfaden_Demografie
+  steps:
+  - intent: Leitfaden_Demografie
+  - action: utter_Leitfaden_Demografie
+- story:  story_Anordnungen_für_Erhaltungsmaßnahmen_Denkmalschutz
+  steps:
+  - intent: Anordnungen_für_Erhaltungsmaßnahmen_Denkmalschutz
+  - action: utter_Anordnungen_für_Erhaltungsmaßnahmen_Denkmalschutz
+- story:  story_Beantragung_einer_Bescheinigung_für_steuerliche_Zwecke_Denkmalschutz
+  steps:
+  - intent: Beantragung_einer_Bescheinigung_für_steuerliche_Zwecke_Denkmalschutz
+  - action: utter_Beantragung_einer_Bescheinigung_für_steuerliche_Zwecke_Denkmalschutz
+- story:  story_Beantragung_einer_Erlaubnis_für_Maßnahmen_an_Bau_Denkmalschutz
+  steps:
+  - intent: Beantragung_einer_Erlaubnis_für_Maßnahmen_an_Bau_Denkmalschutz
+  - action: utter_Beantragung_einer_Erlaubnis_für_Maßnahmen_an_Bau_Denkmalschutz
+- story:  story_Beantragung_eines_Zuschusses_des_Landesamts_für_Denkmalpflege_Denkmalschutz
+  steps:
+  - intent: Beantragung_eines_Zuschusses_des_Landesamts_für_Denkmalpflege_Denkmalschutz
+  - action: utter_Beantragung_eines_Zuschusses_des_Landesamts_für_Denkmalpflege_Denkmalschutz
+- story:  story_Beantragung_eines_Zuschusses_oder_Darlehens_aus_dem_Entschädigungsfonds_nach_dem_Bayerischen_Denkmalschutzgesetz_Denkmalschutz
+  steps:
+  - intent: Beantragung_eines_Zuschusses_oder_Darlehens_aus_dem_Entschädigungsfonds_nach_dem_Bayerischen_Denkmalschutzgesetz_Denkmalschutz
+  - action: utter_Beantragung_eines_Zuschusses_oder_Darlehens_aus_dem_Entschädigungsfonds_nach_dem_Bayerischen_Denkmalschutzgesetz_Denkmalschutz
+- story:  story_Beratung_von_Denkmaleigentümern_Denkmalschutz
+  steps:
+  - intent: Beratung_von_Denkmaleigentümern_Denkmalschutz
+  - action: utter_Beratung_von_Denkmaleigentümern_Denkmalschutz
+- story:  story_Beantragung_einer_finanziellen_Unterstützung_für_ehrenamtliche_Kursleiter_Deutschkurse_für_Asylbewerber
+  steps:
+  - intent: Beantragung_einer_finanziellen_Unterstützung_für_ehrenamtliche_Kursleiter_Deutschkurse_für_Asylbewerber
+  - action: utter_Beantragung_einer_finanziellen_Unterstützung_für_ehrenamtliche_Kursleiter_Deutschkurse_für_Asylbewerber
+- story:  story_Informationsportal_und_Kommunikationsplattform_für_Unternehmer_Dienstleistungsportal_Bayern
+  steps:
+  - intent: Informationsportal_und_Kommunikationsplattform_für_Unternehmer_Dienstleistungsportal_Bayern
+  - action: utter_Informationsportal_und_Kommunikationsplattform_für_Unternehmer_Dienstleistungsportal_Bayern
+- story:  story_Beantragung_einer_staatlichen_Förderung_für_Endgeräte_Digitalfunk
+  steps:
+  - intent: Beantragung_einer_staatlichen_Förderung_für_Endgeräte_Digitalfunk
+  - action: utter_Beantragung_einer_staatlichen_Förderung_für_Endgeräte_Digitalfunk
+- story:  story_Informationen_über_wichtige_Rechtsvorschriften_Direktvermarktung_landwirtschaftlicher_Produkte
+  steps:
+  - intent: Informationen_über_wichtige_Rechtsvorschriften_Direktvermarktung_landwirtschaftlicher_Produkte
+  - action: utter_Informationen_über_wichtige_Rechtsvorschriften_Direktvermarktung_landwirtschaftlicher_Produkte
+- story:  story_Beantragung_einer_Förderung_für_Ausgaben_im_Rahmen_der_Beratungstätigkeit_der_Frauenhäuser_und_sonstiger_Einrichtungen_Dolmetscherdienste
+  steps:
+  - intent: Beantragung_einer_Förderung_für_Ausgaben_im_Rahmen_der_Beratungstätigkeit_der_Frauenhäuser_und_sonstiger_Einrichtungen_Dolmetscherdienste
+  - action: utter_Beantragung_einer_Förderung_für_Ausgaben_im_Rahmen_der_Beratungstätigkeit_der_Frauenhäuser_und_sonstiger_Einrichtungen_Dolmetscherdienste
+- story:  story_Beantragung_einer_vorübergehenden_Eintragung_in_die_Dolmetscher_Dolmetscher_und_Übersetzer_bei_Behörden_und_Gerichten
+  steps:
+  - intent: Beantragung_einer_vorübergehenden_Eintragung_in_die_Dolmetscher_Dolmetscher_und_Übersetzer_bei_Behörden_und_Gerichten
+  - action: utter_Beantragung_einer_vorübergehenden_Eintragung_in_die_Dolmetscher_Dolmetscher_und_Übersetzer_bei_Behörden_und_Gerichten
+- story:  story_Öffentliche_Bestellung_und_Eintragung_in_die_Dolmetscher_Dolmetscher_und_Übersetzer_bei_Behörden_und_Gerichten
+  steps:
+  - intent: Öffentliche_Bestellung_und_Eintragung_in_die_Dolmetscher_Dolmetscher_und_Übersetzer_bei_Behörden_und_Gerichten
+  - action: utter_Öffentliche_Bestellung_und_Eintragung_in_die_Dolmetscher_Dolmetscher_und_Übersetzer_bei_Behörden_und_Gerichten
+- story:  story_Informationen_Dorferneuerung
+  steps:
+  - intent: Informationen_Dorferneuerung
+  - action: utter_Informationen_Dorferneuerung
+- story:  story_Informationen_Dorfhelfer_:_Dorfhelferin
+  steps:
+  - intent: Informationen_Dorfhelfer_:_Dorfhelferin
+  - action: utter_Informationen_Dorfhelfer_:_Dorfhelferin
+- story:  story_Beratung_und_Information_Drogenhilfe
+  steps:
+  - intent: Beratung_und_Information_Drogenhilfe
+  - action: utter_Beratung_und_Information_Drogenhilfe
+- story:  story_Beantragung_der_Erteilung_und_Verlängerung_Duldung
+  steps:
+  - intent: Beantragung_der_Erteilung_und_Verlängerung_Duldung
+  - action: utter_Beantragung_der_Erteilung_und_Verlängerung_Duldung
+- story:  story_Informationen_über_Hilfen_Ehemalige_politische_Häftlinge
+  steps:
+  - intent: Informationen_über_Hilfen_Ehemalige_politische_Häftlinge
+  - action: utter_Informationen_über_Hilfen_Ehemalige_politische_Häftlinge
+- story:  story_Erklärung_Ehename
+  steps:
+  - intent: Erklärung_Ehename
+  - action: utter_Erklärung_Ehename
+- story:  story_Beantragung_der_Scheidung_Ehesachen
+  steps:
+  - intent: Beantragung_der_Scheidung_Ehesachen
+  - action: utter_Beantragung_der_Scheidung_Ehesachen
+- story:  story_Anmeldung_Eheschließung
+  steps:
+  - intent: Anmeldung_Eheschließung
+  - action: utter_Anmeldung_Eheschließung
+- story:  story_Vollzug_Eheschließung_im_In-_und_Ausland
+  steps:
+  - intent: Vollzug_Eheschließung_im_In-_und_Ausland
+  - action: utter_Vollzug_Eheschließung_im_In-_und_Ausland
+- story:  story_Informationen_Ehe-_und_Familienberatung
+  steps:
+  - intent: Informationen_Ehe-_und_Familienberatung
+  - action: utter_Informationen_Ehe-_und_Familienberatung
+- story:  story_Beantragung_einer_Förderung_Ehe-_und_Familienberatung
+  steps:
+  - intent: Beantragung_einer_Förderung_Ehe-_und_Familienberatung
+  - action: utter_Beantragung_einer_Förderung_Ehe-_und_Familienberatung
+- story:  story_Informationen_Ehrenamtliche_Richter
+  steps:
+  - intent: Informationen_Ehrenamtliche_Richter
+  - action: utter_Informationen_Ehrenamtliche_Richter
+- story:  story_Karte_EID
+  steps:
+  - intent: Karte_EID
+  - action: utter_Karte_EID
+- story:  story_Beantragung_einer_Förderung_Eigenwohnraum
+  steps:
+  - intent: Beantragung_einer_Förderung_Eigenwohnraum
+  - action: utter_Beantragung_einer_Förderung_Eigenwohnraum
+- story:  story_Beantragung_einer_Förderung_für_die_Anpassung_Eigenwohnraum_für_Menschen_mit_Behinderung
+  steps:
+  - intent: Beantragung_einer_Förderung_für_die_Anpassung_Eigenwohnraum_für_Menschen_mit_Behinderung
+  - action: utter_Beantragung_einer_Förderung_für_die_Anpassung_Eigenwohnraum_für_Menschen_mit_Behinderung
+- story:  story_Beantragung_der_Verleihung_der_deutschen_Staatsangehörigkeit_an_Ausländer_mit_Einbürgerungsanspruch_(Anspruchseinbürgerung)_Einbürgerung
+  steps:
+  - intent: Beantragung_der_Verleihung_der_deutschen_Staatsangehörigkeit_an_Ausländer_mit_Einbürgerungsanspruch_(Anspruchseinbürgerung)_Einbürgerung
+  - action: utter_Beantragung_der_Verleihung_der_deutschen_Staatsangehörigkeit_an_Ausländer_mit_Einbürgerungsanspruch_(Anspruchseinbürgerung)_Einbürgerung
+- story:  story_Beantragung_der_Verleihung_der_deutschen_Staatsangehörigkeit_an_Ausländer_ohne_Einbürgerungsanspruch_(Ermessenseinbürgerung)_Einbürgerung
+  steps:
+  - intent: Beantragung_der_Verleihung_der_deutschen_Staatsangehörigkeit_an_Ausländer_ohne_Einbürgerungsanspruch_(Ermessenseinbürgerung)_Einbürgerung
+  - action: utter_Beantragung_der_Verleihung_der_deutschen_Staatsangehörigkeit_an_Ausländer_ohne_Einbürgerungsanspruch_(Ermessenseinbürgerung)_Einbürgerung
+- story:  story_Informationen_Eingetragene_Lebenspartnerschaft
+  steps:
+  - intent: Informationen_Eingetragene_Lebenspartnerschaft
+  - action: utter_Informationen_Eingetragene_Lebenspartnerschaft
+- story:  story_BayernPortal_Einheitlicher_Ansprechpartner_
+  steps:
+  - intent: BayernPortal_Einheitlicher_Ansprechpartner_
+  - action: utter_BayernPortal_Einheitlicher_Ansprechpartner_
+- story:  story_Informationen_Einkommensanrechnung
+  steps:
+  - intent: Informationen_Einkommensanrechnung
+  - action: utter_Informationen_Einkommensanrechnung
+- story:  story_Informationen_zum_Freibetrag_für_Betreuung_und_Erziehung_oder_Ausbildung_Einkommenssteuer
+  steps:
+  - intent: Informationen_zum_Freibetrag_für_Betreuung_und_Erziehung_oder_Ausbildung_Einkommenssteuer
+  - action: utter_Informationen_zum_Freibetrag_für_Betreuung_und_Erziehung_oder_Ausbildung_Einkommenssteuer
+- story:  story_Informationen_zum_Kinderfreibetrag_Einkommenssteuer
+  steps:
+  - intent: Informationen_zum_Kinderfreibetrag_Einkommenssteuer
+  - action: utter_Informationen_zum_Kinderfreibetrag_Einkommenssteuer
+- story:  story_Beantragung_Einstiegsgeld
+  steps:
+  - intent: Beantragung_Einstiegsgeld
+  - action: utter_Beantragung_Einstiegsgeld
+- story:  story_Durchführung_von_Anhörungsverfahren_für_Baumaßnahmen_Eisenbahn_des_Bundes
+  steps:
+  - intent: Durchführung_von_Anhörungsverfahren_für_Baumaßnahmen_Eisenbahn_des_Bundes
+  - action: utter_Durchführung_von_Anhörungsverfahren_für_Baumaßnahmen_Eisenbahn_des_Bundes
+- story:  story_Beantragung_einer_Landesförderung_für_die_Errichtung_einer_öffentlich_zugänglichen_Ladeinfrastruktur_Elektromobilität
+  steps:
+  - intent: Beantragung_einer_Landesförderung_für_die_Errichtung_einer_öffentlich_zugänglichen_Ladeinfrastruktur_Elektromobilität
+  - action: utter_Beantragung_einer_Landesförderung_für_die_Errichtung_einer_öffentlich_zugänglichen_Ladeinfrastruktur_Elektromobilität
+- story:  story_Informationen_Elektronische_Gesundheitskarte
+  steps:
+  - intent: Informationen_Elektronische_Gesundheitskarte
+  - action: utter_Informationen_Elektronische_Gesundheitskarte
+- story:  story_Übermittlung_von_Nachrichten_und_Dokumenten_Elektronische_Kommunikation_mit_Kommunen
+  steps:
+  - intent: Übermittlung_von_Nachrichten_und_Dokumenten_Elektronische_Kommunikation_mit_Kommunen
+  - action: utter_Übermittlung_von_Nachrichten_und_Dokumenten_Elektronische_Kommunikation_mit_Kommunen
+- story:  story_und_Elektronikgerätegesetz_Elektro
+  steps:
+  - intent: und_Elektronikgerätegesetz_Elektro
+  - action: utter_und_Elektronikgerätegesetz_Elektro
+- story:  story_Beantragung_Elterngeld_:_Elterngeld_Plus
+  steps:
+  - intent: Beantragung_Elterngeld_:_Elterngeld_Plus
+  - action: utter_Beantragung_Elterngeld_:_Elterngeld_Plus
+- story:  story_Beantragung_einer_Zuwendung_für_Teilnahme_an_Wochenendseminar_Eltern-_und_Familienbildung
+  steps:
+  - intent: Beantragung_einer_Zuwendung_für_Teilnahme_an_Wochenendseminar_Eltern-_und_Familienbildung
+  - action: utter_Beantragung_einer_Zuwendung_für_Teilnahme_an_Wochenendseminar_Eltern-_und_Familienbildung
+- story:  story_Informationen_Eltern-_und_Familienbildung
+  steps:
+  - intent: Informationen_Eltern-_und_Familienbildung
+  - action: utter_Informationen_Eltern-_und_Familienbildung
+- story:  story_Informationen_über_Familienbildungsprojekte_Eltern-_und_Familienbildung
+  steps:
+  - intent: Informationen_über_Familienbildungsprojekte_Eltern-_und_Familienbildung
+  - action: utter_Informationen_über_Familienbildungsprojekte_Eltern-_und_Familienbildung
+- story:  story_Anmeldung_Elternzeit
+  steps:
+  - intent: Anmeldung_Elternzeit
+  - action: utter_Anmeldung_Elternzeit
+- story:  story_Ärztliche_Beratung_und_Leistungen_Empfängnisregelung
+  steps:
+  - intent: Ärztliche_Beratung_und_Leistungen_Empfängnisregelung
+  - action: utter_Ärztliche_Beratung_und_Leistungen_Empfängnisregelung
+- story:  story_Information_und_Beratung_Energetische_Nutzung_nachwachsender_Rohstoffe
+  steps:
+  - intent: Information_und_Beratung_Energetische_Nutzung_nachwachsender_Rohstoffe
+  - action: utter_Information_und_Beratung_Energetische_Nutzung_nachwachsender_Rohstoffe
+- story:  story_Atlas_Bayern_Energie
+  steps:
+  - intent: Atlas_Bayern_Energie
+  - action: utter_Atlas_Bayern_Energie
+- story:  story_Informationen_Energieausweis_für_Neubauten_und_Gebäudebestand
+  steps:
+  - intent: Informationen_Energieausweis_für_Neubauten_und_Gebäudebestand
+  - action: utter_Informationen_Energieausweis_für_Neubauten_und_Gebäudebestand
+- story:  story_Beantragung_der_Eintragung_in_Liste_der_Sachverständigen_Energiesachverständige:r
+  steps:
+  - intent: Beantragung_der_Eintragung_in_Liste_der_Sachverständigen_Energiesachverständige:r
+  - action: utter_Beantragung_der_Eintragung_in_Liste_der_Sachverständigen_Energiesachverständige:r
+- story:  story_Informationen_Entgeltfortzahlung
+  steps:
+  - intent: Informationen_Entgeltfortzahlung
+  - action: utter_Informationen_Entgeltfortzahlung
+- story:  story_Informationen_Entgeltumwandlung
+  steps:
+  - intent: Informationen_Entgeltumwandlung
+  - action: utter_Informationen_Entgeltumwandlung
+- story:  story_Informationen_Entgeltzahlung_an_Feiertagen
+  steps:
+  - intent: Informationen_Entgeltzahlung_an_Feiertagen
+  - action: utter_Informationen_Entgeltzahlung_an_Feiertagen
+- story:  story_Hilfen_für_Entlassene_Gefangene
+  steps:
+  - intent: Hilfen_für_Entlassene_Gefangene
+  - action: utter_Hilfen_für_Entlassene_Gefangene
+- story:  story_Entscheidung_Entschädigung_für_Strafverfolgung
+  steps:
+  - intent: Entscheidung_Entschädigung_für_Strafverfolgung
+  - action: utter_Entscheidung_Entschädigung_für_Strafverfolgung
+- story:  story_Beantragung_einer_Befreiung_oder_Teilbefreiung_vom_Anschluss_Entwässerung
+  steps:
+  - intent: Beantragung_einer_Befreiung_oder_Teilbefreiung_vom_Anschluss_Entwässerung
+  - action: utter_Beantragung_einer_Befreiung_oder_Teilbefreiung_vom_Anschluss_Entwässerung
+- story:  story_Beantragung_eines_Grundstücksanschlusses_Entwässerung
+  steps:
+  - intent: Beantragung_eines_Grundstücksanschlusses_Entwässerung
+  - action: utter_Beantragung_eines_Grundstücksanschlusses_Entwässerung
+- story:  story_Zahlung_der_Abwassergebühren_Entwässerung
+  steps:
+  - intent: Zahlung_der_Abwassergebühren_Entwässerung
+  - action: utter_Zahlung_der_Abwassergebühren_Entwässerung
+- story:  story_Erhebung_Entwässerungsbeiträge
+  steps:
+  - intent: Erhebung_Entwässerungsbeiträge
+  - action: utter_Erhebung_Entwässerungsbeiträge
+- story:  story_Informationen_zur_gesetzlichen_Krankenversicherung_Entwicklungshelfer
+  steps:
+  - intent: Informationen_zur_gesetzlichen_Krankenversicherung_Entwicklungshelfer
+  - action: utter_Informationen_zur_gesetzlichen_Krankenversicherung_Entwicklungshelfer
+- story:  story_Informationen_zur_gesetzlichen_Rentenversicherung_Entwicklungshelfer
+  steps:
+  - intent: Informationen_zur_gesetzlichen_Rentenversicherung_Entwicklungshelfer
+  - action: utter_Informationen_zur_gesetzlichen_Rentenversicherung_Entwicklungshelfer
+- story:  story_Informationen_zur_gesetzlichen_Unfallversicherung_Entwicklungshelfer
+  steps:
+  - intent: Informationen_zur_gesetzlichen_Unfallversicherung_Entwicklungshelfer
+  - action: utter_Informationen_zur_gesetzlichen_Unfallversicherung_Entwicklungshelfer
+- story:  story_Informationen_Entwicklungszusammenarbeit
+  steps:
+  - intent: Informationen_Entwicklungszusammenarbeit
+  - action: utter_Informationen_Entwicklungszusammenarbeit
+- story:  story_Beantragung_Equidenpass_und_Transponder
+  steps:
+  - intent: Beantragung_Equidenpass_und_Transponder
+  - action: utter_Beantragung_Equidenpass_und_Transponder
+- story:  story_Ausschlagungserklärung_Erbausschlagung
+  steps:
+  - intent: Ausschlagungserklärung_Erbausschlagung
+  - action: utter_Ausschlagungserklärung_Erbausschlagung
+- story:  story_Informationen_zur_Bestellung_durch_die_Gemeinde_Erbbaurecht
+  steps:
+  - intent: Informationen_zur_Bestellung_durch_die_Gemeinde_Erbbaurecht
+  - action: utter_Informationen_zur_Bestellung_durch_die_Gemeinde_Erbbaurecht
+- story:  story_Anzeige_Erbschaftsteuer
+  steps:
+  - intent: Anzeige_Erbschaftsteuer
+  - action: utter_Anzeige_Erbschaftsteuer
+- story:  story_Informationen_Erbschaftsteuer
+  steps:
+  - intent: Informationen_Erbschaftsteuer
+  - action: utter_Informationen_Erbschaftsteuer
+- story:  story_Beantragung_Erbschein
+  steps:
+  - intent: Beantragung_Erbschein
+  - action: utter_Beantragung_Erbschein
+- story:  story_Einziehung_Erbschein
+  steps:
+  - intent: Einziehung_Erbschein
+  - action: utter_Einziehung_Erbschein
+- story:  story_Anzeige_der_Aufnahme_der_Tätigkeit_bzw._Beantragung_der_Bescheinigung_für_auswärtige_Prüfsachverständige_Erd-_und_Grundbau
+  steps:
+  - intent: Anzeige_der_Aufnahme_der_Tätigkeit_bzw._Beantragung_der_Bescheinigung_für_auswärtige_Prüfsachverständige_Erd-_und_Grundbau
+  - action: utter_Anzeige_der_Aufnahme_der_Tätigkeit_bzw._Beantragung_der_Bescheinigung_für_auswärtige_Prüfsachverständige_Erd-_und_Grundbau
+- story:  story_Beantragung_der_Anerkennung_als_Prüfsachverständige:r_Erd-_und_Grundbau
+  steps:
+  - intent: Beantragung_der_Anerkennung_als_Prüfsachverständige:r_Erd-_und_Grundbau
+  - action: utter_Beantragung_der_Anerkennung_als_Prüfsachverständige:r_Erd-_und_Grundbau
+- story:  story_Beantragung_einer_Förderung_Erholungsaufenthalt_in_Familienferienstätte
+  steps:
+  - intent: Beantragung_einer_Förderung_Erholungsaufenthalt_in_Familienferienstätte
+  - action: utter_Beantragung_einer_Förderung_Erholungsaufenthalt_in_Familienferienstätte
+- story:  story_Informationen_Erholungsaufenthalt_in_Familienferienstätte
+  steps:
+  - intent: Informationen_Erholungsaufenthalt_in_Familienferienstätte
+  - action: utter_Informationen_Erholungsaufenthalt_in_Familienferienstätte
+- story:  story_Informationen_Ernährungsnotfallvorsorge
+  steps:
+  - intent: Informationen_Ernährungsnotfallvorsorge
+  - action: utter_Informationen_Ernährungsnotfallvorsorge
+- story:  story_Informationen_und_Beratung_Erneuerbare_Energien
+  steps:
+  - intent: Informationen_und_Beratung_Erneuerbare_Energien
+  - action: utter_Informationen_und_Beratung_Erneuerbare_Energien
+- story:  story_Informationen_Ersatzzeiten_in_der_gesetzlichen_Rentenversicherung
+  steps:
+  - intent: Informationen_Ersatzzeiten_in_der_gesetzlichen_Rentenversicherung
+  - action: utter_Informationen_Ersatzzeiten_in_der_gesetzlichen_Rentenversicherung
+- story:  story_Erhebung_Erschließungsbeiträge
+  steps:
+  - intent: Erhebung_Erschließungsbeiträge
+  - action: utter_Erhebung_Erschließungsbeiträge
+- story:  story_Beantragung_der_staatlichen_Anerkennung_Erwachsenenbildung
+  steps:
+  - intent: Beantragung_der_staatlichen_Anerkennung_Erwachsenenbildung
+  - action: utter_Beantragung_der_staatlichen_Anerkennung_Erwachsenenbildung
+- story:  story_Beantragung_einer_Förderung_Erwachsenenbildung
+  steps:
+  - intent: Beantragung_einer_Förderung_Erwachsenenbildung
+  - action: utter_Beantragung_einer_Förderung_Erwachsenenbildung
+- story:  story_Beantragung_Erwerbsminderungsrente
+  steps:
+  - intent: Beantragung_Erwerbsminderungsrente
+  - action: utter_Beantragung_Erwerbsminderungsrente
+- story:  story_Beantragung_Erwerbsunfähigkeitsrente_in_der_Alterssicherung_der_Landwirte
+  steps:
+  - intent: Beantragung_Erwerbsunfähigkeitsrente_in_der_Alterssicherung_der_Landwirte
+  - action: utter_Beantragung_Erwerbsunfähigkeitsrente_in_der_Alterssicherung_der_Landwirte
+- story:  story_Beantragung_Erwerbsunfähigkeitsrente_in_der_gesetzlichen_Rentenversicherung
+  steps:
+  - intent: Beantragung_Erwerbsunfähigkeitsrente_in_der_gesetzlichen_Rentenversicherung
+  - action: utter_Beantragung_Erwerbsunfähigkeitsrente_in_der_gesetzlichen_Rentenversicherung
+- story:  story_Beantragung_einer_Förderung_Erziehungsberatungsstellen
+  steps:
+  - intent: Beantragung_einer_Förderung_Erziehungsberatungsstellen
+  - action: utter_Beantragung_einer_Förderung_Erziehungsberatungsstellen
+- story:  story_Beantragung_einer_Förderung_für_ehrenamtliches_Engagement_Erziehungshilfe
+  steps:
+  - intent: Beantragung_einer_Förderung_für_ehrenamtliches_Engagement_Erziehungshilfe
+  - action: utter_Beantragung_einer_Förderung_für_ehrenamtliches_Engagement_Erziehungshilfe
+- story:  story_Beantragung_einer_Investitionsförderung_für_Einrichtungen_Erziehungshilfe
+  steps:
+  - intent: Beantragung_einer_Investitionsförderung_für_Einrichtungen_Erziehungshilfe
+  - action: utter_Beantragung_einer_Investitionsförderung_für_Einrichtungen_Erziehungshilfe
+- story:  story_Kinder_und_Jugendliche_Erziehungshilfen_und_Unterstützungsleistungen_für_Eltern
+  steps:
+  - intent: Kinder_und_Jugendliche_Erziehungshilfen_und_Unterstützungsleistungen_für_Eltern
+  - action: utter_Kinder_und_Jugendliche_Erziehungshilfen_und_Unterstützungsleistungen_für_Eltern
+- story:  story_Außerschulische_Beratung_Erziehungsprobleme
+  steps:
+  - intent: Außerschulische_Beratung_Erziehungsprobleme
+  - action: utter_Außerschulische_Beratung_Erziehungsprobleme
+- story:  story_Beantragung_Erziehungsrente
+  steps:
+  - intent: Beantragung_Erziehungsrente
+  - action: utter_Beantragung_Erziehungsrente
+- story:  story_Europa
+  steps:
+  - intent: Europa
+  - action: utter_Europa
+- story:  story_Beantragung_Europäischer_Berufsausweis
+  steps:
+  - intent: Beantragung_Europäischer_Berufsausweis
+  - action: utter_Beantragung_Europäischer_Berufsausweis
+- story:  story_Beantragung_Europäischer_Feuerwaffenpass
+  steps:
+  - intent: Beantragung_Europäischer_Feuerwaffenpass
+  - action: utter_Beantragung_Europäischer_Feuerwaffenpass
+- story:  story_Informationen_Europawahl
+  steps:
+  - intent: Informationen_Europawahl
+  - action: utter_Informationen_Europawahl

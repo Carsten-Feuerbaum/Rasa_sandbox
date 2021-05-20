@@ -48,8 +48,8 @@ policies:
   epochs: 100
   constrain_similarities: true
 - name: TwoStageFallbackPolicy
-  nlu_threshold: 0.85
-  core_threshold: 0.85
+  nlu_threshold: 0.60
+  core_threshold: 0.60
   fallback_core_action_name: "custom_fallback_action"
   fallback_nlu_action_name: "custom_fallback_action"
   deny_suggestion_intent_name: "out_of_scope"
